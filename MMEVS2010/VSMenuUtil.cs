@@ -1,0 +1,470 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using EnvDTE80;
+using MMEContracts;
+using Microsoft.VisualStudio.CommandBars;
+using EnvDTE;
+using System.Text.RegularExpressions;
+using System.IO;
+using System.Reflection;
+using System.Windows.Forms;
+
+namespace MMEVS2010
+{
+    public class VSMenuUtil
+    {
+        private DTE2 m_VSStudio;
+        private Dictionary<string, IMenuItem> m_VSMenuToMenuItem = new Dictionary<string, IMenuItem>();
+        private Dictionary<Guid, CommandBarControl> m_MenuItemToVSMenu = new Dictionary<Guid, CommandBarControl>();
+        private Dictionary<string, MenuTreeNode> m_VSMainMenuToMenuTreeNode = new Dictionary<string, MenuTreeNode>();
+        private Dictionary<string, ContextLevels> m_ContextsFromMenus = new Dictionary<string, ContextLevels>();
+        private List<CommandBarEvents> menuItemHandlerList = new List<CommandBarEvents>();
+        private MMHost m_Host = new MMHost();
+
+        public VSMenuUtil(DTE2 vsStudio)
+        {
+            m_VSStudio = vsStudio;
+        }
+
+        public void BuildMenus()
+        {
+            BuildMenuTree(ContextLevels.Solution);
+            BuildMenuTree(ContextLevels.SolutionFolder);
+            BuildMenuTree(ContextLevels.Project);
+            BuildMenuTree(ContextLevels.Folder);
+            BuildMenuTree(ContextLevels.References);
+            BuildMenuTree(ContextLevels.Item);
+            BuildMenuTree(ContextLevels.WebReferences);
+        }
+
+        private void BuildMenuTree(ContextLevels level)
+        {
+            MenuTree menus = m_Host.GetMenus(level);
+            TraverseTree(menus, level);
+        }
+
+        private void TraverseTree(MenuTree tree, ContextLevels level)
+        {
+            foreach (MenuTreeNode node in tree.RootNodes.Values)
+            {
+                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption, node);
+                AddMainMenuClickEventHandler(menu);
+                TraverseChildren(menu, node, level);
+                SetVisibilityMainMenu(menu);
+            }
+        }
+
+        private void SetVisibilityMainMenu(CommandBarPopup mainMenu)
+        {
+            //if (mainMenu.accChildCount == 0)
+            //{
+            //    mainMenu.Visible = false;
+            //    return;
+            //}
+        }
+
+        private void TraverseChildren(CommandBarPopup vsmainMenu, MenuTreeNode treeNode, ContextLevels level)
+        {
+            if (treeNode.Children == null)
+                return;
+
+            int menuNumber = 1;
+            bool seperator = false;
+            foreach (MenuTreeNode node in treeNode.Children.Values)
+            {
+                if (!node.MenuItem.Seperator)
+                {
+                    CommandBarControl vsmenuItem = AddVSMenuItem(vsmainMenu, node.MenuItem, menuNumber, seperator, level);
+                    AddClickEventHandler(vsmenuItem);
+                    menuNumber++;
+                    TraverseChildren(vsmainMenu, node, level);
+                    seperator = false;
+                }
+                else
+                {
+                    seperator = true;
+                }
+            }
+        }
+
+        private CommandBar GetVSMainMenu(string commandBarName, int menuIndex)
+        {
+            CommandBar theBar = null;
+            int index = 0;
+            foreach (CommandBar bar in (CommandBars)m_VSStudio.DTE.CommandBars)
+            {
+                if (bar.Name == commandBarName)
+                {
+                    theBar = bar;
+                    index++;
+                    if (index == menuIndex)
+                    {
+                        return theBar;
+                    }
+                }
+            }
+            return theBar;
+        }
+
+        private void ShowVSMainMenus()
+        {
+            using (FileStream fs = new FileStream(@"C:\menus.txt", FileMode.Create))
+            {
+                using (StreamWriter sw = new StreamWriter(fs))
+                {
+                    foreach (CommandBar bar in (CommandBars)m_VSStudio.DTE.CommandBars)
+                    {
+                        if (bar.Name != bar.NameLocal)
+                            sw.WriteLine(bar.Name + " ; " + bar.NameLocal);
+                        else
+                            sw.WriteLine(bar.Name + " : ");
+                    }
+                }
+            }
+        }
+        public CommandBarPopup AddVSMainMenuItem(string commandBarName, int menuIndex, string menuName, MenuTreeNode node)
+        {
+            CommandBarPopup vsmainMenu = GetVSMainMenu(commandBarName, menuIndex).Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, 1, true) as CommandBarPopup;
+            vsmainMenu.Caption = menuName;
+            vsmainMenu.TooltipText = "";
+            vsmainMenu.Tag = Guid.NewGuid().ToString();
+            SaveMainMenuInformation(vsmainMenu.Tag, node);
+            return vsmainMenu;
+        }
+
+        private CommandBarControl AddVSMenuItem(CommandBarPopup vsmainMenu, IMenuItem menuToAdd, int position, bool seperator, ContextLevels level)
+        {
+            CommandBarControl vsmenuItem = vsmainMenu.Controls.Add(MsoControlType.msoControlButton, 1, "", position, true);
+            vsmenuItem.BeginGroup = seperator;
+            vsmenuItem.Tag = Guid.NewGuid().ToString();
+            vsmenuItem.Caption = menuToAdd.Caption;
+            vsmenuItem.TooltipText = "";
+            SaveMenuInformation(vsmenuItem, menuToAdd, level);
+            return vsmenuItem;
+        }
+
+        private void SaveMenuInformation(CommandBarControl vsMenu, IMenuItem menuToAdd, ContextLevels level)
+        {
+            m_VSMenuToMenuItem.Add(vsMenu.Tag, menuToAdd);
+            m_MenuItemToVSMenu.Add(menuToAdd.Id, vsMenu);
+            m_ContextsFromMenus.Add(vsMenu.Tag, level);
+        }
+
+        private void SaveMainMenuInformation(string id, MenuTreeNode node)
+        {
+            m_VSMainMenuToMenuTreeNode.Add(id, node);
+        }
+
+
+        private void AddClickEventHandler(CommandBarControl menuItem)
+        {
+            CommandBarEvents menuItemHandler = (EnvDTE.CommandBarEvents)m_VSStudio.DTE.Events.get_CommandBarEvents(menuItem);
+            menuItemHandler.Click += new _dispCommandBarControlEvents_ClickEventHandler(menuItemHandler_Click);
+            menuItemHandlerList.Add(menuItemHandler);
+        }
+
+        private void AddMainMenuClickEventHandler(CommandBarPopup mainMenu)
+        {
+            ////Microsoft.VisualStudio.PlatformUI.Automation.CommandBar._Marshaler m; m.G
+            ////IMarshaledObject<CommandBarPopup>
+
+            //HER
+            //Microsoft.VisualStudio.PlatformUI.Automation.CommandBarPopup._Marshaler m; m.MarshaledObject
+            //managedMainMenu.Marshaler
+            //MessageBox.Show("TestXX");
+            //CommandBarEvents mainmenuItemHandler = (EnvDTE.CommandBarEvents)m_VSStudio.DTE.Events.get_CommandBarEvents(mainMenu);
+            //MessageBox.Show("TestXXX");
+            //mainmenuItemHandler.Click += new _dispCommandBarControlEvents_ClickEventHandler(mainmenuItemHandler_Click);
+            
+            
+
+            //menuItemHandlerList.Add(mainmenuItemHandler);
+        }
+
+        internal void menuItemHandler_Click(object CommandBarControl, ref bool Handled, ref bool CancelDefault)
+        {
+            try
+            {
+                CommandBarControl cbc = (CommandBarControl)CommandBarControl;
+                string id = ((CommandBarControl)CommandBarControl).Tag;
+
+                m_Host.MenuClicked(m_VSMenuToMenuItem[id].Id, 
+                    new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[id], 
+                        new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem)));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("VSMenuUtil.menuItemHandler_Click(): " + ex.ToString());
+            }
+        }
+
+        internal void mainmenuItemHandler_Click(object CommandBarPopup, ref bool Handled, ref bool CancelDefault)
+        {
+            try
+            {
+                CommandBarPopup cbp = (CommandBarPopup)CommandBarPopup;
+                SetVisibilityChildren(cbp);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("VSMenuUtil.mainmenuItemHandler_Click(): " + ex.ToString());
+            }
+        }
+
+        private UIHierarchyItem SelectedItem
+        {
+            get
+            {
+                UIHierarchy uiHierarchy = m_VSStudio.ToolWindows.SolutionExplorer;
+                if (uiHierarchy == null)
+                    return null;
+
+                object[] items = uiHierarchy.SelectedItems as object[];
+                if (items == null || items.Length == 0)
+                    return null;
+
+                return items[0] as UIHierarchyItem;
+            }
+        }
+
+        private string SelectedItemName
+        {
+            get
+            {
+                if (SelectedItem == null)
+                    return string.Empty;
+
+                return SelectedItem.Name;
+            }
+        }
+
+        private string SelectedItemPath
+        {
+            get
+            {
+                var solution = SelectedItem.Object as Solution;
+                if (solution != null)
+                    return GetPath(solution.FullName);
+
+                if (IsSolutionFolder(SelectedItem.Object))
+                    return GetSolutionFolderPath(); //Currently just path of Solution (problem is what is really the path of Solution Folder ? Since Solution Folder is virtual it doesn't really have one.
+
+                Project project = GetProject(SelectedItem.Object);
+                if (project != null)
+                    return GetPath(GetProjectFullName(project));
+
+                var item = SelectedItem.Object as ProjectItem;
+                if (item != null)
+                    return GetPath(item.get_FileNames(1));
+
+                return string.Empty;
+            }
+        }
+
+        /// <summary>
+        /// This method is really there to solve a problem with solution folders which does not have a filename, and therefore not a path. 
+        /// Currently I just get the solution folders path as the SolutionFolder path (see SelectedItemPath)
+        /// </summary>
+        /// <param name="currentObject"></param>
+        /// <returns></returns>
+        private string GetSolutionFolderPath()
+        {
+            return GetPath(m_VSStudio.Solution.FullName);
+        }
+
+        private string SelectedItemFullPath
+        {
+            get
+            {
+
+                var solution = SelectedItem.Object as Solution;
+                if (solution != null)
+                    return solution.FullName;
+
+                if (IsSolutionFolder(SelectedItem.Object))
+                    return string.Empty;
+
+                Project project = GetProject(SelectedItem.Object);
+                if (project != null)
+                    return GetProjectFullName(project);
+
+                var item = SelectedItem.Object as ProjectItem;
+                if (item != null)
+                    return item.get_FileNames(1);
+
+                return string.Empty;
+            }
+        }
+
+        private string SelectedItemFileName
+        {
+            get
+            {
+                var solution = SelectedItem.Object as Solution;
+                if (solution != null)
+                    return GetFileName(solution.FullName);
+
+                if (IsSolutionFolder(SelectedItem.Object))
+                    return string.Empty;
+
+                Project project = GetProject(SelectedItem.Object);
+                if (project != null)
+                    return GetFileName(GetProjectFullName(project));
+
+                var item = SelectedItem.Object as ProjectItem;
+                if (item != null)
+                    return GetFileName(item.get_FileNames(1));
+
+                return string.Empty;
+            }
+        }
+
+        /// <summary>
+        /// Returns af project. Because of problems with Projects that are subprojects of solution folders
+        /// it is not as easy as casting. Instead we must do some more magic.
+        /// </summary>
+        /// <param name="selectedItemObject"></param>
+        /// <returns></returns>
+        private Project GetProject(object selectedItemObject)
+        {
+            var project = selectedItemObject as Project;
+            if (project != null)
+                return project;
+
+            var item = selectedItemObject as ProjectItem;
+            if (item == null)
+                return null;
+
+            return item.SubProject;
+        }
+
+        /// <summary>
+        /// Evaluates if the item is a SolutionFolder. Does it by looking at the FileName property if it is empty it must be a solution folder.
+        /// Because a normal Project always have a FileName. There is probably a more correct way of doing this, but will do
+        /// for now.
+        /// </summary>
+        /// <param name="SelectedItemObject"></param>
+        /// <returns></returns>
+        private bool IsSolutionFolder(object selectedItemObject)
+        {
+            var project = GetProject(selectedItemObject);
+            if (project != null && string.IsNullOrEmpty(project.FileName))
+                return true;
+            return false;
+        }
+
+
+        private void SetVisibilityChildren(CommandBarPopup vsmainMenu)
+        {
+            if (m_VSMainMenuToMenuTreeNode == null || m_VSMainMenuToMenuTreeNode.Count == 0)
+                return;
+
+            MenuTreeNode node = m_VSMainMenuToMenuTreeNode[vsmainMenu.Tag];
+            SetVisibilityChildren(node);
+        }
+
+        private void SetVisibilityChildren(MenuTreeNode node)
+        {
+            if (node == null)
+                return;
+
+            if (node.Children == null)
+                return;
+
+            foreach (MenuTreeNode childNode in node.Children.Values)
+            {
+                SetVisibility(childNode);
+                SetVisibilityChildren(childNode);
+            }
+        }
+
+
+        /// <summary>
+        /// Set visibility of menuitem to true if the selected item complies with the
+        /// Regular Expression
+        /// </summary>
+        /// <param name="vsmenuItem"></param>
+        /// <param name="visibleWhenCompliantName"></param>
+        private void SetVisibility(MenuTreeNode node)
+        {
+            if (!node.MenuItem.Seperator)
+            {
+                m_MenuItemToVSMenu[node.MenuItem.Id].Visible = CheckRegex(node.MenuItem.VisibleWhenCompliantName, SelectedItemName);
+            }
+        }
+
+        private bool CheckRegex(Regex regex, string name)
+        {
+            if (regex == null)
+                return true;
+
+            return regex.IsMatch(name);
+        }
+
+        /// <summary>
+        /// Code borrowed from http://www.codeproject.com/KB/macros/zipstudio.aspx - Thank you...
+        /// </summary>
+        /// <param name="Project"></param>
+        /// <returns></returns>
+        private string GetProjectFullName(Project Project)
+        {
+            string filePath = Project.FullName;
+            // Find the file extension of the project FullName.
+            int extIndex = filePath.LastIndexOf('.');
+            string filePathExt =
+              (extIndex > 0) ? filePath.Substring(extIndex + 1) : "";
+            // Find the file extension of the project UniqueName.
+            extIndex = Project.UniqueName.LastIndexOf('.');
+            string uniqueExt =
+              (extIndex > 0) ? Project.UniqueName.Substring(extIndex + 1) : "";
+            // If different use the UniqueName extension.
+            if (filePathExt != uniqueExt)
+            {
+                // If the FullName does not have an extension,
+                // add the one from UniqueName.
+                if (filePathExt == "") filePath += "." + uniqueExt;
+                // Else replace it.
+                else filePath = filePath.Replace(filePathExt, uniqueExt);
+            }
+            return filePath;
+        }
+
+        /// <summary>
+        /// Returns the Path - given a FileName
+        /// </summary>
+        /// <param name="filename"></param>
+        /// <returns></returns>
+        private string GetPath(string filename)
+        {
+            DirectoryInfo di = new DirectoryInfo(filename);
+            if (string.IsNullOrEmpty(di.Extension))
+                return PathAddSlash(filename);
+
+            return PathAddSlash(di.FullName.Substring(0, di.FullName.Length - di.Name.Length));
+        }
+
+        /// <summary>
+        /// Returns the FileName - given a Full path
+        /// </summary>
+        /// <param name="filename"></param>
+        /// <returns></returns>
+        private string GetFileName(string fullpath)
+        {
+            DirectoryInfo di = new DirectoryInfo(fullpath);
+            if (string.IsNullOrEmpty(di.Extension))
+                return string.Empty;
+
+            return di.Name;
+        }
+
+        private string PathAddSlash(string path)
+        {
+            if (path.EndsWith(@"\"))
+                return path;
+
+            return path + @"\";
+        }
+    }
+}

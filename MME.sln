@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEVS2010", "MMEVS2010\MMEVS2010.csproj", "{8B2CFED8-0519-4F42-AD56-6531688F8E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEContracts", "MMEContracts\MMEContracts.csproj", "{ED21F200-D5D5-46D1-95A2-EE801A97DEAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMESample1", "MMESample1\MMESample1.csproj", "{AA6E0CE1-34CF-4F56-97BA-43409FD6E187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2CFED8-0519-4F42-AD56-6531688F8E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2CFED8-0519-4F42-AD56-6531688F8E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2CFED8-0519-4F42-AD56-6531688F8E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2CFED8-0519-4F42-AD56-6531688F8E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED21F200-D5D5-46D1-95A2-EE801A97DEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED21F200-D5D5-46D1-95A2-EE801A97DEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED21F200-D5D5-46D1-95A2-EE801A97DEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED21F200-D5D5-46D1-95A2-EE801A97DEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6E0CE1-34CF-4F56-97BA-43409FD6E187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6E0CE1-34CF-4F56-97BA-43409FD6E187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6E0CE1-34CF-4F56-97BA-43409FD6E187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6E0CE1-34CF-4F56-97BA-43409FD6E187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

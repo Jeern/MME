@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using MMEContracts;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
+using System.IO;
 
 namespace MMEVS2010
 {
@@ -19,13 +20,19 @@ namespace MMEVS2010
         
 
  
-        public MMHost()
+        public MMHost(string parentFolder, string solutionFolder)
         {
             try
             {
-                var catalog1 = new DirectoryCatalog("C:\\Plugins");
-                var catalog2 = new DirectoryCatalog("C:\\Plugins2");
-                var catalog = new AggregateCatalog(catalog1, catalog2);
+                AggregateCatalog catalog = null;
+                if (Directory.Exists(parentFolder))
+                {
+                    catalog = new AggregateCatalog(new DirectoryCatalog(parentFolder), new DirectoryCatalog(solutionFolder));
+                }
+                else
+                {
+                    catalog = new AggregateCatalog(new DirectoryCatalog(solutionFolder));
+                }
                 var container = new CompositionContainer(catalog, true);
                 container.ComposeParts(this);
             }

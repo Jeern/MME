@@ -6,3 +6,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: Guid("bef36c67-dffc-4cca-9371-2504515f9ef9")]
+[assembly: ComVisible(false)]

@@ -21,11 +21,14 @@ namespace MMEVS2010
         private Dictionary<string, MenuTreeNode> m_VSMainMenuToMenuTreeNode = new Dictionary<string, MenuTreeNode>();
         private Dictionary<string, ContextLevels> m_ContextsFromMenus = new Dictionary<string, ContextLevels>();
         private List<CommandBarEvents> menuItemHandlerList = new List<CommandBarEvents>();
-        private MMHost m_Host = new MMHost();
+        private MMHost m_Host;
 
         public VSMenuUtil(DTE2 vsStudio)
         {
             m_VSStudio = vsStudio;
+            string solutionFolder = Path.GetDirectoryName(m_VSStudio.Solution.FullName);
+            string parentFolder = Path.GetDirectoryName(solutionFolder);
+            m_Host = new MMHost(parentFolder, solutionFolder);
         }
 
         public void BuildMenus()

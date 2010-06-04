@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MMEVS2010
 {
+    /// <summary>
+    /// Constants used to get the different CommandBars in the visual studio explorer
+    /// </summary>
     public static class VSContextConstants
     {
         public const string Solution = "Solution";

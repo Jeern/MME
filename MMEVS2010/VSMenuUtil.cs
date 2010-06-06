@@ -13,9 +13,10 @@ using System.Windows.Forms;
 
 namespace MMEVS2010
 {
-    public class VSMenuUtil
+    public class VSMenuUtil 
     {
         private DTE2 m_VSStudio;
+        private AddIn m_AddIn;
         private Dictionary<string, IMenuItem> m_VSMenuToMenuItem = new Dictionary<string, IMenuItem>();
         private Dictionary<Guid, CommandBarControl> m_MenuItemToVSMenu = new Dictionary<Guid, CommandBarControl>();
         private Dictionary<string, MenuTreeNode> m_VSMainMenuToMenuTreeNode = new Dictionary<string, MenuTreeNode>();
@@ -23,9 +24,10 @@ namespace MMEVS2010
         private List<CommandBarEvents> menuItemHandlerList = new List<CommandBarEvents>();
         private MMHost m_Host;
 
-        public VSMenuUtil(DTE2 vsStudio)
+        public VSMenuUtil(DTE2 vsStudio, AddIn addIn)
         {
             m_VSStudio = vsStudio;
+            m_AddIn = addIn;
             string solutionFolder = Path.GetDirectoryName(m_VSStudio.Solution.FullName);
             string parentFolder = Path.GetDirectoryName(solutionFolder);
             m_Host = new MMHost(parentFolder, solutionFolder);
@@ -53,7 +55,7 @@ namespace MMEVS2010
             foreach (MenuTreeNode node in tree.RootNodes.Values)
             {
                 CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption, node);
-                AddMainMenuClickEventHandler(menu);
+                AddMainMenuClickEventHandler(menu, level, node.MenuItem.Caption);
                 TraverseChildren(menu, node, level);
                 SetVisibilityMainMenu(menu);
             }
@@ -168,8 +170,26 @@ namespace MMEVS2010
             menuItemHandlerList.Add(menuItemHandler);
         }
 
-        private void AddMainMenuClickEventHandler(CommandBarPopup mainMenu)
+        private void AddMainMenuClickEventHandler(CommandBarPopup mainMenu, ContextLevels level, string caption)
         {
+            string commandName = GetMainMenuCommandName(level, caption);
+
+            for (int i = m_VSStudio.Commands.Count; i >= 1; i--)
+            {
+                if (m_VSStudio.Commands.Item(i).Name == m_AddIn.ProgID + "." + commandName)
+                {
+                    m_VSStudio.Commands.Item(i).Delete();
+                    break;
+                }
+            }
+
+            //This makes the connect class'es QueryStatus method react to clicks on a main menu. A bit convoluted.
+            //But the only way in VS2010 (in VS2008 it was accomplished with get_CommandBarEvents, but no longer possible -
+            //see http://stackoverflow.com/questions/2977704/do-you-have-ideas-for-a-workaround-for-this-known-bug-in-visual-studio-2010s-add)
+            Command mainMenuCommand = m_VSStudio.Commands.AddNamedCommand(m_AddIn, commandName, caption, "", true, 59);
+            mainMenuCommand.AddControl(mainMenu.CommandBar);
+            
+
             ////Microsoft.VisualStudio.PlatformUI.Automation.CommandBar._Marshaler m; m.G
             ////IMarshaledObject<CommandBarPopup>
 
@@ -184,6 +204,21 @@ namespace MMEVS2010
             
 
             //menuItemHandlerList.Add(mainmenuItemHandler);
+        }
+
+        private string GetMainMenuCommandName(ContextLevels level, string name)
+        {
+            return "MME_" + Beautify(level.ToString()) + "_" + Beautify(name);
+        }
+
+        /// <summary>
+        /// Removes _ and space
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        private string Beautify(string name)
+        {
+            return name.Replace(" ", string.Empty).Replace("_",string.Empty);
         }
 
         internal void menuItemHandler_Click(object CommandBarControl, ref bool Handled, ref bool CancelDefault)
@@ -469,5 +504,6 @@ namespace MMEVS2010
 
             return path + @"\";
         }
+
     }
 }

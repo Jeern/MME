@@ -54,8 +54,10 @@ namespace MMEVS2010
         {
             foreach (MenuTreeNode node in tree.RootNodes.Values)
             {
+                string mainMenuCommandName = GetMainMenuCommandName(level, node.MenuItem.Caption);
                 CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption, node);
-                AddMainMenuClickEventHandler(menu, level, node.MenuItem.Caption);
+                SaveMainMenuInformation(mainMenuCommandName, node);
+                AddMainMenuClickEventHandler(menu, level, mainMenuCommandName, node.MenuItem.Caption);
                 TraverseChildren(menu, node, level);
                 SetVisibilityMainMenu(menu);
             }
@@ -135,7 +137,6 @@ namespace MMEVS2010
             vsmainMenu.Caption = menuName;
             vsmainMenu.TooltipText = "";
             vsmainMenu.Tag = Guid.NewGuid().ToString();
-            SaveMainMenuInformation(vsmainMenu.Tag, node);
             return vsmainMenu;
         }
 
@@ -157,9 +158,9 @@ namespace MMEVS2010
             m_ContextsFromMenus.Add(vsMenu.Tag, level);
         }
 
-        private void SaveMainMenuInformation(string id, MenuTreeNode node)
+        private void SaveMainMenuInformation(string mainMenuCommandName, MenuTreeNode node)
         {
-            m_VSMainMenuToMenuTreeNode.Add(id, node);
+            m_VSMainMenuToMenuTreeNode.Add(mainMenuCommandName, node);
         }
 
 
@@ -170,10 +171,8 @@ namespace MMEVS2010
             menuItemHandlerList.Add(menuItemHandler);
         }
 
-        private void AddMainMenuClickEventHandler(CommandBarPopup mainMenu, ContextLevels level, string caption)
+        private void AddMainMenuClickEventHandler(CommandBarPopup mainMenu, ContextLevels level, string commandName, string caption)
         {
-            string commandName = GetMainMenuCommandName(level, caption);
-
             for (int i = m_VSStudio.Commands.Count; i >= 1; i--)
             {
                 if (m_VSStudio.Commands.Item(i).Name == m_AddIn.ProgID + "." + commandName)
@@ -235,19 +234,6 @@ namespace MMEVS2010
             catch (Exception ex)
             {
                 MessageBox.Show("VSMenuUtil.menuItemHandler_Click(): " + ex.ToString());
-            }
-        }
-
-        internal void mainmenuItemHandler_Click(object CommandBarPopup, ref bool Handled, ref bool CancelDefault)
-        {
-            try
-            {
-                CommandBarPopup cbp = (CommandBarPopup)CommandBarPopup;
-                SetVisibilityChildren(cbp);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("VSMenuUtil.mainmenuItemHandler_Click(): " + ex.ToString());
             }
         }
 
@@ -394,13 +380,22 @@ namespace MMEVS2010
         }
 
 
-        private void SetVisibilityChildren(CommandBarPopup vsmainMenu)
+        public void SetVisibilityChildren(string mainMenuCommandName)
         {
             if (m_VSMainMenuToMenuTreeNode == null || m_VSMainMenuToMenuTreeNode.Count == 0)
                 return;
 
-            MenuTreeNode node = m_VSMainMenuToMenuTreeNode[vsmainMenu.Tag];
+            MenuTreeNode node = m_VSMainMenuToMenuTreeNode[RemoveProgId(mainMenuCommandName)];
             SetVisibilityChildren(node);
+        }
+
+        private string RemoveProgId(string mainMenuCommandName)
+        {
+            if(mainMenuCommandName.StartsWith(m_AddIn.ProgID + "."))
+            {
+                return mainMenuCommandName.Substring(m_AddIn.ProgID.Length + 1);
+            }
+            return mainMenuCommandName;
         }
 
         private void SetVisibilityChildren(MenuTreeNode node)

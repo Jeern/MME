@@ -11,6 +11,6 @@ namespace MMEContracts
         string Caption { get; }
         Guid Id { get; }
         bool Seperator { get; }
-        Regex VisibleWhenCompliantName { get; }
+        Func<IMenuContext, bool> IsVisible { get; set; }
     }
 }

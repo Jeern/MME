@@ -58,5 +58,27 @@ namespace MMEContracts
         {
             get { return m_Details; }
         }
+
+        private const string SEP = "£$£";
+
+        internal string DictionaryKey
+        {
+            get 
+            {
+                var sb = new StringBuilder();
+                sb.Append(ItemName);
+                sb.Append(SEP);
+                sb.Append(FileName);
+                sb.Append(SEP);
+                sb.Append(FilePath);
+                sb.Append(SEP);
+                sb.Append(FullFileName);
+                sb.Append(SEP);
+                sb.Append(Level.ToString());
+                sb.Append(SEP);
+                sb.Append(Details.ToString());
+                return sb.ToString();
+            }
+        }
     }
 }

@@ -18,7 +18,9 @@ namespace MMESample1
         {
             List<IMenuItem> menuItems = new List<IMenuItem>(2);
             MenuItem m1 = new MenuItem("Hardy 1");
-            MenuItem m2 = new MenuItem("Hardy 2", visibleWhenCompliantName: new Regex(@"\.AddIn"));
+            m1.IsVisible = context => context.ItemName.StartsWith("M");
+            MenuItem m2 = new MenuItem("Hardy 2");
+
             menuItems.Add(m1);
             menuItems.Add(m2);
             return menuItems;

@@ -13,12 +13,11 @@ namespace MMEContracts
         private bool m_Seperator;
         private Regex m_VisibleWhenCompliantName;
 
-        public MenuItem(string caption, bool seperator = false, Regex visibleWhenCompliantName = null)
+        public MenuItem(string caption, bool seperator = false)
         {
             m_Caption = caption;
             m_Id = Guid.NewGuid();
             m_Seperator = seperator;
-            m_VisibleWhenCompliantName = visibleWhenCompliantName;
         }
 
         public string Caption
@@ -39,6 +38,19 @@ namespace MMEContracts
         public Regex VisibleWhenCompliantName
         {
             get { return m_VisibleWhenCompliantName; }
+        }
+
+        Func<IMenuContext, bool> m_IsVisible = context => true;
+        public Func<IMenuContext, bool> IsVisible
+        {
+            get
+            {
+                return m_IsVisible;
+            }
+            set
+            {
+                m_IsVisible = value;
+            }
         }
     }
 }

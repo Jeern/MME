@@ -54,5 +54,28 @@ namespace MMEContracts
             get { return m_Item; }
         }
 
+        private const string SEP = "£$£";
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+            if (m_Solution != null)
+            {
+                sb.Append(m_Solution.FullName);
+                sb.Append(SEP);
+            }
+            if (m_Project != null)
+            {
+                sb.Append(m_Project.FullName);
+                sb.Append(SEP);
+            }
+            if (m_Item != null)
+            {
+                sb.Append(m_Item.Name);
+                sb.Append(SEP);
+            }
+            return sb.ToString();
+        }
+
     }
 }

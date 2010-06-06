@@ -65,6 +65,7 @@ namespace MMEVS2010
 
         private void SetVisibilityMainMenu(CommandBarPopup mainMenu)
         {
+            
             //if (mainMenu.accChildCount == 0)
             //{
             //    mainMenu.Visible = false;
@@ -227,14 +228,22 @@ namespace MMEVS2010
                 CommandBarControl cbc = (CommandBarControl)CommandBarControl;
                 string id = ((CommandBarControl)CommandBarControl).Tag;
 
-                m_Host.MenuClicked(m_VSMenuToMenuItem[id].Id, 
-                    new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[id], 
-                        new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem)));
+                m_Host.MenuClicked(m_VSMenuToMenuItem[id].Id,
+                    GetCurrentMenuContext(id));
+                    //new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[id], 
+                    //    new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem)));
             }
             catch (Exception ex)
             {
                 MessageBox.Show("VSMenuUtil.menuItemHandler_Click(): " + ex.ToString());
             }
+        }
+
+        private MenuContext GetCurrentMenuContext(string vsMenuId)
+        {
+            return
+                new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[vsMenuId], 
+                new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem));
         }
 
         private UIHierarchyItem SelectedItem
@@ -415,8 +424,7 @@ namespace MMEVS2010
 
 
         /// <summary>
-        /// Set visibility of menuitem to true if the selected item complies with the
-        /// Regular Expression
+        /// Set visibility of menuitem to true if the selected item is supossed to be Visible.
         /// </summary>
         /// <param name="vsmenuItem"></param>
         /// <param name="visibleWhenCompliantName"></param>
@@ -424,16 +432,8 @@ namespace MMEVS2010
         {
             if (!node.MenuItem.Seperator)
             {
-                m_MenuItemToVSMenu[node.MenuItem.Id].Visible = CheckRegex(node.MenuItem.VisibleWhenCompliantName, SelectedItemName);
+                m_MenuItemToVSMenu[node.MenuItem.Id].Visible = node.MenuItem.IsVisible(GetCurrentMenuContext(m_MenuItemToVSMenu[node.MenuItem.Id].Tag));
             }
-        }
-
-        private bool CheckRegex(Regex regex, string name)
-        {
-            if (regex == null)
-                return true;
-
-            return regex.IsMatch(name);
         }
 
         /// <summary>

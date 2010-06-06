@@ -11,7 +11,6 @@ namespace MMEContracts
         private string m_Caption;
         private Guid m_Id;
         private bool m_Seperator;
-        private Regex m_VisibleWhenCompliantName;
 
         public MenuItem(string caption, bool seperator = false)
         {
@@ -33,11 +32,6 @@ namespace MMEContracts
         public bool Seperator
         {
             get { return m_Seperator; }
-        }
-
-        public Regex VisibleWhenCompliantName
-        {
-            get { return m_VisibleWhenCompliantName; }
         }
 
         Func<IMenuContext, bool> m_IsVisible = context => true;

@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MMEContracts;
-using System.Text.RegularExpressions;
 
-namespace MMESample1
+namespace MMEHelper
 {
     public class MenuManager : IMenuManager
     {
@@ -14,23 +13,22 @@ namespace MMESample1
             return "Managed Menu Extensions";
         }
 
+        private const string MenuShowHowTo = "Show how To...";
+
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
-            List<IMenuItem> menuItems = new List<IMenuItem>(2);
-            MenuItem m1 = new MenuItem("Hardy 1");
-            m1.IsVisible = context => context.ItemName.StartsWith("M");
-            MenuItem m2 = new MenuItem("Hardy 2");
-            m2.IsVisible = context => context.Level == ContextLevels.Project;
-
+            List<IMenuItem> menuItems = new List<IMenuItem>(1);
+            var m1 = new MenuItem(MenuShowHowTo);
             menuItems.Add(m1);
-            menuItems.Add(m2);
             return menuItems;
         }
 
         public void MenuClicked(IMenuItem clickedMenu, IMenuContext menuContext)
         {
-            System.Windows.Forms.MessageBox.Show("Hardy Rocks");
+            if (clickedMenu.Caption == MenuShowHowTo)
+            {
+                menuContext.Details.VSStudio.ExecuteCommand("View.Url", "http://www.google.com");
+            }
         }
-
     }
 }

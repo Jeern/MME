@@ -20,6 +20,7 @@ namespace MMEVS2010
         private Dictionary<string, IMenuItem> m_VSMenuToMenuItem = new Dictionary<string, IMenuItem>();
         private Dictionary<Guid, CommandBarControl> m_MenuItemToVSMenu = new Dictionary<Guid, CommandBarControl>();
         private Dictionary<string, MenuTreeNode> m_VSMainMenuToMenuTreeNode = new Dictionary<string, MenuTreeNode>();
+        private Dictionary<string, CommandBarPopup> m_VSMainMenuToPopup = new Dictionary<string, CommandBarPopup>();
         private Dictionary<string, ContextLevels> m_ContextsFromMenus = new Dictionary<string, ContextLevels>();
         private List<CommandBarEvents> menuItemHandlerList = new List<CommandBarEvents>();
         private MMHost m_Host;
@@ -55,22 +56,11 @@ namespace MMEVS2010
             foreach (MenuTreeNode node in tree.RootNodes.Values)
             {
                 string mainMenuCommandName = GetMainMenuCommandName(level, node.MenuItem.Caption);
-                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption, node);
-                SaveMainMenuInformation(mainMenuCommandName, node);
+                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption);
+                SaveMainMenuInformation(mainMenuCommandName, menu, node);
                 AddMainMenuClickEventHandler(menu, level, mainMenuCommandName, node.MenuItem.Caption);
                 TraverseChildren(menu, node, level);
-                SetVisibilityMainMenu(menu);
             }
-        }
-
-        private void SetVisibilityMainMenu(CommandBarPopup mainMenu)
-        {
-            
-            //if (mainMenu.accChildCount == 0)
-            //{
-            //    mainMenu.Visible = false;
-            //    return;
-            //}
         }
 
         private void TraverseChildren(CommandBarPopup vsmainMenu, MenuTreeNode treeNode, ContextLevels level)
@@ -132,7 +122,7 @@ namespace MMEVS2010
                 }
             }
         }
-        public CommandBarPopup AddVSMainMenuItem(string commandBarName, int menuIndex, string menuName, MenuTreeNode node)
+        public CommandBarPopup AddVSMainMenuItem(string commandBarName, int menuIndex, string menuName)
         {
             CommandBarPopup vsmainMenu = GetVSMainMenu(commandBarName, menuIndex).Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, 1, true) as CommandBarPopup;
             vsmainMenu.Caption = menuName;
@@ -159,9 +149,10 @@ namespace MMEVS2010
             m_ContextsFromMenus.Add(vsMenu.Tag, level);
         }
 
-        private void SaveMainMenuInformation(string mainMenuCommandName, MenuTreeNode node)
+        private void SaveMainMenuInformation(string mainMenuCommandName, CommandBarPopup mainMenu, MenuTreeNode node)
         {
             m_VSMainMenuToMenuTreeNode.Add(mainMenuCommandName, node);
+            m_VSMainMenuToPopup.Add(mainMenuCommandName, mainMenu);
         }
 
 
@@ -388,14 +379,19 @@ namespace MMEVS2010
             return false;
         }
 
-
-        public void SetVisibilityChildren(string mainMenuCommandName)
+        /// <summary>
+        /// Sets the visibility of all the Children of a mainMenu, and returns true if at least one of them is visible. Meaning main menu is
+        /// visible. False if all are invisible. Meaning main menu is invisible.
+        /// </summary>
+        /// <param name="mainMenuCommandName"></param>
+        /// <returns></returns>
+        public bool SetVisibilityChildren(string mainMenuCommandName)
         {
             if (m_VSMainMenuToMenuTreeNode == null || m_VSMainMenuToMenuTreeNode.Count == 0)
-                return;
+                return false;
 
             MenuTreeNode node = m_VSMainMenuToMenuTreeNode[RemoveProgId(mainMenuCommandName)];
-            SetVisibilityChildren(node);
+            return SetVisibilityChildren(node);
         }
 
         private string RemoveProgId(string mainMenuCommandName)
@@ -407,19 +403,26 @@ namespace MMEVS2010
             return mainMenuCommandName;
         }
 
-        private void SetVisibilityChildren(MenuTreeNode node)
+        /// <summary>
+        /// Sets the visibility of all the Children of a mainMenu, and returns true if at least one of them is visible. Meaning main menu is
+        /// visible. False if all are invisible. Meaning main menu is invisible.
+        /// </summary>
+        /// <param name="node"></param>
+        private bool SetVisibilityChildren(MenuTreeNode node)
         {
             if (node == null)
-                return;
+                return false;
 
             if (node.Children == null)
-                return;
+                return false;
 
+            bool visible = false;
             foreach (MenuTreeNode childNode in node.Children.Values)
             {
-                SetVisibility(childNode);
-                SetVisibilityChildren(childNode);
+                visible = visible | SetVisibility(childNode);
+                visible = visible | SetVisibilityChildren(childNode);
             }
+            return visible;
         }
 
 
@@ -428,12 +431,15 @@ namespace MMEVS2010
         /// </summary>
         /// <param name="vsmenuItem"></param>
         /// <param name="visibleWhenCompliantName"></param>
-        private void SetVisibility(MenuTreeNode node)
+        private bool SetVisibility(MenuTreeNode node)
         {
             if (!node.MenuItem.Seperator)
             {
-                m_MenuItemToVSMenu[node.MenuItem.Id].Visible = node.MenuItem.IsVisible(GetCurrentMenuContext(m_MenuItemToVSMenu[node.MenuItem.Id].Tag));
+                bool visible = node.MenuItem.IsVisible(GetCurrentMenuContext(m_MenuItemToVSMenu[node.MenuItem.Id].Tag));
+                m_MenuItemToVSMenu[node.MenuItem.Id].Visible = visible;
+                return visible;
             }
+            return false;
         }
 
         /// <summary>

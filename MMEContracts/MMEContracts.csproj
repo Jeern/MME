@@ -64,6 +64,7 @@
     <Compile Include="IMenuManager.cs" />
     <Compile Include="MenuContext.cs" />
     <Compile Include="MenuItem.cs" />
+    <Compile Include="MMEProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

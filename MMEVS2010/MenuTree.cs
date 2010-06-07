@@ -27,6 +27,9 @@ namespace MMEVS2010
             get { return m_AllNodes; }
         }
 
+        /// <summary>
+        /// Number of nodes in the MenuTree.
+        /// </summary>
         public int Count
         {
             get
@@ -52,6 +55,11 @@ namespace MMEVS2010
             }
         }
 
+        /// <summary>
+        /// Adds a Mainmenu (rootnode) to the MenuTree.
+        /// </summary>
+        /// <param name="mainMenuCaption"></param>
+        /// <returns></returns>
         public MenuTreeNode Add(string mainMenuCaption)
         {
             if (!m_RootNodes.ContainsKey(mainMenuCaption))

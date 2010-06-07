@@ -29,21 +29,25 @@ namespace MMEVS2010
         {
             try
             {
-                AggregateCatalog catalog = null;
-                if (Directory.Exists(parentFolder))
-                {
-                    catalog = new AggregateCatalog(new DirectoryCatalog(parentFolder), new DirectoryCatalog(solutionFolder));
-                }
-                else
-                {
-                    catalog = new AggregateCatalog(new DirectoryCatalog(solutionFolder));
-                }
+                var directoryCatalogs = new List<DirectoryCatalog>();
+                AddToDirectoryCatalog(directoryCatalogs, MMEProperties.PluginMainDirectory);
+                AddToDirectoryCatalog(directoryCatalogs, parentFolder);
+                AddToDirectoryCatalog(directoryCatalogs, solutionFolder);
+                var catalog = new AggregateCatalog(directoryCatalogs);
                 var container = new CompositionContainer(catalog, true);
                 container.ComposeParts(this);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("MMHost.Ctor(): " + ex.ToString());
+            }
+        }
+
+        private void AddToDirectoryCatalog(List<DirectoryCatalog> list, string folder)
+        {
+            if (!string.IsNullOrEmpty(folder) && Directory.Exists(folder))
+            {
+                list.Add(new DirectoryCatalog(folder));
             }
         }
 

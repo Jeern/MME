@@ -28,13 +28,34 @@ namespace MMEVS2010
         private List<CommandBarEvents> menuItemHandlerList = new List<CommandBarEvents>();
         private MMHost m_Host;
 
+        /// <summary>
+        /// Starts up the Host that loads the Plugins via MEF.
+        /// </summary>
+        /// <param name="vsStudio"></param>
+        /// <param name="addIn"></param>
         public VSMenuUtil(DTE2 vsStudio, AddIn addIn)
         {
             m_VSStudio = vsStudio;
             m_AddIn = addIn;
-            string solutionFolder = Path.GetDirectoryName(m_VSStudio.Solution.FullName);
-            string parentFolder = Path.GetDirectoryName(solutionFolder);
+            string solutionFolder = GetSolutionFolder(m_VSStudio);
+            string parentFolder = GetParentFolder(solutionFolder);
             m_Host = new MMHost(parentFolder, solutionFolder);
+        }
+
+        private string GetSolutionFolder(DTE2 vsStudio)
+        {
+            if (vsStudio == null || vsStudio.Solution == null || string.IsNullOrEmpty(vsStudio.Solution.FullName))
+                return null;
+
+            return Path.GetDirectoryName(m_VSStudio.Solution.FullName);
+        }
+
+        private string GetParentFolder(string solutionFolder)
+        {
+            if (string.IsNullOrEmpty(solutionFolder))
+                return null;
+
+            return Path.GetDirectoryName(solutionFolder);
         }
 
         public void BuildMenus()
@@ -125,9 +146,17 @@ namespace MMEVS2010
                 }
             }
         }
+
+        /// <summary>
+        /// Adds a menu to the Visual Studio Solution explorer so that it is physically shown.
+        /// </summary>
+        /// <param name="commandBarName"></param>
+        /// <param name="menuIndex"></param>
+        /// <param name="menuName"></param>
+        /// <returns></returns>
         public CommandBarPopup AddVSMainMenuItem(string commandBarName, int menuIndex, string menuName)
         {
-            CommandBarPopup vsmainMenu = GetVSMainMenu(commandBarName, menuIndex).Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, 1, true) as CommandBarPopup;
+            var vsmainMenu = GetVSMainMenu(commandBarName, menuIndex).Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, 1, true) as CommandBarPopup;
             vsmainMenu.Caption = menuName;
             vsmainMenu.TooltipText = "";
             vsmainMenu.Tag = Guid.NewGuid().ToString();
@@ -372,7 +401,7 @@ namespace MMEVS2010
         /// Because a normal Project always have a FileName. There is probably a more correct way of doing this, but will do
         /// for now.
         /// </summary>
-        /// <param name="SelectedItemObject"></param>
+        /// <param name="selectedItemObject"></param>
         /// <returns></returns>
         private bool IsSolutionFolder(object selectedItemObject)
         {
@@ -489,7 +518,7 @@ namespace MMEVS2010
         /// <summary>
         /// Returns the FileName - given a Full path
         /// </summary>
-        /// <param name="filename"></param>
+        /// <param name="fullpath"></param>
         /// <returns></returns>
         private string GetFileName(string fullpath)
         {

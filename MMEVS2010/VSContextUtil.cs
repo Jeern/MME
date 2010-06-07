@@ -5,14 +5,11 @@ using MMEContracts;
 
 namespace MMEVS2010
 {
+    /// <summary>
+    /// Contains different methods for converting between the VS "context" and the MME context.
+    /// </summary>
     public static class VSContextUtil
     {
-        //Test af SVNBridge2
-        public static bool IsSolution()
-        {
-            return false;
-        }
-
         public static string ContextToVSContext(ContextLevels level)
         {
             switch (level)
@@ -57,19 +54,5 @@ namespace MMEVS2010
                     return 1;
             }
         }
-
-        public static ContextLevels VSContextToContext(string level)
-        {
-            switch (level)
-            {
-                case VSContextConstants.Solution:
-                    return ContextLevels.Solution;
-                case VSContextConstants.Project:
-                    return ContextLevels.Project;
-                default:
-                    return ContextLevels.OtherItem; 
-            }
-        }
-
     }
 }

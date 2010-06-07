@@ -209,24 +209,8 @@ namespace MMEVS2010
             //This makes the connect class'es QueryStatus method react to clicks on a main menu. A bit convoluted.
             //But the only way in VS2010 (in VS2008 it was accomplished with get_CommandBarEvents, but no longer possible -
             //see http://stackoverflow.com/questions/2977704/do-you-have-ideas-for-a-workaround-for-this-known-bug-in-visual-studio-2010s-add)
-            Command mainMenuCommand = m_VSStudio.Commands.AddNamedCommand(m_AddIn, commandName, caption, "", true, 59);
+            Command mainMenuCommand = m_VSStudio.Commands.AddNamedCommand(m_AddIn, commandName, caption, "", false);
             mainMenuCommand.AddControl(mainMenu.CommandBar);
-            
-
-            ////Microsoft.VisualStudio.PlatformUI.Automation.CommandBar._Marshaler m; m.G
-            ////IMarshaledObject<CommandBarPopup>
-
-            //HER
-            //Microsoft.VisualStudio.PlatformUI.Automation.CommandBarPopup._Marshaler m; m.MarshaledObject
-            //managedMainMenu.Marshaler
-            //MessageBox.Show("TestXX");
-            //CommandBarEvents mainmenuItemHandler = (EnvDTE.CommandBarEvents)m_VSStudio.DTE.Events.get_CommandBarEvents(mainMenu);
-            //MessageBox.Show("TestXXX");
-            //mainmenuItemHandler.Click += new _dispCommandBarControlEvents_ClickEventHandler(mainmenuItemHandler_Click);
-            
-            
-
-            //menuItemHandlerList.Add(mainmenuItemHandler);
         }
 
         private string GetMainMenuCommandName(ContextLevels level, string name)

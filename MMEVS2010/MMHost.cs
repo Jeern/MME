@@ -18,7 +18,11 @@ namespace MMEVS2010
         Dictionary<Guid, IMenuManager> m_AssociatedMenuManagers = new Dictionary<Guid, IMenuManager>();
         Dictionary<ContextLevels, MenuTree> m_MenusByContext = new Dictionary<ContextLevels, MenuTree>();
         
-
+        /// <summary>
+        /// The Constructor of MMHost uses MEF to load all the Plugins that contains menus.
+        /// </summary>
+        /// <param name="parentFolder"></param>
+        /// <param name="solutionFolder"></param>
  
         public MMHost(string parentFolder, string solutionFolder)
         {

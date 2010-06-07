@@ -1,0 +1,711 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0025)http://www.niedermann.dk/ -->
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<TITLE>Jesper Niedermann's .NET Blog</TITLE>	
+	<LINK media="all" rel="stylesheet" type="text/css" href="./niedermann_files/theme.css">	
+	<LINK media="all" rel="stylesheet" type="text/css" href="./niedermann_files/SyntaxHighlighter.css">	
+<!--<BASE href="http://www.niedermann.dk/">--><BASE href=".">
+<LINK rel="alternate" type="application/rss+xml" title="Jesper Niedermann&#39;s .NET Blog" href="http://www.niedermann.dk/SyndicationService.asmx/GetRss">
+<LINK rel="alternate" type="application/atom+xml" title="Jesper Niedermann&#39;s .NET Blog" href="http://www.niedermann.dk/SyndicationService.asmx/GetAtom">
+<LINK rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.niedermann.dk/EditService.asmx/GetRsd"><LINK rel="microsummary" type="application/x.microsummary+xml" href="http://www.niedermann.dk/Microsummary.ashx">
+<STYLE type="text/css">
+/* Class for expanded nested outlines */
+.categoryListExpanded 
+{
+	width:100%;
+	visibility: visible;
+	display: block;
+}
+/* Class for collapsed nested outlines */
+.categoryListCollapsed 
+{
+	width:100%;
+	visibility: hidden;
+	display: none;
+}
+</STYLE>
+
+<STYLE type="text/css">
+/* Class for expanded nested outlines */
+.blogRollExpanded 
+{
+	visibility: visible;
+	display: block;
+}
+/* Class for collapsed nested outlines */
+.blogRollCollapsed 
+{
+	visibility: hidden;
+	display: none;
+}
+</STYLE>
+
+<STYLE type="text/css">.searchword {
+    background-color: yellow;
+}</STYLE>
+<STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE><STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE><STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE><STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE><STYLE type="text/css">.dp-xml .cdata { color: #ff1493; }.dp-xml .tag, .dp-xml .tag-name { color: #069; font-weight: bold; }.dp-xml .attribute { color: red; }.dp-xml .attribute-value { color: blue; }</STYLE><STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE><STYLE type="text/css">.dp-xml .cdata { color: #ff1493; }.dp-xml .tag, .dp-xml .tag-name { color: #069; font-weight: bold; }.dp-xml .attribute { color: red; }.dp-xml .attribute-value { color: blue; }</STYLE><STYLE type="text/css">.dp-c .vars { color: #d00; }</STYLE></HEAD><BODY><FORM name="mainForm" method="post" action="http://www.niedermann.dk/Default.aspx" id="mainForm">
+<INPUT type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<INPUT type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<INPUT type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM2MTcxNzAwMA9kFgJmD2QWAgIHD2QWBAIHD2QWBGYPFQEZaHR0cDovL3d3dy5uaWVkZXJtYW5uLmRrL2QCAQ8WAh4FdmFsdWUFBFPDuGdkAhkPPCsACgEADxYCHgpUb2RheXNEYXRlBgDwNr7a08yIZGRkQPDhzgeA5jDkO9u8Tj8tJms5T94=">
+
+<SCRIPT type="text/javascript">
+<!--
+var theForm = document.forms['mainForm'];
+if (!theForm) {
+    theForm = document.mainForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</SCRIPT>
+
+
+<SCRIPT type="text/javascript">
+<!--
+var ct_img_expanded = 'http://www.niedermann.dk/images/outlinedown.gif';
+var ct_img_collapsed = 'http://www.niedermann.dk/images/outlinearrow.gif';
+(new Image(15,15)).src = ct_img_expanded; // caching
+(new Image(15,15)).src = ct_img_collapsed; // caching
+
+
+function ct_Expand(htmlNode,imgNode) {
+    
+    if (document.getElementById && document.getElementById(htmlNode) != null) {
+		document.getElementById(imgNode).src=ct_img_expanded;
+		document.getElementById(htmlNode).className='categoryListExpanded';
+	}
+}
+
+function ct_Collapse(htmlNode,imgNode) {
+	
+	if (document.getElementById && document.getElementById(htmlNode) !=  null) {
+		document.getElementById(imgNode).src=ct_img_collapsed;
+		document.getElementById(htmlNode).className='categoryListCollapsed';
+	}
+}
+
+function ct_toggleExpansionStatus(htmlNode,imgNode) {
+	if (document.getElementById && document.getElementById(htmlNode) !=  null) {
+		nodeState = document.getElementById(htmlNode).className;
+	}
+    if (nodeState == 'categoryListCollapsed') {
+        ct_Expand(htmlNode,imgNode);
+	}
+	else {
+		ct_Collapse(htmlNode,imgNode);
+	}
+}
+
+// --></SCRIPT><SCRIPT type="text/javascript">
+<!--
+var br_img_expanded = 'http://www.niedermann.dk/images/outlinedown.gif';
+var br_img_collapsed = 'http://www.niedermann.dk/images/outlinearrow.gif';
+(new Image(15,15)).src = br_img_expanded; // caching
+(new Image(15,15)).src = br_img_collapsed; // caching
+
+
+function br_Expand(htmlNode,imgNode) {
+    
+    if (document.getElementById && document.getElementById(htmlNode) != null) {
+		document.getElementById(imgNode).src=br_img_expanded;
+		document.getElementById(htmlNode).className='blogRollExpanded';
+	}
+}
+
+function br_Collapse(htmlNode,imgNode) {
+	
+	if (document.getElementById && document.getElementById(htmlNode) !=  null) {
+		document.getElementById(imgNode).src=br_img_collapsed;
+		document.getElementById(htmlNode).className='blogRollCollapsed';
+	}
+}
+
+function br_toggleExpansionStatus(htmlNode,imgNode) {
+	if (document.getElementById && document.getElementById(htmlNode) !=  null) {
+		nodeState = document.getElementById(htmlNode).className;
+	}
+    if (nodeState == 'blogRollCollapsed') {
+        br_Expand(htmlNode,imgNode);
+	}
+	else {
+		br_Collapse(htmlNode,imgNode);
+	}
+}
+
+// --></SCRIPT><SCRIPT type="text/javascript">
+<!--
+/* http://www.kryogenix.org/code/browser/searchhi/ */
+/* Modified 20021006 to fix query string parsing and add case insensitivity */
+function highlightWord(node,word) {
+	// Iterate into this nodes childNodes
+	if (node.hasChildNodes) {
+		var hi_cn;
+		for (hi_cn=0;hi_cn<node.childNodes.length;hi_cn++) {
+			highlightWord(node.childNodes[hi_cn],word);
+		}
+	}
+
+	// And do this node itself
+	if (node.nodeType == 3) { // text node
+		tempNodeVal = node.nodeValue.toLowerCase();
+		tempWordVal = word.toLowerCase();
+		if (tempNodeVal.indexOf(tempWordVal) != -1) {
+			pn = node.parentNode;
+			if (pn.className != "searchword") {
+				// word has not already been highlighted!
+				nv = node.nodeValue;
+				ni = tempNodeVal.indexOf(tempWordVal);
+				// Create a load of replacement nodes
+				before = document.createTextNode(nv.substr(0,ni));
+				docWordVal = nv.substr(ni,word.length);
+				after = document.createTextNode(nv.substr(ni+word.length));
+				hiwordtext = document.createTextNode(docWordVal);
+				hiword = document.createElement("span");
+				hiword.className = "searchword";
+				hiword.appendChild(hiwordtext);
+				pn.insertBefore(before,node);
+				pn.insertBefore(hiword,node);
+				pn.insertBefore(after,node);
+				pn.removeChild(node);
+			}
+		}
+	}
+}
+
+function googleSearchHighlight() {
+	if (!document.createElement) return;
+	ref = document.referrer;
+	if (ref.indexOf('?') == -1 || ref.indexOf('http://www.niedermann.dk/') != -1)
+	{
+		if (document.location.href.indexOf('PermaLink') != -1) {
+			if (ref.indexOf('SearchView.aspx') == -1) return;
+		}
+		else {
+		//Added by Scott Hanselman
+		ref = document.location.href;
+		if (ref.indexOf('?') == -1) return;
+		}
+	}
+	qs = ref.substr(ref.indexOf('?')+1);
+	qsa = qs.split('&');
+	for (i=0;i<qsa.length;i++) {
+		qsip = qsa[i].split('=');
+	        if (qsip.length == 1) continue;
+        	if (qsip[0] == 'q' || qsip[0] == 'p') { // q= for Google, p= for Yahoo
+			words = decodeURIComponent(qsip[1].replace(/\+/g,' ')).split(/\s+/);
+	                for (w=0;w<words.length;w++) {
+				highlightWord(document.getElementsByTagName("body")[0],words[w]);
+                	}
+	        }
+	}
+}
+
+//
+// addLoadEvent()
+// Adds event to window.onload without overwriting currently assigned onload functions.
+// Function found at Simon Willison's weblog - http://simon.incutio.com/
+//
+function addLoadEvent(func)
+{
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function')
+	{
+    	window.onload = func;
+	}
+	else
+	{
+		window.onload = function()
+		{
+			oldonload();
+			func();
+		}
+	}
+}
+
+addLoadEvent(googleSearchHighlight);
+// -->
+</SCRIPT>
+<INPUT type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLgLY7czVAgKWxIvWDgLzw6GZAgKZrrHLCALQ4fHdAgLQ4d2wCgLQ4cnrAwLQ4bXPDALQ4aGiBALQ4c3KAgLQ4bmuCgK12Mu2DQK12LfqBgK12KPNDwK12I+gBwK12PsbArXY5/4JArXY09ECArXYv7UKArXY690IArXY1zACqs/pmQMCqs/V/AwCqs/B1wUCqs+tiw0Cqs+Z7gYCqs+FwQ8Cqs/xpAcCqs/dHwKqz4mgDQKqz/WbBgKPpobsCQKPpvLHAgKPpt66CgKPpsqdAwKPprbxDAKPpqLUBQKPpo6PDQKPpvriBgKPpqaLAwKPppLuDALknKT3DwLknJCqBwLknPwNAuSc6OAJAuSc1NsCBSYvnynC8JH7X9f+LmCTw+bhZqg=">
+
+<DIV class="header">
+	<TABLE cellspacing="0" cellpadding="2" width="100%" border="0">
+		<TBODY><TR>
+			<TD class="headerImage">
+			</TD><TD>
+				<TABLE cellspacing="0" cellpadding="2" width="100%" border="0">
+					<TBODY><TR>
+						<TD class="siteName"><A href="http://www.niedermann.dk/default.aspx">Jesper Niedermann's .NET Blog</A></TD>
+					</TR>
+					<TR>
+						<TD class="subtitle">about .NET and related technologies&nbsp;<A class="rssLinkStyle" href="http://www.niedermann.dk/SyndicationService.asmx/GetRss"><IMG title="RSS 2.0" class="rssLinkImageStyle" src="./niedermann_files/feed-icon-16x16.gif" alt="RSS 2.0" border="0"></A></TD>
+					</TR>
+				</TBODY></TABLE>
+			</TD>
+			<TD>
+<SCRIPT type="text/javascript">
+<!--
+function doSearch(searchString)
+{
+	// Trim string.
+	searchString = searchString.replace(/^\s+|\s+$/g, "");
+	if (searchString.length > 0)
+	{
+		location.href = "http://www.niedermann.dk/SearchView.aspx?q=" + encodeURIComponent(searchString);
+	}
+
+	return false;
+}
+-->
+</SCRIPT>
+<DIV class="searchContainerStyle">
+	<INPUT id="searchString" onkeypress="javascript:if (event.keyCode == 13) { doSearch(searchString.value); return false; }" type="text" class="searchTextBoxStyle">
+	<INPUT name="_ctl6:searchButton" type="button" id="_ctl6_searchButton" onclick="doSearch(searchString.value);" class="searchButtonStyle" value="S&oslash;g">
+</DIV>
+</TD>
+		</TR>
+	</TBODY></TABLE>	
+</DIV>
+<DIV class="headershadow"></DIV>
+
+<TABLE cellspacing="0" cellpadding="0" width="100%" border="0">
+	<TBODY><TR valign="top">
+		
+		<TD class="mainbodyareaframe" width="100%">      
+			<DIV>
+				<SCRIPT type="text/javascript"><!--
+					google_ad_client = "pub-3510695818971885";
+					/* Lang2, 728x90, oprettet 26-02-09 */
+					google_ad_slot = "1178042647";
+					google_ad_width = 728;
+					google_ad_height = 90;
+					//-->
+				</SCRIPT>
+				<SCRIPT type="text/javascript" src="./niedermann_files/show_ads.js">
+				</SCRIPT><SCRIPT src="./niedermann_files/expansion_embed.js"></SCRIPT><SCRIPT src="./niedermann_files/test_domain.js"></SCRIPT><SCRIPT>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</SCRIPT><INS style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px"><INS style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px"><IFRAME allowtransparency="true" frameborder="0" height="90" hspace="0" id="google_ads_frame1" marginheight="0" marginwidth="0" name="google_ads_frame" scrolling="no" src="./niedermann_files/ads(1).htm" style="left:0;position:absolute;top:0" vspace="0" width="728"></IFRAME></INS></INS>
+		</DIV>
+			
+			 
+			<DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2010-05-12.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;12. maj 2010
+</DIV>
+<A name="a91776158-a7f1-490d-a36f-dd9def7cf9ee"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2010/05/12/ClickAndDoubleClickInXNAGames.aspx">Click and double click in XNA Games</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>Windows developers who are used to click events in WinForms, WPF or Silverlight might miss click and double click events, but because of the game loop where everything is drawn and updated every few milliseconds an event based approach is probably not a good idea in most cases. Not so much because of the performance of an event based approach, but more because the complexity is overwhelming. If several users clicks and double clicks several keys on the keyboard simultaneously, how would you decide which of these are clicked and in which order, and further more it is not obvious to subscribers of the events that they are in the game loop, so they might do code which performs inadequately.</P> <P>I have made a few generic classes that expands the MouseState, GamePadState and KeyboardState in order to make click “events” available. But of course I utilize the standard polling mechanism in XNA which is to call GetState() on each device.</P> <P>The approach is that I call my own version of GetState() in the main game loop. My GetState() method first enqueues the state in a Queue, and then dequeues all states older than 500 ms, before the state is returned. In this way a historical map of user interactions is maintained at all times.</P> <P>Now I can simply check if a key or button was clicked by checking if the key was pressed and then released “historically”. Similarly I can check for double click by checking if the key or button was pressed, then released, then pressed again and then released again.</P> <P>Now you probably realize why I go back 500 ms. It is because this is the standard time in which a double click should be executed.</P> <P>I have used this approach in the game Protect the Carrot at <A href="http://www.niedermann.dk/ct.ashx?id=91776158-a7f1-490d-a36f-dd9def7cf9ee&url=http%3a%2f%2fptc.codeplex.com">http://ptc.codeplex.com</A> and it works like a charm (The url for the game does not work today, since the game will only be published in a few weeks).</P> <P>Here is the implementation of the MouseExtended class which uses this approach:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Collections.Generic;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Linq;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Text;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Input;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN><SPAN class="keyword">namespace</SPAN><SPAN>&nbsp;PTC.Input&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">class</SPAN><SPAN>&nbsp;MouseExtended&nbsp;:&nbsp;InputDeviceExtended&lt;MouseState&gt;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">static</SPAN><SPAN>&nbsp;MouseExtended&nbsp;m_Current;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">static</SPAN><SPAN>&nbsp;MouseExtended&nbsp;Current&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">get</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(m_Current&nbsp;==&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_Current&nbsp;=&nbsp;<SPAN class="keyword">new</SPAN><SPAN>&nbsp;MouseExtended();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;m_Current;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;MouseState&nbsp;GetState(GameTime&nbsp;currentTime)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DequeueOldStates(currentTime);&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MouseState&nbsp;state&nbsp;=&nbsp;Mouse.GetState();&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EnqueueNewState(currentTime,&nbsp;state);&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;ClickCount(MouseButton&nbsp;checkButton,&nbsp;</SPAN><SPAN class="keyword">int</SPAN><SPAN>&nbsp;requiredCount)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ButtonState&nbsp;found&nbsp;=&nbsp;ButtonState.Released;&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">int</SPAN><SPAN>&nbsp;count&nbsp;=&nbsp;0;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">foreach</SPAN><SPAN>&nbsp;(InputStateExtended&lt;MouseState&gt;&nbsp;stateExt&nbsp;</SPAN><SPAN class="keyword">in</SPAN><SPAN>&nbsp;RecordedStates)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(found&nbsp;==&nbsp;ButtonState.Pressed&nbsp;&amp;&amp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ButtonStateToCheck(stateExt.State,&nbsp;checkButton)&nbsp;==&nbsp;ButtonState.Released)&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++;&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(count&nbsp;&gt;=&nbsp;requiredCount)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">true</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;found&nbsp;=&nbsp;ButtonStateToCheck(stateExt.State,&nbsp;checkButton);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">false</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;ButtonState&nbsp;ButtonStateToCheck(MouseState&nbsp;state,&nbsp;MouseButton&nbsp;checkButton)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">switch</SPAN><SPAN>&nbsp;(checkButton)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">case</SPAN><SPAN>&nbsp;MouseButton.Left:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.LeftButton;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">case</SPAN><SPAN>&nbsp;MouseButton.Middle:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.MiddleButton;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">case</SPAN><SPAN>&nbsp;MouseButton.Right:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.RightButton;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">case</SPAN><SPAN>&nbsp;MouseButton.XButton1:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.XButton1;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">case</SPAN><SPAN>&nbsp;MouseButton.XButton2:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.XButton2;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">default</SPAN><SPAN>:&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;state.LeftButton;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;WasSingleClick(MouseButton&nbsp;checkButton)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>(ClickCount(checkButton,&nbsp;1));&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;WasDoubleClick(MouseButton&nbsp;checkButton)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;(ClickCount(checkButton,&nbsp;2));&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">using System;<BR>using System.Collections.Generic;<BR>using System.Linq;<BR>using System.Text;<BR>using Microsoft.Xna.Framework.Input;<BR>using Microsoft.Xna.Framework;<BR><BR>namespace PTC.Input<BR>{<BR>    public class MouseExtended : InputDeviceExtended&lt;MouseState&gt;<BR>    {<BR>        private static MouseExtended m_Current;<BR>        public static MouseExtended Current<BR>        {<BR>            get<BR>            {<BR>                if (m_Current == null)<BR>                {<BR>                    m_Current = new MouseExtended();<BR>                }<BR>                return m_Current;<BR>            }<BR>        }<BR><BR>        public MouseState GetState(GameTime currentTime)<BR>        {<BR>            DequeueOldStates(currentTime);<BR>            MouseState state = Mouse.GetState();<BR>            EnqueueNewState(currentTime, state);<BR>            return state;<BR>        }<BR><BR>        private bool ClickCount(MouseButton checkButton, int requiredCount)<BR>        {<BR>            ButtonState found = ButtonState.Released;<BR>            int count = 0;<BR>            foreach (InputStateExtended&lt;MouseState&gt; stateExt in RecordedStates)<BR>            {<BR>                if (found == ButtonState.Pressed &amp;&amp; <BR>                    ButtonStateToCheck(stateExt.State, checkButton) == ButtonState.Released)<BR>                {<BR>                    count++;<BR>                    if (count &gt;= requiredCount)<BR>                        return true;<BR>                }<BR>                found = ButtonStateToCheck(stateExt.State, checkButton);<BR>            }<BR>            return false;<BR>        }<BR><BR>        private ButtonState ButtonStateToCheck(MouseState state, MouseButton checkButton)<BR>        {<BR>            switch (checkButton)<BR>            {<BR>                case MouseButton.Left:<BR>                    return state.LeftButton;<BR>                case MouseButton.Middle:<BR>                    return state.MiddleButton;<BR>                case MouseButton.Right:<BR>                    return state.RightButton;<BR>                case MouseButton.XButton1:<BR>                    return state.XButton1;<BR>                case MouseButton.XButton2:<BR>                    return state.XButton2;<BR>                default:<BR>                    return state.LeftButton;<BR>            }<BR>        }<BR><BR>        public bool WasSingleClick(MouseButton checkButton)<BR>        {<BR>            return(ClickCount(checkButton, 1));<BR>        }<BR><BR>        public bool WasDoubleClick(MouseButton checkButton)<BR>        {<BR>            return (ClickCount(checkButton, 2));<BR>        }<BR><BR>    }<BR>}</PRE>
+<P>And here is the generic InputDeviceExtended class which MouseExtended inherits:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Collections.Generic;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Linq;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Audio;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Content;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.GamerServices;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Graphics;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Input;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Media;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Net;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;Microsoft.Xna.Framework.Storage;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN><SPAN class="keyword">namespace</SPAN><SPAN>&nbsp;PTC.Input&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">class</SPAN><SPAN>&nbsp;InputDeviceExtended&lt;S&gt;&nbsp;where&nbsp;S&nbsp;:&nbsp;</SPAN><SPAN class="keyword">struct</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;Queue&lt;InputStateExtended&lt;S&gt;&gt;&nbsp;m_RecordedStates&nbsp;=&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;Queue&lt;InputStateExtended&lt;S&gt;&gt;();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;Queue&lt;InputStateExtended&lt;S&gt;&gt;&nbsp;RecordedStates&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">get</SPAN><SPAN>&nbsp;{&nbsp;</SPAN><SPAN class="keyword">return</SPAN><SPAN>&nbsp;m_RecordedStates;&nbsp;}&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;Stack&lt;InputStateExtended&lt;S&gt;&gt;&nbsp;m_StatesForReuse&nbsp;=&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;Stack&lt;InputStateExtended&lt;S&gt;&gt;();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">protected</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;EnqueueNewState(GameTime&nbsp;time,&nbsp;S&nbsp;state)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(!state.Equals(m_CurrentState))&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_CurrentState&nbsp;=&nbsp;state;&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_RecordedStates.Enqueue(CreateState(time,&nbsp;state));&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;S&nbsp;m_CurrentState;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;S&nbsp;CurrentState&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">get</SPAN><SPAN>&nbsp;{&nbsp;</SPAN><SPAN class="keyword">return</SPAN><SPAN>&nbsp;m_CurrentState;&nbsp;}&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">protected</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;DequeueOldStates(GameTime&nbsp;currentTime)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InputStateExtended&lt;S&gt;&nbsp;state&nbsp;=&nbsp;<SPAN class="keyword">null</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(m_RecordedStates.Count&nbsp;&gt;&nbsp;0)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state&nbsp;=&nbsp;m_RecordedStates.Peek();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(state&nbsp;!=&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>&nbsp;&amp;&amp;&nbsp;state.StateTime&nbsp;&lt;&nbsp;currentTime.TotalRealTime.Subtract(</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;TimeSpan(0,&nbsp;0,&nbsp;0,&nbsp;0,&nbsp;InputDeviceConstants.ClickCountTimeMS)))&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_StatesForReuse.Push(m_RecordedStates.Dequeue());&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DequeueOldStates(currentTime);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;InputStateExtended&lt;S&gt;&nbsp;CreateState(GameTime&nbsp;time,&nbsp;S&nbsp;state)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(m_StatesForReuse.Count&nbsp;&gt;&nbsp;0)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">//Reuses&nbsp;the&nbsp;object&nbsp;to&nbsp;fight&nbsp;of&nbsp;the&nbsp;GC</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InputStateExtended&lt;S&gt;&nbsp;stateExt&nbsp;=&nbsp;m_StatesForReuse.Pop();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stateExt.StateTime&nbsp;=&nbsp;time.TotalRealTime;&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stateExt.State&nbsp;=&nbsp;state;&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;stateExt;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">else</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;InputStateExtended&lt;S&gt;(time,&nbsp;state);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">using System;<BR>using System.Collections.Generic;<BR>using System.Linq;<BR>using Microsoft.Xna.Framework;<BR>using Microsoft.Xna.Framework.Audio;<BR>using Microsoft.Xna.Framework.Content;<BR>using Microsoft.Xna.Framework.GamerServices;<BR>using Microsoft.Xna.Framework.Graphics;<BR>using Microsoft.Xna.Framework.Input;<BR>using Microsoft.Xna.Framework.Media;<BR>using Microsoft.Xna.Framework.Net;<BR>using Microsoft.Xna.Framework.Storage;<BR><BR>namespace PTC.Input<BR>{<BR>    public class InputDeviceExtended&lt;S&gt; where S : struct<BR>    {<BR>        private Queue&lt;InputStateExtended&lt;S&gt;&gt; m_RecordedStates = new Queue&lt;InputStateExtended&lt;S&gt;&gt;();<BR><BR>        public Queue&lt;InputStateExtended&lt;S&gt;&gt; RecordedStates<BR>        {<BR>            get { return m_RecordedStates; }<BR>        }<BR><BR>        private Stack&lt;InputStateExtended&lt;S&gt;&gt; m_StatesForReuse = new Stack&lt;InputStateExtended&lt;S&gt;&gt;();<BR><BR>        protected void EnqueueNewState(GameTime time, S state)<BR>        {<BR>            if (!state.Equals(m_CurrentState))<BR>            {<BR>                m_CurrentState = state;<BR>                m_RecordedStates.Enqueue(CreateState(time, state));<BR>            }<BR>        }<BR><BR>        private S m_CurrentState;<BR>        public S CurrentState<BR>        {<BR>            get { return m_CurrentState; }<BR>        }<BR><BR>        protected void DequeueOldStates(GameTime currentTime)<BR>        {<BR>            InputStateExtended&lt;S&gt; state = null;<BR>            if (m_RecordedStates.Count &gt; 0)<BR>            {<BR>                state = m_RecordedStates.Peek();<BR>            }<BR>            if (state != null &amp;&amp; state.StateTime &lt; currentTime.TotalRealTime.Subtract(new TimeSpan(0, 0, 0, 0, InputDeviceConstants.ClickCountTimeMS)))<BR>            {<BR>                m_StatesForReuse.Push(m_RecordedStates.Dequeue());<BR>                DequeueOldStates(currentTime);<BR>            }<BR>        }<BR><BR>        private InputStateExtended&lt;S&gt; CreateState(GameTime time, S state)<BR>        {<BR>            if (m_StatesForReuse.Count &gt; 0)<BR>            {<BR>                //Reuses the object to fight of the GC<BR>                InputStateExtended&lt;S&gt; stateExt = m_StatesForReuse.Pop();<BR>                stateExt.StateTime = time.TotalRealTime;<BR>                stateExt.State = state;<BR>                return stateExt;<BR>            }<BR>            else<BR>            {<BR>                return new InputStateExtended&lt;S&gt;(time, state);<BR>            }<BR>        }<BR>    }<BR>}</PRE>
+<P>Notice that the Recorded States are reused. When dequeued from the queue the are added to a reuse stack. This is a standard trick to fight of the Garbage Collector, by always keeping a reference to objects on the heap they never become garbage + they are reused so the memory use will not explode.</P>
+<P>I have also implemented the necessary extended classes for the Keyboard and the gamepad. I have included them in the attachment to this post. I have not tested the GamepadExtended class since I do not own a Gamepad, but it is implemented exactly as the keyboard and mouse classes and ought to work. </P>
+<P>To wire up the new classes you just add the relevant Getstate() calls to the Update game loop like so:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">protected</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">override</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Update(GameTime&nbsp;gameTime)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;KeyboardExtended.Current.GetState(gameTime);&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;MouseExtended.Current.GetState(gameTime);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">base</SPAN><SPAN>.Update(gameTime);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">protected override void Update(GameTime gameTime)<BR>{<BR>    KeyboardExtended.Current.GetState(gameTime);<BR>    MouseExtended.Current.GetState(gameTime);<BR>    base.Update(gameTime);<BR>}</PRE>
+<P>And then you can check for click and double click “events”. For instance you check for double click of the left mouse button like this:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">if</SPAN><SPAN>(MouseExtended.Current.WasDoubleClick(MouseButton.Left)))&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">//Do&nbsp;double&nbsp;click&nbsp;reaction</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">if(MouseExtended.Current.WasDoubleClick(MouseButton.Left)))<BR>{<BR>    //Do double click reaction<BR>}</PRE>
+<P>Hope you like the stuff.And look out for the amazing “Protect The Carrot” game within the next month or so, at <A href="http://www.niedermann.dk/ct.ashx?id=91776158-a7f1-490d-a36f-dd9def7cf9ee&url=http%3a%2f%2fptc.codeplex.com">http://ptc.codeplex.com</A></P>
+<P>In InputDeviceExtended.zip I have included the code for all the InputDevice classes.</P>
+<P>
+</P><DIV style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:fb3a1972-4489-4e52-abe7-25a00bb07fdf:f7cf6f0f-1ed3-4885-8873-f8eaf969cb75" class="wlWriterEditableSmartContent"><P> <A href="http://www.niedermann.dk/ct.ashx?id=91776158-a7f1-490d-a36f-dd9def7cf9ee&url=http%3a%2f%2fwww.niedermann.dk%2fcontent%2fbinary%2fWindowsLiveWriter%2fClickanddoubleclickinXNAGames_EF42%2fInputDeviceExtended.zip" target="_blank">InputDeviceExtended.zip</A></P></DIV><P></P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		12. maj 2010 21:38:51 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2010/05/12/ClickAndDoubleClickInXNAGames.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,91776158-a7f1-490d-a36f-dd9def7cf9ee.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,NET.aspx">.NET</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,TipsTricks.aspx">Tips &amp; Tricks</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,XNA.aspx">XNA</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2010-03-07.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;7. marts 2010
+</DIV>
+<A name="a75f4c0a6-612f-47d7-a2e7-518675fec14a"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2010/03/07/FastBulkUpdatesAndInsertsInMicrosoftCRM40.aspx">Fast bulk updates and inserts in Microsoft CRM 4.0</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>In Microsoft CRM you have no choice when doing updates to the database. You have to use the CRM Web Service. </P> <P>Microsoft does not support direct SQL updates of the underlying SQL Server tables, because of the behind the scenes CRM magic.</P> <P>The Web Service is OK for small amounts of data. But recently I had a case where I had to code an import of a spreadsheet with up to 100.000 rows into CRM.</P> <P>This would result in 600.000 web service calls, since there was 5 retrieves for each updates. The first tests showed that each web service call would be about 1,5 seconds even though they were done internally on the CRM server a fast quad-core 64 bit machine. This would be 900.000 seconds or 250 hours, more than 10 consecutive days.</P> <P>Too slow for our particular business need.</P> <P>Fortunately <A href="http://www.niedermann.dk/ct.ashx?id=75f4c0a6-612f-47d7-a2e7-518675fec14a&url=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fsystem.net.httpwebrequest.unsafeauthenticatedconnectionsharing(VS.71).aspx" target="_blank">UnsafeAuthenticatedConnectionSharing</A> came to the rescue.</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-xml"><LI class="alt"><SPAN><SPAN>proxy.OnGetWebRequest&nbsp;+=&nbsp;(sender,&nbsp;e)&nbsp;=</SPAN><SPAN class="tag">&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="attribute">e.WebRequest.ConnectionGroupName</SPAN><SPAN>&nbsp;=&nbsp;</SPAN><SPAN class="attribute-value">InitUserId</SPAN><SPAN>.ToString();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="attribute">e.WebRequest.UnsafeAuthenticatedConnectionSharing</SPAN><SPAN>&nbsp;=&nbsp;</SPAN><SPAN class="attribute-value">true</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>};&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="xml" name="code" style="display: none; ">proxy.OnGetWebRequest += (sender, e) =&gt;<BR>{<BR>    e.WebRequest.ConnectionGroupName = InitUserId.ToString();<BR>    e.WebRequest.UnsafeAuthenticatedConnectionSharing = true;<BR>};</PRE>
+<P>On the CrmService proxy you set the <A href="http://www.niedermann.dk/ct.ashx?id=75f4c0a6-612f-47d7-a2e7-518675fec14a&url=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fsystem.net.httpwebrequest.unsafeauthenticatedconnectionsharing(VS.71).aspx" target="_blank">UnsafeAuthenticatedConnectionSharing</A> to true. This just means that other calls to the web service will use the same connection to the database, and without reauthenticating. Which means that the next call with <A href="http://www.niedermann.dk/ct.ashx?id=75f4c0a6-612f-47d7-a2e7-518675fec14a&url=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fsystem.net.httpwebrequest.unsafeauthenticatedconnectionsharing(VS.71).aspx" target="_blank">UnsafeAuthenticatedConnectionSharing</A> set to true, will use the same connection. And will be assumed to be the same user. <A href="http://www.niedermann.dk/ct.ashx?id=75f4c0a6-612f-47d7-a2e7-518675fec14a&url=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fsystem.net.webrequest.connectiongroupname.aspx" target="_blank">ConnectionGroupName</A> is a convenient way to split up the connections so that we don’t accidentally reuse connections between different users. This can be done simply by using the guid of the current CRM User.</P>
+<P>And now the important thing. This makes the web service call take 3/100 seconds. About 50 times faster ! The 600.000 calls can be done in 5 hours. Of course this speed was only attained because all calls where done internally on the CRM Server.</P>
+<P>So why are these two settings not the default ? I don’t know. Perhaps because if you have a site with millions of users the amount of memory used up by each connection will be too big. But on a typical CRM site I would guess there would not be enough users to make this a problem. </P>
+<P>But to be safe, if you just use the 2 properties in the areas that need performance with little concurrency between users you will be OK.</P>
+<P>This and other performance best practices for CRM can be seen on <A href="http://www.niedermann.dk/ct.ashx?id=75f4c0a6-612f-47d7-a2e7-518675fec14a&url=http%3a%2f%2ftechnet.microsoft.com%2fen-us%2flibrary%2fbb955073.aspx" target="_blank">technet</A>. But I don’t think any will outperform this one.</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		7. marts 2010 14:39:19 (GMT Standard Time, UTC+00:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2010/03/07/FastBulkUpdatesAndInsertsInMicrosoftCRM40.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,75f4c0a6-612f-47d7-a2e7-518675fec14a.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-11-13.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;13. november 2009
+</DIV>
+<A name="a0a44a9f8-67aa-45a8-aea4-d644321cd0f7"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/11/13/APIForStickyNotesInWindows7.aspx">API for Sticky Notes in Windows 7</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>In the <A href="http://www.niedermann.dk/ct.ashx?id=0a44a9f8-67aa-45a8-aea4-d644321cd0f7&url=http%3a%2f%2fwww.niedermann.dk%2f2009%2f10%2f20%2fWindows7ContestFinished.aspx" target="_blank">Day View</A> project I needed to open a Windows 7 Sticky Note programmatically and write to it. Unfortunately I found out that there is not an API for the Sticky Notes application. At least not a managed one.</P> <P>So I had to fake it and make my own API. I have made a small class that basicly uses Process.Start to open the program, and SendKeys to write to the Note.</P> <P>Here it is:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Diagnostics;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.IO;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Runtime.InteropServices;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Threading;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="keyword">using</SPAN><SPAN>&nbsp;System.Windows.Forms;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN><SPAN class="keyword">namespace</SPAN><SPAN>&nbsp;DayView&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">class</SPAN><SPAN>&nbsp;StickyNote&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">const</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">string</SPAN><SPAN>&nbsp;m_ProcessName&nbsp;=&nbsp;</SPAN><SPAN class="string">"StikyNot"</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">readonly</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">string</SPAN><SPAN>&nbsp;m_ProcessFileName&nbsp;=&nbsp;Path.Combine(Environment.SystemDirectory,&nbsp;</SPAN><SPAN class="string">"StikyNot.exe"</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">event</SPAN><SPAN>&nbsp;EventHandler&nbsp;m_Activated&nbsp;=&nbsp;</SPAN><SPAN class="keyword">delegate</SPAN><SPAN>&nbsp;{&nbsp;};&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DllImport(<SPAN class="string">"user32.dll"</SPAN><SPAN>)]&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<SPAN class="keyword">return</SPAN><SPAN>:&nbsp;MarshalAs(UnmanagedType.Bool)]&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">static</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">extern</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;SetForegroundWindow(IntPtr&nbsp;hWnd);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Activate()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">bool</SPAN><SPAN>&nbsp;makeNewNote&nbsp;=&nbsp;</SPAN><SPAN class="keyword">true</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Process&nbsp;p&nbsp;=&nbsp;FindProcess();&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(p&nbsp;==&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p&nbsp;=&nbsp;StartProcess();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(!NoteContainsText(p.MainWindowHandle))&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;makeNewNote&nbsp;=&nbsp;<SPAN class="keyword">false</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">var</SPAN><SPAN>&nbsp;state&nbsp;=&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;StickyNoteState();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state.MakeNewNote&nbsp;=&nbsp;makeNewNote;&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state.StickyNoteProcess&nbsp;=&nbsp;p;&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ThreadPool.QueueUserWorkItem(Activate,&nbsp;state);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Activate(</SPAN><SPAN class="keyword">object</SPAN><SPAN>&nbsp;state)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">var</SPAN><SPAN>&nbsp;stickyNoteState&nbsp;=&nbsp;state&nbsp;</SPAN><SPAN class="keyword">as</SPAN><SPAN>&nbsp;StickyNoteState;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(stickyNoteState.MakeNewNote)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewNote(stickyNoteState.StickyNoteProcess);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OnActivated();&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;Process&nbsp;StartProcess()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">var</SPAN><SPAN>&nbsp;startInfo&nbsp;=&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;ProcessStartInfo(m_ProcessFileName);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Process&nbsp;p&nbsp;=&nbsp;Process.Start(startInfo);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thread.Sleep(200);&nbsp;<SPAN class="comment">//This&nbsp;is&nbsp;an&nbsp;annoying&nbsp;hack.&nbsp;I&nbsp;haven't&nbsp;been&nbsp;able&nbsp;to&nbsp;find&nbsp;another&nbsp;way&nbsp;to&nbsp;be&nbsp;sure&nbsp;the&nbsp;process&nbsp;is&nbsp;started.</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;p;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;NewNote(Process&nbsp;p)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SetForegroundWindow(p.MainWindowHandle);&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signal(<SPAN class="string">"^n"</SPAN><SPAN>);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">///&nbsp;&lt;summary&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">///&nbsp;Weird&nbsp;hack&nbsp;to&nbsp;find&nbsp;out&nbsp;if&nbsp;note&nbsp;contains&nbsp;text.</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">///&nbsp;&lt;/summary&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">///&nbsp;&lt;returns&gt;&lt;/returns&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;NoteContainsText(IntPtr&nbsp;handle)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">string</SPAN><SPAN>&nbsp;textOfClipboard&nbsp;=&nbsp;Clipboard.GetText();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signal(<SPAN class="string">"^a"</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signal(<SPAN class="string">"^c"</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signal(<SPAN class="string">"{RIGHT}"</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">string</SPAN><SPAN>&nbsp;noteText&nbsp;=&nbsp;Clipboard.GetText().Trim();&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(textOfClipboard&nbsp;==&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clipboard.SetText(textOfClipboard);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;!</SPAN><SPAN class="keyword">string</SPAN><SPAN>.IsNullOrEmpty(noteText);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;Process&nbsp;FindProcess()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Process[]&nbsp;processes&nbsp;=&nbsp;Process.GetProcessesByName(m_ProcessName);&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>(processes&nbsp;!=&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>&nbsp;&amp;&amp;&nbsp;processes.Length&nbsp;&gt;&nbsp;0)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;processes[0];&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">null</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">internal</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;OnActivated()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_Activated(<SPAN class="keyword">this</SPAN><SPAN>,&nbsp;</SPAN><SPAN class="keyword">new</SPAN><SPAN>&nbsp;EventArgs());&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">event</SPAN><SPAN>&nbsp;EventHandler&nbsp;Activated&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add&nbsp;{&nbsp;m_Activated&nbsp;+=&nbsp;value;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove&nbsp;{&nbsp;m_Activated&nbsp;-=&nbsp;value;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Signal(</SPAN><SPAN class="keyword">string</SPAN><SPAN>&nbsp;message)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendKeys.SendWait(message);&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendKeys.Flush();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">class</SPAN><SPAN>&nbsp;StickyNoteState&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;MakeNewNote&nbsp;{&nbsp;</SPAN><SPAN class="keyword">get</SPAN><SPAN>;&nbsp;</SPAN><SPAN class="keyword">set</SPAN><SPAN>;&nbsp;}&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;Process&nbsp;StickyNoteProcess&nbsp;{&nbsp;</SPAN><SPAN class="keyword">get</SPAN><SPAN>;&nbsp;</SPAN><SPAN class="keyword">set</SPAN><SPAN>;&nbsp;}&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">using System;<BR>using System.Diagnostics;<BR>using System.IO;<BR>using System.Runtime.InteropServices;<BR>using System.Threading;<BR>using System.Windows.Forms;<BR><BR>namespace DayView<BR>{<BR>    public class StickyNote<BR>    {<BR>        private const string m_ProcessName = "StikyNot";<BR>        private readonly string m_ProcessFileName = Path.Combine(Environment.SystemDirectory, "StikyNot.exe");<BR>        private event EventHandler m_Activated = delegate { };<BR>        [DllImport("user32.dll")]<BR>        [return: MarshalAs(UnmanagedType.Bool)]<BR>        static extern bool SetForegroundWindow(IntPtr hWnd);<BR><BR>        public void Activate()<BR>        {<BR>            bool makeNewNote = true;<BR>            Process p = FindProcess();<BR>            if (p == null)<BR>            {<BR>                p = StartProcess();<BR>                if (!NoteContainsText(p.MainWindowHandle))<BR>                {<BR>                    makeNewNote = false;<BR>                }<BR>            }<BR>            var state = new StickyNoteState();<BR>            state.MakeNewNote = makeNewNote;<BR>            state.StickyNoteProcess = p;<BR>            ThreadPool.QueueUserWorkItem(Activate, state);<BR>        }<BR><BR>        private void Activate(object state)<BR>        {<BR>            var stickyNoteState = state as StickyNoteState;<BR>            if (stickyNoteState.MakeNewNote)<BR>            {<BR>                NewNote(stickyNoteState.StickyNoteProcess);<BR>            }<BR>            OnActivated();<BR>        }<BR><BR>        private Process StartProcess()<BR>        {<BR>            var startInfo = new ProcessStartInfo(m_ProcessFileName);<BR>            Process p = Process.Start(startInfo);<BR>            Thread.Sleep(200); //This is an annoying hack. I haven't been able to find another way to be sure the process is started.<BR>            return p;<BR>        }<BR><BR>        private void NewNote(Process p)<BR>        {<BR>            SetForegroundWindow(p.MainWindowHandle);<BR>            Signal("^n");            <BR>        }<BR><BR>        /// &lt;summary&gt;<BR>        /// Weird hack to find out if note contains text.<BR>        /// &lt;/summary&gt;<BR>        /// &lt;returns&gt;&lt;/returns&gt;<BR>        private bool NoteContainsText(IntPtr handle)<BR>        {<BR>            string textOfClipboard = Clipboard.GetText();<BR>            Signal("^a");<BR>            Signal("^c");<BR>            Signal("{RIGHT}");<BR>            string noteText = Clipboard.GetText().Trim();<BR>            if (textOfClipboard == null)<BR>            {<BR>                Clipboard.SetText(textOfClipboard);<BR>            }<BR>            return !string.IsNullOrEmpty(noteText);<BR>        }<BR><BR>        private Process FindProcess()<BR>        {<BR>                Process[] processes = Process.GetProcessesByName(m_ProcessName);<BR>                if(processes != null &amp;&amp; processes.Length &gt; 0)<BR>                {<BR>                    return processes[0];<BR>                }<BR>            return null;<BR>        }<BR><BR>        internal void OnActivated()<BR>        {<BR>            m_Activated(this, new EventArgs());<BR>        }<BR><BR>        public event EventHandler Activated<BR>        {<BR>            add { m_Activated += value; }<BR>            remove { m_Activated -= value; }<BR>        }<BR><BR>        public void Signal(string message)<BR>        {<BR>            SendKeys.SendWait(message);<BR>            SendKeys.Flush();<BR>        }<BR>    }<BR><BR>    public class StickyNoteState<BR>    {<BR>        public bool MakeNewNote { get; set; }<BR>        public Process StickyNoteProcess { get; set; }<BR><BR>    }<BR>}</PRE>
+<P>It works OK. The only really buggy thing in the code is in line 47, where I have to use a Thread.Sleep in order to make sure the note is loaded before I write to it. Unfortunately this is necessary because the Process class does not provide an event to signal when it has finished loading. I arbitrarily chose 200 milliseconds for the Sleep. Larger values might be necessary on slower computers.</P>
+<P>In order to use the class you have to configure SendKeys in your app.config like this:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-xml"><LI class="alt"><SPAN><SPAN class="tag">&lt;?</SPAN><SPAN class="tag-name">xml</SPAN><SPAN>&nbsp;</SPAN><SPAN class="attribute">version</SPAN><SPAN>=</SPAN><SPAN class="attribute-value">"1.0"</SPAN><SPAN>&nbsp;</SPAN><SPAN class="attribute">encoding</SPAN><SPAN>=</SPAN><SPAN class="attribute-value">"utf-8"</SPAN><SPAN>&nbsp;</SPAN><SPAN class="tag">?&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="tag">&lt;</SPAN><SPAN class="tag-name">configuration</SPAN><SPAN class="tag">&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;<SPAN class="tag">&lt;</SPAN><SPAN class="tag-name">appSettings</SPAN><SPAN class="tag">&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="tag">&lt;</SPAN><SPAN class="tag-name">add</SPAN><SPAN>&nbsp;</SPAN><SPAN class="attribute">key</SPAN><SPAN>=</SPAN><SPAN class="attribute-value">"SendKeys"</SPAN><SPAN>&nbsp;</SPAN><SPAN class="attribute">value</SPAN><SPAN>=</SPAN><SPAN class="attribute-value">"SendInput"</SPAN><SPAN class="tag">/&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;<SPAN class="tag">&lt;/</SPAN><SPAN class="tag-name">appSettings</SPAN><SPAN class="tag">&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN><SPAN class="tag">&lt;/</SPAN><SPAN class="tag-name">configuration</SPAN><SPAN class="tag">&gt;</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI></OL></DIV><PRE class="xml" name="code" style="display: none; ">&lt;?xml version="1.0" encoding="utf-8" ?&gt;<BR>&lt;configuration&gt;<BR>  &lt;appSettings&gt;<BR>    &lt;add key="SendKeys" value="SendInput"/&gt;<BR>  &lt;/appSettings&gt;<BR>&lt;/configuration&gt;</PRE>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		13. november 2009 23:28:10 (GMT Standard Time, UTC+00:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/11/13/APIForStickyNotesInWindows7.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,0a44a9f8-67aa-45a8-aea4-d644321cd0f7.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,NET.aspx">.NET</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,TipsTricks.aspx">Tips &amp; Tricks</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,Windows7.aspx">Windows 7</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><A name="ad70452c9-013d-49b4-82cc-b5290ae51893"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/11/13/RetroXNAGameKlimakonfliktUnderDevelopment.aspx">Retro XNA Game Klimakonflikt under development</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>I am currently developing the game Klimakonflikt with 5 other guys. It is a Retro arcade game, Pac-man style, with nice 2D Graphics and music. Here is a screenshot from the game:</P> <P><A href="http://www.niedermann.dk/ct.ashx?id=d70452c9-013d-49b4-82cc-b5290ae51893&url=http%3a%2f%2fwww.niedermann.dk%2fcontent%2fbinary%2fWindowsLiveWriter%2fRetroXNAGameKlimakonfliktunderdevelopmen_1B4%2fklimakonflikt_screenshot_4.png"><IMG style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="klimakonflikt_screenshot" border="0" alt="klimakonflikt_screenshot" src="./niedermann_files/klimakonflikt_screenshot_thumb_1.png" width="415" height="295"></A> </P> <P>The current release, documentation and source code can be downloaded from here <A href="http://www.niedermann.dk/ct.ashx?id=d70452c9-013d-49b4-82cc-b5290ae51893&url=http%3a%2f%2fklimakonflikt.codeplex.com" target="_blank">http://klimakonflikt.codeplex.com</A>&nbsp;</P> <P>The game is inherently for 2 players but we are working on the single player edition. The AI in the current release is pretty daft, but in the next release it will be much improved. Also we are working on a WPF leveleditor, powerups and other fun stuff.</P> <P>One of my co-developers Jakob has released a blog about the game and XNA development in general at <A href="http://www.niedermann.dk/ct.ashx?id=d70452c9-013d-49b4-82cc-b5290ae51893&url=http%3a%2f%2fxnafan.net" target="_blank">http://xnafan.net</A></P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		13. november 2009 23:11:29 (GMT Standard Time, UTC+00:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/11/13/RetroXNAGameKlimakonfliktUnderDevelopment.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,d70452c9-013d-49b4-82cc-b5290ae51893.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,NET.aspx">.NET</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,GamesPuzzles.aspx">Games &amp; Puzzles</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,WPF.aspx">WPF</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,XNA.aspx">XNA</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-10-20.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;20. oktober 2009
+</DIV>
+<A name="a6ed1b80e-0272-4cf6-91f1-b963906577bf"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/10/20/Windows7ContestFinished.aspx">Windows 7 Contest finished</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>Last friday (the 9th) just one day before the deadline I finished my application for the <A href="http://www.niedermann.dk/ct.ashx?id=6ed1b80e-0272-4cf6-91f1-b963906577bf&url=http%3a%2f%2fcode7contest.com" target="_blank">Windows 7 Contest</A>. "DayView" here is the description I made for the contest: </P> <P>"DayView provides an overview of the appointments in all your calendars by a clever use of the Windows 7 Task bar. It shows your appointments, and you can scroll through them with toolbar buttons, and create Sticky Notes for the most important appointments. DayView uses MEF for a plugable architecture. It comes with plugins for Outlook and Sunbird."</P> <P>Now I just have to wait for the evaluation the 26th of october. I have not yet decided whether I will continue working on DayView or move on to other stuff.</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		20. oktober 2009 22:11:16 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/10/20/Windows7ContestFinished.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,6ed1b80e-0272-4cf6-91f1-b963906577bf.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-08-03.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;3. august 2009
+</DIV>
+<A name="ae0b4bd51-4730-4be3-a518-cd95a234e1d0"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/08/03/ExtremelyFastSudokusOfAnySizeProgrammedInSilverlight3.aspx">Extremely fast Sudokus of any size programmed in silverlight 3</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>I must admit that I have never understood why it was fun to solve Sudoku's. But as a programmer I was fascinated with the idea of making the perfect Sudoku puzzle generator algorithm from the very first time I heard of Sudoku. Of course I wanted to make it so general that it could not only make the boring old 9x9 sudoku. But sodukus of any size 4x4, 9x9, 16x16, 25x25 and so on...</P> <P>This resulted in a .NET 1.1 WinForms program 4-5 years ago in which I could randomly generate all sudoku combinations from 4x4 to 36x36. I created an algorithm that started in the upper left corner and put in a random number then moving to the next square put in a new random number from the remaining numbers. This meant that the algorithm had to backtrack when coming to a deadend where no number was valid. This approach guaranteed that all possible Sudokus could be generated, but it was extremely slow. Well for 9x9 sudokus it was less than a second but for 36x36 sudokus it was around 16 hours :O)</P> <P>A few weeks ago I thought it was time to try out <A href="http://www.niedermann.dk/ct.ashx?id=e0b4bd51-4730-4be3-a518-cd95a234e1d0&url=http%3a%2f%2fsilverlight.net" target="_blank">Silverlight</A> and make a small program to test Microsofts "new" programming platform, but I had to come up with an idea for a small program. And for some reason Sudoku popped up again.</P> <P>And I came up with a novel idea for an extremely fast generator (try it <A href="http://www.niedermann.dk/ct.ashx?id=e0b4bd51-4730-4be3-a518-cd95a234e1d0&url=http%3a%2f%2fwww.niedermann.dk%2fSudoku%2fSudoku.aspx" target="_blank">here</A>). It has been said that no ideas are new anymore and I am pretty sure that I am not the first to think of this since the algorithm is pretty obvious. I start with a valid Sudoku as a template and then apply transformations of the columns, the rows and the numbers themselves. </P> <P>To generate a valid Sudoku I first generate the template. The template is generated by starting with 1 in the upper left corner and then counting upwards. Next I go to the 4th row and start in the second column counting from 1 again like this:</P> <P><A href="http://www.niedermann.dk/ct.ashx?id=e0b4bd51-4730-4be3-a518-cd95a234e1d0&url=http%3a%2f%2fwww.niedermann.dk%2fcontent%2fbinary%2fWindowsLiveWriter%2fExtremelyfastSudokusofanysizeprogrammedi_1092B%2fs1.jpg"><IMG style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="s1" src="./niedermann_files/s1_thumb.jpg" width="243" border="0"></A> </P> <P>Next I go to the 7th row and the 3rd columm and so on. So I add 3 rows (the square root of 9) each time. In a 16x16 sudoku I add 4 rows each time. The final template is generated in a few milliseconds even in a 400x400 Sudoku. The final template for a 9x9 sudoku looks like this:</P> <P><A href="http://www.niedermann.dk/ct.ashx?id=e0b4bd51-4730-4be3-a518-cd95a234e1d0&url=http%3a%2f%2fwww.niedermann.dk%2fcontent%2fbinary%2fWindowsLiveWriter%2fExtremelyfastSudokusofanysizeprogrammedi_1092B%2fs2.jpg"><IMG style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="s2" src="./niedermann_files/s2_thumb.jpg" width="217" border="0"></A> </P> <P>The template is itself a valid Sudoku.</P> <P>Now I make the transformation using an observation I have made. In any valid Sudoku I can make another valid Sudoku by switching the columns within each block of 3 columns. As indicated in red colour for the first block above.</P> <P>Secondly I can do the same for the rows.</P> <P>And last I can transform the numbers themselves so that all 1's are transformed to a number from 1 to 9. all 2's are transformed to one of the remaining 8 numbers and so on.</P> <P>I could also have applied a 4th transformation&nbsp; that switched the big blocks as columns and rows, but I don't think that it will add much value.</P> <P>In all this the entire puzzle can be generated in milliseconds for even extremely big Sudokus.</P> <P>Try it out yourself at <A href="http://www.niedermann.dk/ct.ashx?id=e0b4bd51-4730-4be3-a518-cd95a234e1d0&url=http%3a%2f%2fwww.niedermann.dk%2fSudoku%2fSudoku.aspx" target="_blank">http://www.niedermann.dk/Sudoku/Sudoku.aspx</A></P> <H2>A few calculations</H2> <H1></H1> <P>Now for some thoughts on completeness.</P> <P>A 4x4 Sudoku has 4x3x2x3x2x2 = 288 possible combinations. Not counting combinations for empty tiles. In my original algorithm I was sure I covered all these combinations.</P> <P>When using my new algorithm I can generate 2x2x2x2x4x3x2 = 384 possible transformations for a 4x4 Sudoku. This is more than the number of possible Sudokus. Which means that some of these transformations must result in the same Sudokus. And furthermore I do not know if there are Sudokus not covered by the transformations. </P> <P>In a 9x9 Sudoku there are 1,83493E+21 possible Sudokus and I can generate 264.539.520 of those or 2.380.855.680 if I had used the extra big block transformations. Not complete at all, but on the other hand a very large amount of Sudokus and at lightning speed.</P> <H2>Empty tiles</H2> <P>A Sudoku isn't really a Sudoku without the empty tiles left for the person to fill out.</P> <P>I just generate the empty tiles by choosing them at random. This method could probably lead to either very boring Sudokus or Sudokus that are impossible to solve. One day I might device some clever algorithm for emptying tiles in a more interesting fashion :O)</P> <H2>Silverlight</H2> <P>My conlusions on this my very first silverlight project is that it is extremely easy to make something appealing in silverlight. On the other hand there are som downsides. It is difficult to communicate between different silverlight hosts. I can only pass strings. When you hit the print button I open another browser window. And I actually have to serialize the Sudoku Grid and deserialize it again in the print window.</P> <P>Another downside is that is not really browser agnostic. I have tried with 3 browsers IE8, IE7 and Firefox 3.5. Right now the only one working properly is IE8. In IE7 the new browser I open for printing has no menu, and so you cannot really print :O) In Firefox the silverlighthost cannot be resized, which is apparently a known issue. But it is a problem in the Sudoku generator because I offer Sudokus of any size. This means that in Firefox only 4x4 and 9x9 Sudokus will look good.</P> <P>BTW: The rendering of a very large Sudoku takes some time of course even though the generation is over in milliseconds. </P> <P>For my next silverlight project I think I will try out Prism and also the Out-of-browser experience.</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		3. august 2009 22:16:48 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/08/03/ExtremelyFastSudokusOfAnySizeProgrammedInSilverlight3.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,e0b4bd51-4730-4be3-a518-cd95a234e1d0.aspx#commentstart">Kommentarer [3]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,GamesPuzzles.aspx">Games &amp; Puzzles</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-07-15.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;15. juli 2009
+</DIV>
+<A name="a7c2564c2-8b2c-4c16-837e-9f0e56f43786"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/07/15/Version12OfSolZipReleased.aspx">Version 1.2 of SolZip released</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>Just released version 1.2 of <A href="http://www.niedermann.dk/ct.ashx?id=7c2564c2-8b2c-4c16-837e-9f0e56f43786&url=http%3a%2f%2fsolzip.codeplex.com%2f" target="_blank">SolZip</A> my convenient tool for Zipping Visual Studio 2008 solutions</P> <P>The major is a single install for SolZipMME, so you won't have to install <A href="http://www.niedermann.dk/ct.ashx?id=7c2564c2-8b2c-4c16-837e-9f0e56f43786&url=http%3a%2f%2fmanagedmenuextension.codeplex.com%2f" target="_blank">ManagedMenuExtensions</A> beforehand.</P> <P>The release notes are here:</P> <OL> <LI>Bug Fix: when multiple projects where referering to the same file it was added to the archive multiple times.</LI> <LI>SolZipMME uses SaveFileDialog instead of FolderBrowserDialog for Zip files.</LI> <LI>A single file installer for SolZipMME.</LI> <LI>Clipboard functionality now works on Vista / Windows Server 2008.</LI> <LI>SolZipGuidance changed. The menu will no longer appear on projects that are not C# projects. SolZipMME not changed.</LI> <LI>Support for $(SolutionDir) and $(ProjectDir) placeholders added</LI> <LI>Now works on Windows Vista even if UAC is not turned off</LI></OL> <P>Enjoy...</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		15. juli 2009 16:05:27 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/07/15/Version12OfSolZipReleased.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,7c2564c2-8b2c-4c16-837e-9f0e56f43786.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,Tools.aspx">Tools</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,VisualStudio.aspx">Visual Studio</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-06-29.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;29. juni 2009
+</DIV>
+<A name="a5feb4e6f-48b5-444f-9057-d2b8be5ef199"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/29/Version11OfSolZipReleased.aspx">Version 1.1 of SolZip released</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>I just released version 1.1 of <A href="http://www.niedermann.dk/ct.ashx?id=5feb4e6f-48b5-444f-9057-d2b8be5ef199&url=http%3a%2f%2fsolzip.codeplex.com%2f" target="_blank">SolZip</A> which can be downloaded from the <A href="http://www.niedermann.dk/ct.ashx?id=5feb4e6f-48b5-444f-9057-d2b8be5ef199&url=http%3a%2f%2fsolzip.codeplex.com%2fRelease%2fProjectReleases.aspx%3fReleaseId%3d29427" target="_blank">download page</A> at the SolZip site.</P> <P>The new action packed version contains one major improvement, one bug fix, and a few name changes:</P> <OL> <LI>Now Source Control bindings for TFS and SCC can be removed from sln and csproj files. The default for all 3 UI's is that the bindings are removed, but you can optionally choose not to remove them. Feel free to contact me if you need bindings from other source control vendors removed.</LI> <LI>A bug fixed that made WinZip clients give a warning when unzipping certain archives made by SolZip. The warning was given when there was .. (2 dots) in a path in one of the zipped files.</LI> <LI>The Name SunZip.exe for the commandline tool was changed to SolZip.exe. Because SunZip sounded too much like UnZip.</LI> <LI>The Name SolutionZipper changed to SolZip everywhere. Except for SolutionZipper.dll which has been changed to SolZipBasis.dll</LI></OL> <P>In the next version I will try to include <A href="http://www.niedermann.dk/ct.ashx?id=5feb4e6f-48b5-444f-9057-d2b8be5ef199&url=http%3a%2f%2fmanagedmenuextension.codeplex.com%2f" target="_blank">ManagedMenuExtensions</A> in the install so you won't have to run more than one setup to install SolZipMME.</P> <P>Enjoy the new version :O)</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		29. juni 2009 20:44:48 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/29/Version11OfSolZipReleased.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,5feb4e6f-48b5-444f-9057-d2b8be5ef199.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,Tools.aspx">Tools</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,VisualStudio.aspx">Visual Studio</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-06-18.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;18. juni 2009
+</DIV>
+<A name="a07d7124e-a714-47c3-a4d4-85bfef5e976a"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/18/BestPracticeDisposePatternC.aspx">Best practice Dispose Pattern C#</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>Here is my take on the Best practice Dispose pattern for most situations. It is heavily influenced by Juval Löwy from IDesigns book "<A href="http://www.niedermann.dk/ct.ashx?id=07d7124e-a714-47c3-a4d4-85bfef5e976a&url=http%3a%2f%2fwww.amazon.co.uk%2fProgramming-NET-Components-Applications-Component-Oriented%2fdp%2f0596102070%2fref%3dsr_1_2%3fie%3dUTF8%26s%3dbooks%26qid%3d1245356943%26sr%3d8-2" target="_blank">Programming .NET Components</A>", and some other sources which I no longer remember, since I made it a few years ago and have stuck to it ever since. Here it is:</P><DIV class="dp-highlighter"><DIV class="bar"><DIV class="tools"><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;ViewSource&#39;,this);return false;">view plain</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;CopyToClipboard&#39;,this);return false;">copy to clipboard</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;PrintSource&#39;,this);return false;">print</A><A href="http://www.niedermann.dk/#" onclick="dp.sh.Toolbar.Command(&#39;About&#39;,this);return false;">?</A></DIV></DIV><OL start="1" class="dp-c"><LI class="alt"><SPAN><SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">class</SPAN><SPAN>&nbsp;Class1&nbsp;:&nbsp;IDisposable&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;m_IsDisposed;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;~Class1()&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dispose(<SPAN class="keyword">false</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;[MethodImpl(MethodImplOptions.Synchronized)]&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">public</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Dispose()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dispose(<SPAN class="keyword">true</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GC.SuppressFinalize(<SPAN class="keyword">this</SPAN><SPAN>);&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">private</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;Dispose(</SPAN><SPAN class="keyword">bool</SPAN><SPAN>&nbsp;isDisposing)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(m_IsDisposed)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">return</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">if</SPAN><SPAN>&nbsp;(isDisposing)&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FreeManagedRessources();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FreeUnmanagedRessources();&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;m_IsDisposed&nbsp;=&nbsp;<SPAN class="keyword">true</SPAN><SPAN>;&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">protected</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">virtual</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;FreeManagedRessources()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">//Free&nbsp;managed&nbsp;ressources&nbsp;here.&nbsp;Typically&nbsp;by&nbsp;calling&nbsp;Dispose&nbsp;on&nbsp;them</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="keyword">protected</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">virtual</SPAN><SPAN>&nbsp;</SPAN><SPAN class="keyword">void</SPAN><SPAN>&nbsp;FreeUnmanagedRessources()&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class="comment">//Free&nbsp;unmanaged&nbsp;ressources&nbsp;here.</SPAN><SPAN>&nbsp;&nbsp;</SPAN></SPAN></LI><LI class="alt"><SPAN>&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;</SPAN></LI><LI class=""><SPAN>}&nbsp;&nbsp;</SPAN></LI></OL></DIV><PRE class="c#" name="code" style="display: none; ">public class Class1 : IDisposable<BR>{<BR>    private bool m_IsDisposed;<BR><BR>    ~Class1()<BR>    {<BR>        Dispose(false);<BR>    }<BR><BR><BR>    [MethodImpl(MethodImplOptions.Synchronized)]<BR>    public void Dispose()<BR>    {<BR>        Dispose(true);<BR>        GC.SuppressFinalize(this);<BR>    }<BR><BR>    private void Dispose(bool isDisposing)<BR>    {<BR>        if (m_IsDisposed)<BR>            return;<BR><BR>        if (isDisposing)<BR>        {<BR>            FreeManagedRessources();<BR>        }<BR>        FreeUnmanagedRessources();<BR>        m_IsDisposed = true;<BR>    }<BR><BR>    protected virtual void FreeManagedRessources()<BR>    {<BR>        //Free managed ressources here. Typically by calling Dispose on them<BR>    }<BR><BR>    protected virtual void FreeUnmanagedRessources()<BR>    {<BR>        //Free unmanaged ressources here.<BR>    }<BR>}</PRE>
+<P>Another thing is that you can inherit the class and override the FreeManagedRessources and FreeUnmanagedRessources as needed.</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		18. juni 2009 21:38:51 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/18/BestPracticeDisposePatternC.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,07d7124e-a714-47c3-a4d4-85bfef5e976a.aspx#commentstart">Kommentarer [6]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,NET.aspx">.NET</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV><DIV class="blogdateheader">
+	<A class="archiveLinkStyle" href="http://www.niedermann.dk/default,date,2009-06-15.aspx"><IMG class="archiveLinkImageStyle" src="./niedermann_files/blank.gif" alt="#" border="0"></A>&nbsp;15. juni 2009
+</DIV>
+<A name="abfa592b2-d186-48c8-a6bf-98ecbc4c8df8"></A><DIV class="itemBoxStyle">
+
+	<DIV class="itemHeadStyle">
+    <DIV class="itemTitleStyle"><A class="TitleLinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/15/CompressionOfVisualStudioSolutionsAndProjectsMadeEasy.aspx">Compression of Visual Studio Solutions and Projects made easy</A></DIV>
+	</DIV>	
+	<DIV class="itemBodyStyle">
+		<P>I just released a new codeplex project <A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fsolzip.codeplex.com%2f" target="_blank">SolutionZipper</A> which makes it a breeze to zip compress your visual studio solutions and projects. "What's wrong with WinZip you might Ask". Well WinZip has no knowledge of Visual Studio Solutions, which means it will compress everything in the folder, including bin / obj folders and other random debris.</P> <P>I accomplish the compression by using the following algorithm:</P> <P>1. Iterate over all items and projects in the sln file and zip each of these.<BR>2. Zip the sln file itself.<BR>3. Iterate over all items in the csproj files and zip each of these. The iteration is done using Linq to Xml of course.<BR>4. Zip the csproj file itself.</P> <P>As you might have guessed SolutionZipper only works for C# projects, and is only tested with VS2008.</P> <P>I offer three UI's for SolutionZipper</P> <P><A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fsolzip.codeplex.com%2fWiki%2fView.aspx%3ftitle%3dSunZip" target="_blank">SunZip</A> - A commandline tool. </P><P>&nbsp; </P><P><A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fsolzip.codeplex.com%2fWiki%2fView.aspx%3ftitle%3dSolZipMME" target="_blank">SolZipMME</A> - Providing Right click menus for Visual Studio 2008 using <A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fmanagedmenuextension.codeplex.com" target="_blank">Managed Menu Extensions</A> . </P><P>&nbsp; </P><P><A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fsolzip.codeplex.com%2fWiki%2fView.aspx%3ftitle%3dSolZipGuidance" target="_blank">SolZipGuidance</A> - Providing Right click menus for Visual Studio 2008 using Guidance Automation (GAX). </P><P>&nbsp; </P><P>For the actual zipping I use the excellent open source framework <A href="http://www.niedermann.dk/ct.ashx?id=bfa592b2-d186-48c8-a6bf-98ecbc4c8df8&url=http%3a%2f%2fwww.icsharpcode.net%2fOpenSource%2fSharpZipLib" target="_blank">SharpZipLib</A>.</P>
+		<DIV style="clear:both;"><!-- we need this embedded div since we may have floated an image in the item body --></DIV>
+	</DIV>
+	<DIV class="itemFooterStyle">
+		15. juni 2009 22:46:31 (GMT Daylight Time, UTC+01:00)&nbsp;
+		<A class="permalinkStyle" rel="bookmark" href="http://www.niedermann.dk/2009/06/15/CompressionOfVisualStudioSolutionsAndProjectsMadeEasy.aspx"><IMG title="Brug dette links URL til at lave en permanent reference til dette indl&aelig;g." class="permalinkImageStyle" src="./niedermann_files/itemLink.gif" alt="#" border="0"></A>&nbsp;
+		&nbsp;
+		<A class="commentLinkStyle" href="http://www.niedermann.dk/CommentView,guid,bfa592b2-d186-48c8-a6bf-98ecbc4c8df8.aspx#commentstart">Kommentarer [0]</A> - 
+		<BR>
+		<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,Tools.aspx">Tools</A>&nbsp;|&nbsp;<A class="categoryLinkStyle" href="http://www.niedermann.dk/CategoryView,category,VisualStudio.aspx">Visual Studio</A>
+		<BR>				
+		
+		
+	</DIV>
+</DIV>
+			<DIV class="post-paging">
+				<DIV class="previous-posts">
+					<A href="http://www.niedermann.dk/default,page,1.aspx"><SPAN>«</SPAN>Ældre indlæg</A>
+				</DIV>
+				<DIV class="next-posts">
+					
+				</DIV>
+			</DIV>
+		</TD>
+		
+		<TD class="sidebarright">
+																																											
+			<DIV class="sideframeright">
+				<DIV class="sidetop">Navigation</DIV>					
+				<DIV class="side"><DIV class="navigatorLinksContainerStyle"><TABLE class="navigatorLinksTableStyle"><TBODY><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://www.niedermann.dk/default.aspx">Home</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://www.codeplex.com/ManagedMenuExtension">Managed Menu Extensions</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://www.visualstudiogallery.com/ExtensionDetails.aspx?ExtensionID=dee1334d-df2f-4929-846f-ae4b871be3ce">MME (on VS Gallery)</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://solzip.codeplex.com/">SolZip</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://visualstudiogallery.msdn.microsoft.com/en-us/0502a117-7477-4a29-975b-7c84b44c4913">SolZip (on VS Gallery)</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://www.codeplex.com/WiiCursor">WiiCursor</A></TD>
+</TR><TR>
+	<TD class="navigatorLinksCellStyle"><A class="navigatorLinksLinkStyle" href="http://www.uptolog.com/">UpToLog</A></TD>
+</TR></TBODY></TABLE></DIV></DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+			
+			<DIV class="sideframeright">
+				<DIV class="sidetop">Categories</DIV>				
+				<DIV class="side">
+					<DIV class="categoryListContainerStyle"><TABLE class="categoryListTableStyle" border="0">
+	<TBODY><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=.NET"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,NET.aspx">.NET</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=blog"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,blog.aspx">blog</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Games+%26+Puzzles"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,GamesPuzzles.aspx">Games &amp; Puzzles</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Linq"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,Linq.aspx">Linq</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Tips+%26+Tricks"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,TipsTricks.aspx">Tips &amp; Tricks</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Tools"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,Tools.aspx">Tools</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Visual+Studio"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,VisualStudio.aspx">Visual Studio</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=Windows+7"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,Windows7.aspx">Windows 7</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=WPF"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,WPF.aspx">WPF</A></TD>
+	</TR><TR>
+		<TD class="categoryListCellStyle"><A class="categoryListXmlLinkStyle" rel="tag" href="http://www.niedermann.dk/SyndicationService.asmx/GetRssCategory?categoryName=XNA"><IMG src="./niedermann_files/feedButton.gif" alt="[RSS]" border="0"></A>&nbsp;<A class="categoryListLinkStyle" rel="tag" href="http://www.niedermann.dk/CategoryView,category,XNA.aspx">XNA</A></TD>
+	</TR>
+</TBODY></TABLE></DIV>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+			
+			<DIV class="sideframeright">
+				<DIV class="sidetop">Archive</DIV>				
+				<DIV class="side">									
+					<TABLE id="weblogCalendar" class="hCalendarStyle" cellspacing="0" cellpadding="2" title="Calendar" border="0">
+	<TBODY><TR><TD colspan="7"><TABLE class="hCalendarMonthYearRow" cellspacing="0" border="0">
+		<TBODY><TR><TD class="hCalendarNextPrevStyle"><A href="javascript:__doPostBack('weblogCalendar','V3773')" title="Go to the previous month">&lt;</A></TD><TD align="center">juni 2010</TD><TD class="hCalendarNextPrevStyle" align="right"><A href="javascript:__doPostBack('weblogCalendar','V3834')" title="Go to the next month">&gt;</A></TD></TR>
+	</TBODY></TABLE></TD></TR><TR><TH class="hCalendarDayNameRow" align="center" abbr="mandag" scope="col">ma</TH><TH class="hCalendarDayNameRow" align="center" abbr="tirsdag" scope="col">ti</TH><TH class="hCalendarDayNameRow" align="center" abbr="onsdag" scope="col">on</TH><TH class="hCalendarDayNameRow" align="center" abbr="torsdag" scope="col">to</TH><TH class="hCalendarDayNameRow" align="center" abbr="fredag" scope="col">fr</TH><TH class="hCalendarDayNameRow" align="center" abbr="l&oslash;rdag" scope="col">lø</TH><TH class="hCalendarDayNameRow" align="center" abbr="s&oslash;ndag" scope="col">sø</TH></TR><TR><TD class="hCalendarOtherMonthStyle" align="center">31</TD><TD class="hCalendarDay" align="center">1</TD><TD class="hCalendarDay" align="center">2</TD><TD class="hCalendarDay" align="center">3</TD><TD class="hCalendarDay" align="center">4</TD><TD class="hCalendarWeekendStyle" align="center">5</TD><TD class="hCalendarWeekendStyle" align="center">6</TD></TR><TR><TD class="hCalendarDayCurrent" align="center">7</TD><TD class="hCalendarDay" align="center">8</TD><TD class="hCalendarDay" align="center">9</TD><TD class="hCalendarDay" align="center">10</TD><TD class="hCalendarDay" align="center">11</TD><TD class="hCalendarWeekendStyle" align="center">12</TD><TD class="hCalendarWeekendStyle" align="center">13</TD></TR><TR><TD class="hCalendarDay" align="center">14</TD><TD class="hCalendarDay" align="center">15</TD><TD class="hCalendarDay" align="center">16</TD><TD class="hCalendarDay" align="center">17</TD><TD class="hCalendarDay" align="center">18</TD><TD class="hCalendarWeekendStyle" align="center">19</TD><TD class="hCalendarWeekendStyle" align="center">20</TD></TR><TR><TD class="hCalendarDay" align="center">21</TD><TD class="hCalendarDay" align="center">22</TD><TD class="hCalendarDay" align="center">23</TD><TD class="hCalendarDay" align="center">24</TD><TD class="hCalendarDay" align="center">25</TD><TD class="hCalendarWeekendStyle" align="center">26</TD><TD class="hCalendarWeekendStyle" align="center">27</TD></TR><TR><TD class="hCalendarDay" align="center">28</TD><TD class="hCalendarDay" align="center">29</TD><TD class="hCalendarDay" align="center">30</TD><TD class="hCalendarOtherMonthStyle" align="center">1</TD><TD class="hCalendarOtherMonthStyle" align="center">2</TD><TD class="hCalendarOtherMonthWeekendStyle" align="center">3</TD><TD class="hCalendarOtherMonthWeekendStyle" align="center">4</TD></TR><TR><TD class="hCalendarOtherMonthStyle" align="center">5</TD><TD class="hCalendarOtherMonthStyle" align="center">6</TD><TD class="hCalendarOtherMonthStyle" align="center">7</TD><TD class="hCalendarOtherMonthStyle" align="center">8</TD><TD class="hCalendarOtherMonthStyle" align="center">9</TD><TD class="hCalendarOtherMonthWeekendStyle" align="center">10</TD><TD class="hCalendarOtherMonthWeekendStyle" align="center">11</TD></TR>
+</TBODY></TABLE>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+								
+			<DIV class="sideframeright">
+				<DIV class="sidetop">Blogroll</DIV>				
+				<DIV class="side">									
+					<DIV class="blogRollContainerStyle"><TABLE class="blogRollTableStyle" border="0">
+	<TBODY><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://www.aanug.dk/syndication.axd?category=3224a292-fd1c-478a-b6a5-79e0725155e8"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.aanug.dk/">Aalborg .NET UG (AANUG)</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://www.baekdorf.dk/christian/SyndicationService.asmx/GetRss"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.baekdorf.dk/christian">Christian Bækdorf</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://blog.eliasen.dk/SyndicationService.asmx/GetRss"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://blog.eliasen.dk/">Jan Eliasen</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://www.khebbie.dk/syndication.axd"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.khebbie.dk/">Klaus Hebsgaard</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://feeds2.feedburner.com/PetersnetRamblings"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.codevelop.dk/blog/author/Peter%20Ravnholt.aspx">Peter  Ravnholt</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://feeds.feedburner.com/postsharp"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.postsharp.org/">Postsharp</A></TD>
+	</TR><TR>
+		<TD class="blogRollCellStyle"><A class="blogRollXmlLinkStyle" href="http://feeds.feedburner.com/wulffmorgenthaler"><IMG src="./niedermann_files/feedButton.gif" alt="[Feed]" border="0"></A>&nbsp;<A class="blogRollLinkStyle" href="http://www.wulffmorgenthaler.com/">Wulffmorgenthaler</A></TD>
+	</TR>
+</TBODY></TABLE></DIV>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+																
+			<DIV class="sideframeright">
+				<DIV class="sidetop">About the author/Disclaimer</DIV>		
+				<DIV class="side">I am a software architect with focus on Microsoft Technologies. I have been working with these in different large companies since 1995. I am currently employed at <A href="http://www.logica.com/">Logica</A>.</DIV>		
+				<DIV class="side">Here is my <A href="http://www.linkedin.com/in/jesperniedermann">
+					<IMG src="./niedermann_files/btn_liprofile_blue_80x15.gif" width="80" height="15" border="0" alt="View Jesper Niedermann&#39;s profile on LinkedIn"></A></DIV>
+				<DIV class="side"><P><STRONG>Disclaimer</STRONG><BR>
+The opinions expressed herein are my own personal opinions and do not represent
+my employer's view in any way.</P>
+
+				<STRONG>Privacy policy</STRONG><BR>
+				<A href="http://www.niedermann.dk/2009/04/14/PrivacyPolicy.aspx">The privacy policy of this site.</A><BR><BR>
+				© Copyright 2010<BR> Jesper Niedermann<BR>														
+						<A href="http://www.niedermann.dk/Login.aspx">Log ind</A>	
+						<BR>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+			
+			<DIV class="sideframeright">
+				<DIV class="sidetop">Statistics</DIV>				
+				<DIV class="side">									
+					<DIV class="blogStats">Indlæg ialt: 20<BR>Dette år: 2<BR>Denne måned: 0<BR>Denne uge: 0<BR>Kommentarer: 13<BR></DIV>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+			
+			<DIV class="sideframeright">
+				<DIV class="side">									
+					<SCRIPT type="text/javascript"><!--
+						google_ad_client = "pub-3510695818971885";
+						/* Hoej1, 160x600 */
+						google_ad_slot = "6771627361";
+						google_ad_width = 160;
+						google_ad_height = 600;
+						//-->
+					</SCRIPT>
+					<SCRIPT type="text/javascript" src="./niedermann_files/show_ads.js">
+					</SCRIPT><SCRIPT>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</SCRIPT><INS style="display:inline-table;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:160px"><INS style="display:block;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:160px"><IFRAME allowtransparency="true" frameborder="0" height="600" hspace="0" id="google_ads_frame2" marginheight="0" marginwidth="0" name="google_ads_frame" scrolling="no" src="./niedermann_files/ads.htm" style="left:0;position:absolute;top:0" vspace="0" width="160"></IFRAME></INS></INS>
+				</DIV>
+			</DIV>
+			<DIV class="sideframeshadow"></DIV>
+
+		</TD>						
+	</TR>
+	
+	<TR>
+		<TD colspan="2" class="mainbodyfooter">
+			All Content © 2010, Jesper Niedermann
+			<BR>
+			DasBlog theme 'Niedermann' created by Jesper Niedermann, based on 'Business' created by <A href="http://www.delarou.net/">Christoph De Baene (delarou)</A>
+		</TD>
+	</TR>
+	
+</TBODY></TABLE>
+
+<STYLE>
+.statsTableRowStyleError { background-color:#bdae85; }
+.statsTableRowStyleSecurityFailure { background-color:#bd8585;}
+.statsTableRowStyleBlocked { background-color:#bdbc85; }
+</STYLE>
+
+	<SCRIPT class="javascript" src="./niedermann_files/shCore.js"></SCRIPT>
+	<SCRIPT class="javascript" src="./niedermann_files/shBrushCpp.js"></SCRIPT>
+	<SCRIPT class="javascript" src="./niedermann_files/shBrushCSharp.js"></SCRIPT>
+	<SCRIPT class="javascript" src="./niedermann_files/shBrushJScript.js"></SCRIPT>
+	<SCRIPT class="javascript" src="./niedermann_files/shBrushSql.js"></SCRIPT>
+	<SCRIPT class="javascript" src="./niedermann_files/shBrushXml.js"></SCRIPT>
+	<SCRIPT class="javascript">
+		dp.SyntaxHighlighter.ClipboardSwf = 'scripts/clipboard.swf';
+		dp.SyntaxHighlighter.BloggerMode();
+		dp.SyntaxHighlighter.HighlightAll('code'); <!-- ,true,false,false,1,false); -->
+	</SCRIPT>
+</FORM>
+
+
+</BODY></HTML>

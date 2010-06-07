@@ -22,22 +22,24 @@ namespace MMEHelper
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
             List<IMenuItem> menuItems = new List<IMenuItem>(1);
-            var m1 = new MenuItem(MenuShowHowTo);
-            menuItems.Add(m1);
+            var menu = new MenuItem(MenuShowHowTo);
+            menu.Click += menuClick;
+            menuItems.Add(menu);
             return menuItems;
         }
 
-        public void MenuClicked(IMenuItem clickedMenu, IMenuContext menuContext)
+        private void menuClick(object sender, EventArgs<IMenuContext> e)
         {
-            if (clickedMenu.Caption == MenuShowHowTo)
+            IMenuItem menu = sender as IMenuItem;
+            if (menu.Caption == MenuShowHowTo)
             {
                 if (NetworkInterface.GetIsNetworkAvailable())
                 {
-                    ShowFromCodeplex(menuContext.Details.VSStudio);
+                    ShowFromCodeplex(e.Data.Details.VSStudio);
                 }
                 else
                 {
-                    ShowLocal(menuContext.Details.VSStudio);
+                    ShowLocal(e.Data.Details.VSStudio);
                 }
             }
         }

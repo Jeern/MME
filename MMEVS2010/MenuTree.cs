@@ -18,6 +18,10 @@ namespace MMEVS2010
             get { return m_RootNodes; }
         }
 
+        /// <summary>
+        /// The AllNodes dictionary contains all the nodes of all menu trees added by MME to the Solution Explorer.
+        /// Also includes the RootNodes.
+        /// </summary>
         public Dictionary<Guid, MenuTreeNode> AllNodes
         {
             get { return m_AllNodes; }

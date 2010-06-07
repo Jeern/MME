@@ -46,5 +46,21 @@ namespace MMEContracts
                 m_IsVisible = value;
             }
         }
+
+
+        public void OnClick(object sender, IMenuContext context)
+        {
+            m_Click(sender, new EventArgs<IMenuContext>(context));
+        }
+
+        private event EventHandler<EventArgs<IMenuContext>> m_Click = delegate { };
+        public event EventHandler<EventArgs<IMenuContext>> Click
+        {
+            add { m_Click += value; }
+            remove { m_Click += value; }
+        }
+
+
+
     }
 }

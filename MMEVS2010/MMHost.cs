@@ -8,22 +8,23 @@ using MMEContracts;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
+using EnvDTE;
 
 namespace MMEVS2010
 {
     public class MMHost  
     {
         [ImportMany]
-        List<IMenuManager> m_MenuManagers;
-        Dictionary<Guid, IMenuManager> m_AssociatedMenuManagers = new Dictionary<Guid, IMenuManager>();
-        Dictionary<ContextLevels, MenuTree> m_MenusByContext = new Dictionary<ContextLevels, MenuTree>();
+        List<IMenuManager> m_MenuManagers = null;
+
+        private Dictionary<Guid, IMenuManager> m_AssociatedMenuManagers = new Dictionary<Guid, IMenuManager>();
+        private Dictionary<ContextLevels, MenuTree> m_MenusByContext = new Dictionary<ContextLevels, MenuTree>();
         
         /// <summary>
         /// The Constructor of MMHost uses MEF to load all the Plugins that contains menus.
         /// </summary>
         /// <param name="parentFolder"></param>
         /// <param name="solutionFolder"></param>
- 
         public MMHost(string parentFolder, string solutionFolder)
         {
             try
@@ -80,34 +81,13 @@ namespace MMEVS2010
             try
             {
                 IMenuManager menuManagerHost = m_AssociatedMenuManagers[clickedMenuId];
-                menuManagerHost.MenuClicked(GetMenus(menuContext.Level).AllNodes[clickedMenuId].MenuItem, menuContext);
+                IMenuItem menuItem = GetMenus(menuContext.Level).AllNodes[clickedMenuId].MenuItem;
+                menuItem.OnClick(menuItem, menuContext);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("MMHost.MenuClicked(): " + ex.ToString());
             }
         }
-
-        //private Collection<AddInToken> GetAddIns()
-        //{
-        //    string addInRoot = AddInProperties.MainDirectory;
-        //    string[] messages = AddInStore.Rebuild(addInRoot);
-        //    WriteMessages(messages);
-        //    return AddInStore.FindAddIns(typeof(MenuManagerHostView), addInRoot);
-        //}
-
-        //private List<IMenuManager> GetMenuManagers(Collection<AddInToken> addIns)
-        //{
-        //    List<MenuManagerHostView> menuManagers = new List<MenuManagerHostView>();
-        //    if (addIns != null && addIns.Count > 0)
-        //    {
-        //        foreach (AddInToken addIn in addIns)
-        //        {
-        //            menuManagers.Add(addIn.Activate<MenuManagerHostView>(AppDomain.CurrentDomain));
-        //        }
-        //    }
-        //    return menuManagers;
-        //}
-
     }
 }

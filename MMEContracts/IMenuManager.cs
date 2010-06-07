@@ -11,6 +11,5 @@ namespace MMEContracts
     {
         string MainMenu();
         IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel);
-        void MenuClicked(IMenuItem clickedMenu, IMenuContext menuContext);
     }
 }

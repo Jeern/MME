@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MMEContracts;
+using System.Diagnostics;
+using System.IO;
+using System.Net.NetworkInformation;
+using EnvDTE80;
 
 namespace MMEHelper
 {
@@ -27,8 +31,33 @@ namespace MMEHelper
         {
             if (clickedMenu.Caption == MenuShowHowTo)
             {
-                menuContext.Details.VSStudio.ExecuteCommand("View.Url", "http://www.google.com");
+                if (NetworkInterface.GetIsNetworkAvailable())
+                {
+                    ShowFromCodeplex(menuContext.Details.VSStudio);
+                }
+                else
+                {
+                    ShowLocal(menuContext.Details.VSStudio);
+                }
             }
         }
+
+        private void ShowFromCodeplex(DTE2 vsStudio)
+        {
+            try
+            {
+                vsStudio.ExecuteCommand("View.URL", "http://www.google.com");
+            }
+            catch
+            {
+                ShowLocal(vsStudio);
+            }
+        }
+
+        private void ShowLocal(DTE2 vsStudio)
+        {
+            vsStudio.ExecuteCommand("View.URL", @"C:\tmp.mht");
+        }
+
     }
 }

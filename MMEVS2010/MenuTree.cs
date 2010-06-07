@@ -10,6 +10,9 @@ namespace MMEVS2010
         Dictionary<string, MenuTreeNode> m_RootNodes = new Dictionary<string, MenuTreeNode>();
         Dictionary<Guid, MenuTreeNode> m_AllNodes = new Dictionary<Guid, MenuTreeNode>();
 
+        /// <summary>
+        /// The RootNodes dictionary contains all the Root Nodes i.e. the Main menus added by MME to the Solution Explorer.
+        /// </summary>
         public Dictionary<string, MenuTreeNode> RootNodes
         {
             get { return m_RootNodes; }
@@ -31,6 +34,9 @@ namespace MMEVS2010
             }
         }
 
+        /// <summary>
+        /// Returns the number of RootNotes (i.e. Main menus added to the solution explorer by MME)
+        /// </summary>
         public int CountRoots
         {
             get

@@ -13,6 +13,9 @@ using System.Windows.Forms;
 
 namespace MMEVS2010
 {
+    /// <summary>
+    /// VSMenuUtil handles all Visual Studio Menu Stuff for this VS Studio AddIn.
+    /// </summary>
     public class VSMenuUtil 
     {
         private DTE2 m_VSStudio;
@@ -429,8 +432,7 @@ namespace MMEVS2010
         /// <summary>
         /// Set visibility of menuitem to true if the selected item is supossed to be Visible.
         /// </summary>
-        /// <param name="vsmenuItem"></param>
-        /// <param name="visibleWhenCompliantName"></param>
+        /// <param name="node">The node for which to set the visibility.</param>
         private bool SetVisibility(MenuTreeNode node)
         {
             if (!node.MenuItem.Seperator)

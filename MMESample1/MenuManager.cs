@@ -18,8 +18,10 @@ namespace MMESample1
         {
             List<IMenuItem> menuItems = new List<IMenuItem>(2);
             MenuItem m1 = new MenuItem("Hardy 1");
+            m1.Click += MenuClick;
             m1.IsVisible = context => context.ItemName.StartsWith("M");
             MenuItem m2 = new MenuItem("Hardy 2");
+            m2.Click += MenuClick;
             m2.IsVisible = context => context.Level == ContextLevels.Project;
 
             menuItems.Add(m1);
@@ -27,10 +29,9 @@ namespace MMESample1
             return menuItems;
         }
 
-        public void MenuClicked(IMenuItem clickedMenu, IMenuContext menuContext)
+        private void MenuClick(object sender, EventArgs<IMenuContext> e)
         {
             System.Windows.Forms.MessageBox.Show("Hardy Rocks");
         }
-
     }
 }

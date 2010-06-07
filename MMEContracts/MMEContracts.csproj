@@ -58,6 +58,7 @@
     </Compile>
     <Compile Include="DetailedContextInformation.cs" />
     <Compile Include="ContextLevels.cs" />
+    <Compile Include="EventArgsGeneric.cs" />
     <Compile Include="IMenuContext.cs" />
     <Compile Include="IMenuItem.cs" />
     <Compile Include="IMenuManager.cs" />

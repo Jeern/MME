@@ -12,5 +12,6 @@ namespace MMEContracts
         Guid Id { get; }
         bool Seperator { get; }
         Func<IMenuContext, bool> IsVisible { get; set; }
+        void OnClick(object sender, IMenuContext context);
     }
 }

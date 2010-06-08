@@ -10,6 +10,11 @@ namespace MMEVS2010
     /// </summary>
     public static class VSContextUtil
     {
+        /// <summary>
+        /// Converts The ContextLevels enum to a string constants recognized by Visual Studio.
+        /// </summary>
+        /// <param name="level"></param>
+        /// <returns></returns>
         public static string ContextToVSContext(ContextLevels level)
         {
             switch (level)

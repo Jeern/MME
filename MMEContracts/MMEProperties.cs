@@ -2,15 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Win32;
 
 namespace MMEContracts
 {
     public class MMEProperties
     {
+        public const string AddInRegKey = @"Software\Jern\MME";
+        public const string AddInRegValueKey = "AddInMainDirectory";
+
+        public static string PluginMainDirectory
+        {
+            get
+            {
 #if DEBUG
-        public static readonly string PluginMainDirectory = @"C:\MMEPlugins";
+                return Environment.CurrentDirectory + @"C:\MMEPlugins";
 #else
-        public static readonly string PluginMainDirectory = @"C:\MMEPlugins";
+                RegistryKey key = Registry.LocalMachine.OpenSubKey(AddInRegKey);
+                return Convert.ToString(key.GetValue(AddInRegValueKey));
 #endif
+            }
+        }
     }
 }

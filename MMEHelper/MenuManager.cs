@@ -17,48 +17,71 @@ namespace MMEHelper
             return "Managed Menu Extensions";
         }
 
-        private const string MenuShowHowTo = "Show how To...";
+        private const string MenuHowToImplement = "How to add new menus ...";
+        private const string MenuHowToDeploy = "How to deploy new menus ...";
 
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
-            List<IMenuItem> menuItems = new List<IMenuItem>(1);
-            var menu = new MenuItem(MenuShowHowTo);
-            menu.Click += menuClick;
-            menuItems.Add(menu);
+            List<IMenuItem> menuItems = new List<IMenuItem>(2);
+            var menuImplement = new MenuItem(MenuHowToImplement);
+            menuImplement.Click += menuClick;
+            menuItems.Add(menuImplement);
+            var menuDeploy = new MenuItem(MenuHowToDeploy);
+            menuDeploy.Click += menuClick;
+            menuItems.Add(menuDeploy);
             return menuItems;
         }
 
         private void menuClick(object sender, EventArgs<IMenuContext> e)
         {
             IMenuItem menu = sender as IMenuItem;
-            if (menu.Caption == MenuShowHowTo)
+            HelpInfo helpInfo = GetHelpInfo(menu.Caption);
+            if (NetworkInterface.GetIsNetworkAvailable())
             {
-                if (NetworkInterface.GetIsNetworkAvailable())
-                {
-                    ShowFromCodeplex(e.Data.Details.VSStudio);
-                }
-                else
-                {
-                    ShowLocal(e.Data.Details.VSStudio);
-                }
+                ShowFromCodeplex(e.Data.Details.VSStudio, helpInfo);
+            }
+            else
+            {
+                ShowLocal(e.Data.Details.VSStudio, helpInfo);
             }
         }
 
-        private void ShowFromCodeplex(DTE2 vsStudio)
+        private HelpInfo GetHelpInfo(string caption)
+        {
+            var helpInfo = new HelpInfo();
+            switch (caption)
+            {
+                case MenuHowToImplement:
+                    helpInfo.Url = "http://www.google.com";
+                    helpInfo.FileName = @"C:\tmp.mht";
+                    break;
+                case MenuHowToDeploy:
+                    helpInfo.Url = "http://www.google.com";
+                    helpInfo.FileName = @"C:\tmp.mht";
+                    break;
+                default:
+                    helpInfo.Url = string.Empty;
+                    helpInfo.FileName = string.Empty;
+                    break;
+            }
+            return helpInfo;
+        }
+
+        private void ShowFromCodeplex(DTE2 vsStudio, HelpInfo helpInfo)
         {
             try
             {
-                vsStudio.ExecuteCommand("View.URL", "http://www.google.com");
+                vsStudio.ExecuteCommand("View.URL", helpInfo.Url);
             }
             catch
             {
-                ShowLocal(vsStudio);
+                ShowLocal(vsStudio, helpInfo);
             }
         }
 
-        private void ShowLocal(DTE2 vsStudio)
+        private void ShowLocal(DTE2 vsStudio, HelpInfo helpInfo)
         {
-            vsStudio.ExecuteCommand("View.URL", @"C:\tmp.mht");
+            vsStudio.ExecuteCommand("View.URL", helpInfo.FileName);
         }
 
     }

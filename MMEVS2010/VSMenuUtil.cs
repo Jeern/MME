@@ -58,6 +58,9 @@ namespace MMEVS2010
             return Path.GetDirectoryName(solutionFolder);
         }
 
+        /// <summary>
+        /// Builds the menu trees for each of the 7 context levels.
+        /// </summary>
         public void BuildMenus()
         {
             BuildMenuTree(ContextLevels.Solution);
@@ -80,7 +83,7 @@ namespace MMEVS2010
             foreach (MenuTreeNode node in tree.RootNodes.Values)
             {
                 string mainMenuCommandName = GetMainMenuCommandName(level, node.MenuItem.Caption);
-                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), VSContextUtil.ContextToVSContextIndex(level), node.MenuItem.Caption);
+                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), 1, node.MenuItem.Caption);
                 SaveMainMenuInformation(mainMenuCommandName, menu, node);
                 AddMainMenuClickEventHandler(menu, level, mainMenuCommandName, node.MenuItem.Caption);
                 TraverseChildren(menu, node, level);

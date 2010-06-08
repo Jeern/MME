@@ -133,23 +133,6 @@ namespace MMEVS2010
             return theBar;
         }
 
-        private void ShowVSMainMenus()
-        {
-            using (FileStream fs = new FileStream(@"C:\menus.txt", FileMode.Create))
-            {
-                using (StreamWriter sw = new StreamWriter(fs))
-                {
-                    foreach (CommandBar bar in (CommandBars)m_VSStudio.DTE.CommandBars)
-                    {
-                        if (bar.Name != bar.NameLocal)
-                            sw.WriteLine(bar.Name + " ; " + bar.NameLocal);
-                        else
-                            sw.WriteLine(bar.Name + " : ");
-                    }
-                }
-            }
-        }
-
         /// <summary>
         /// Adds a menu to the Visual Studio Solution explorer so that it is physically shown.
         /// </summary>

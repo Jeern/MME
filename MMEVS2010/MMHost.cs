@@ -39,6 +39,8 @@ namespace MMEVS2010
                 var catalog = new AggregateCatalog(directoryCatalogs);
                 var container = new CompositionContainer(catalog, true);
                 container.ComposeParts(this);
+                catalog.Dispose();
+                container.Dispose();
             }
             catch (Exception ex)
             {

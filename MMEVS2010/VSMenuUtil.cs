@@ -310,7 +310,6 @@ namespace MMEVS2010
         /// This method is really there to solve a problem with solution folders which does not have a filename, and therefore not a path. 
         /// Currently I just get the solution folders path as the SolutionFolder path (see SelectedItemPath)
         /// </summary>
-        /// <param name="currentObject"></param>
         /// <returns></returns>
         private string GetSolutionFolderPath()
         {

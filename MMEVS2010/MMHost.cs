@@ -54,15 +54,20 @@ namespace MMEVS2010
             }
         }
 
+        /// <summary>
+        /// Get all menus from the MEF Plugins
+        /// </summary>
+        /// <param name="level"></param>
+        /// <returns></returns>
         public MenuTree GetMenus(ContextLevels level)
         {
             if (!m_MenusByContext.ContainsKey(level))
-                m_MenusByContext[level] = GetMenusFromAddIns(level);
+                m_MenusByContext[level] = GetMenusFromPlugins(level);
 
             return m_MenusByContext[level];
         }
 
-        private MenuTree GetMenusFromAddIns(ContextLevels level)
+        private MenuTree GetMenusFromPlugins(ContextLevels level)
         {
             MenuTree menuTree = new MenuTree();
             foreach (IMenuManager menuManager in m_MenuManagers)
@@ -83,6 +88,11 @@ namespace MMEVS2010
             return menuTree;
         }
 
+        /// <summary>
+        /// Called when a VS Menu is clicked. Passes it on to the MME MenuItem.
+        /// </summary>
+        /// <param name="clickedMenuId"></param>
+        /// <param name="menuContext"></param>
         public void MenuClicked(Guid clickedMenuId, MenuContext menuContext)
         {
             try

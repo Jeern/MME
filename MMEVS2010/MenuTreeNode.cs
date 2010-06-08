@@ -31,6 +31,9 @@ namespace MMEVS2010
         private IMenuItem m_MenuItem;
         private Dictionary<Guid, MenuTreeNode> m_Children = new Dictionary<Guid, MenuTreeNode>();
 
+        /// <summary>
+        /// The MME MenuItem of this TreeNode
+        /// </summary>
         public IMenuItem MenuItem
         {
             get { return m_MenuItem; }

@@ -5,6 +5,9 @@ using MMEContracts;
 
 namespace MMEVS2010
 {
+    /// <summary>
+    /// The MenuTree class contains all the nodes added to VS by MME.
+    /// </summary>
     public class MenuTree
     {
         Dictionary<string, MenuTreeNode> m_RootNodes = new Dictionary<string, MenuTreeNode>();

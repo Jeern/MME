@@ -12,6 +12,9 @@ using EnvDTE;
 
 namespace MMEVS2010
 {
+    /// <summary>
+    /// The MMHosst is responsible for loading all the MEF Plugins conatining MenuManagers
+    /// </summary>
     public class MMHost  
     {
         [ImportMany]

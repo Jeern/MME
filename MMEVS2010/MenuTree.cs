@@ -68,6 +68,12 @@ namespace MMEVS2010
             return m_RootNodes[mainMenuCaption];
         }
 
+        /// <summary>
+        /// Adds a leafnode (submenu) to the Menutree.
+        /// </summary>
+        /// <param name="mainMenuCaption"></param>
+        /// <param name="menuItem"></param>
+        /// <returns></returns>
         public MenuTreeNode Add(string mainMenuCaption, IMenuItem menuItem)
         {
             if (!m_AllNodes.ContainsKey(menuItem.Id))

@@ -32,27 +32,28 @@ namespace MMEVS2010
                     return VSContextConstants.OtherItem;
             }
         }
-        public static int ContextToVSContextIndex(ContextLevels level)
-        {
-            switch (level)
-            {
-                case ContextLevels.Solution:
-                    return 1;
-                case ContextLevels.Project:
-                    return 1;
-                case ContextLevels.SolutionFolder:
-                    return 1;
-                case ContextLevels.References:
-                    return 1;
-                case ContextLevels.Item:
-                    return 1;
-                case ContextLevels.WebReferences:
-                    return 1;
-                case ContextLevels.Folder:
-                    return 1;
-                default:
-                    return 1;
-            }
-        }
+
+        //public static int ContextToVSContextIndex(ContextLevels level)
+        //{
+        //    switch (level)
+        //    {
+        //        case ContextLevels.Solution:
+        //            return 1;
+        //        case ContextLevels.Project:
+        //            return 1;
+        //        case ContextLevels.SolutionFolder:
+        //            return 1;
+        //        case ContextLevels.References:
+        //            return 1;
+        //        case ContextLevels.Item:
+        //            return 1;
+        //        case ContextLevels.WebReferences:
+        //            return 1;
+        //        case ContextLevels.Folder:
+        //            return 1;
+        //        default:
+        //            return 1;
+        //    }
+        //}
     }
 }

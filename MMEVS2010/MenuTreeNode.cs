@@ -36,6 +36,9 @@ namespace MMEVS2010
             get { return m_MenuItem; }
         }
 
+        /// <summary>
+        /// Contains all the Child nodes of this tree node.
+        /// </summary>
         public Dictionary<Guid, MenuTreeNode> Children
         {
             get { return m_Children; }

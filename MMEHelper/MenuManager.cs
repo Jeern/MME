@@ -22,17 +22,17 @@ namespace MMEHelper
 
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
-            List<IMenuItem> menuItems = new List<IMenuItem>(2);
+            var menuItems = new List<IMenuItem>(2);
             var menuImplement = new MenuItem(MenuHowToImplement);
-            menuImplement.Click += menuClick;
+            menuImplement.Click += MenuClick;
             menuItems.Add(menuImplement);
             var menuDeploy = new MenuItem(MenuHowToDeploy);
-            menuDeploy.Click += menuClick;
+            menuDeploy.Click += MenuClick;
             menuItems.Add(menuDeploy);
             return menuItems;
         }
 
-        private void menuClick(object sender, EventArgs<IMenuContext> e)
+        private void MenuClick(object sender, EventArgs<IMenuContext> e)
         {
             IMenuItem menu = sender as IMenuItem;
             HelpInfo helpInfo = GetHelpInfo(menu.Caption);

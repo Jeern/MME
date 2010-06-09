@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEHelper", "MMEHelper\MMEH
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MMESetup", "MMESetup\MMESetup.vdproj", "{B33DC30E-EFDF-41ED-BE9D-FAFEF454C0A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEPlugin1", "MMEPlugin1\MMEPlugin1.csproj", "{558B5E92-D2D1-457D-B3B3-3D405801619B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEPlugin", "MMEPlugin\MMEPlugin.csproj", "{558B5E92-D2D1-457D-B3B3-3D405801619B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

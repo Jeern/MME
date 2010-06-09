@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
 using System.Collections.ObjectModel;
-using System.Windows.Forms;
 using MMEContracts;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
 using EnvDTE;
+using System.Windows;
 
 namespace MMEVS2010
 {

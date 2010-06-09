@@ -9,7 +9,7 @@ using EnvDTE;
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Reflection;
-using System.Windows.Forms;
+using System.Windows;
 
 namespace MMEVS2010
 {

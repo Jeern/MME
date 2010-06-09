@@ -827,10 +827,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    "Name" = "8:Microsoft .NET Framework 4 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -1887,7 +1887,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MME"
         "ProductCode" = "8:{D6AFF646-E290-49CB-B4A7-3E4C1A54E44B}"
-        "PackageCode" = "8:{782C1C8A-DCD8-470A-8A25-36E4D4BD7F61}"
+        "PackageCode" = "8:{72139DAE-B617-4D46-AF14-296E11CD5AB6}"
         "UpgradeCode" = "8:{4EFDE2F6-A7BC-4FEA-A688-C699D97D4E98}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -6,7 +6,7 @@ using EnvDTE;
 using EnvDTE80;
 using MMEContracts;
 
-namespace MMEPlugin1
+namespace MMEPlugin
 {
     public class MenuManager1 : IMenuManager
     {

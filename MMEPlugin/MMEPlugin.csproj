@@ -8,8 +8,8 @@
     <ProjectGuid>{558B5E92-D2D1-457D-B3B3-3D405801619B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MMEPlugin1</RootNamespace>
-    <AssemblyName>MMEPlugin1</AssemblyName>
+    <RootNamespace>MMEPlugin</RootNamespace>
+    <AssemblyName>MMEPlugin</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -8,6 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DA585AB8-7A74-4970-A8C3-D0808FB916BD}"
 	ProjectSection(SolutionItems) = preProject
 		Lib\GlobalAssemblyInfo.cs = Lib\GlobalAssemblyInfo.cs
+		Lib\MMEGear.ico = Lib\MMEGear.ico
+		Lib\MMEGear.jpg = Lib\MMEGear.jpg
+		Lib\MMEL.jpg = Lib\MMEL.jpg
+		Lib\MMES.jpg = Lib\MMES.jpg
+		Lib\MMESS.ico = Lib\MMESS.ico
+		Lib\MMESS.jpg = Lib\MMESS.jpg
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEHelper", "MMEHelper\MMEHelper.csproj", "{5A577BD3-AD32-4DC6-8424-A6206171E2AC}"

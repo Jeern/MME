@@ -59,11 +59,11 @@ namespace MMEHelper
             switch (caption)
             {
                 case MenuHowToImplement:
-                    helpInfo.Url = "http://www.google.com";
+                    helpInfo.Url = "http://mme.codeplex.com/wikipage?title=implementing&referringTitle=Documentation";
                     helpInfo.FileName = @"C:\tmp.mht";
                     break;
                 case MenuHowToDeploy:
-                    helpInfo.Url = "http://www.google.com";
+                    helpInfo.Url = "http://mme.codeplex.com/wikipage?title=deploying&referringTitle=Documentation";
                     helpInfo.FileName = @"C:\tmp.mht";
                     break;
                 default:

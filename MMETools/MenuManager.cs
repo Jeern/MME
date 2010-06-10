@@ -30,7 +30,7 @@ namespace MMETools
 
         private void BuildAndGacMenuClick(object sender, EventArgs<IMenuContext> e)
         {
-            e.Data.Details.VSStudio.ExecuteCommand("");
+            e.Data.Details.VSStudio.ExecuteCommand("Build.BuildOnlyProject", e.Data.ItemName);
         }
     }
 }

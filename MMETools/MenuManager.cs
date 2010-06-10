@@ -22,6 +22,7 @@ namespace MMETools
                 var seperator = new MenuItem("", true);
                 var buildAndGacMenu = new MenuItem("Build and add to GAC");
                 buildAndGacMenu.Click += BuildAndGacMenuClick;
+                seperator.IsVisible = BuildAndGacMenuVisible;
                 buildAndGacMenu.IsVisible = BuildAndGacMenuVisible;
                 menus.Add(seperator);
                 menus.Add(buildAndGacMenu);
@@ -32,7 +33,7 @@ namespace MMETools
 
         private void BuildAndGacMenuClick(object sender, EventArgs<IMenuContext> e)
         {
-            e.Data.Details.VSStudio.ExecuteCommand("Build.BuildSelection");
+            e.Data.Details.VSStudio.ExecuteCommand("Build.RebuildSelection");
         }
 
         private bool BuildAndGacMenuVisible(IMenuContext context)

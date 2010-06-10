@@ -36,7 +36,7 @@ namespace MMEHelper
         {
             IMenuItem menu = sender as IMenuItem;
             HelpInfo helpInfo = GetHelpInfo(menu.Caption);
-            if (NetworkInterface.GetIsNetworkAvailable())
+            if (NetworkInterface.GetIsNetworkAvailable() && CanPing())
             {
                 ShowFromCodeplex(e.Data.Details.VSStudio, helpInfo);
             }
@@ -44,6 +44,13 @@ namespace MMEHelper
             {
                 ShowLocal(e.Data.Details.VSStudio, helpInfo);
             }
+        }
+
+        private bool CanPing()
+        {
+            var ping = new Ping();
+            PingReply reply = ping.Send("google.com");
+            return (reply.Status == IPStatus.Success);
         }
 
         private HelpInfo GetHelpInfo(string caption)

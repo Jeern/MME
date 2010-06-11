@@ -48,9 +48,16 @@ namespace MMEHelper
 
         private bool CanPing()
         {
-            var ping = new Ping();
-            PingReply reply = ping.Send("google.com");
-            return (reply.Status == IPStatus.Success);
+            try
+            {
+                var ping = new Ping();
+                PingReply reply = ping.Send("google.com");
+                return (reply.Status == IPStatus.Success);
+            }
+            catch (PingException)
+            {
+                return false;
+            }
         }
 
         private HelpInfo GetHelpInfo(string caption)

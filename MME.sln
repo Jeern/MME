@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DA585AB8-7A7
 		Lib\GlobalAssemblyInfo.cs = Lib\GlobalAssemblyInfo.cs
 		Lib\MME.pptx = Lib\MME.pptx
 		Lib\MMEArchitecture.JPG = Lib\MMEArchitecture.JPG
+		Lib\MMEArchitectureSmall.JPG = Lib\MMEArchitectureSmall.JPG
 		Lib\MMEGear.ico = Lib\MMEGear.ico
 		Lib\MMEGear.jpg = Lib\MMEGear.jpg
 		Lib\MMEL.jpg = Lib\MMEL.jpg

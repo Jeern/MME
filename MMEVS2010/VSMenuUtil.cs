@@ -435,7 +435,18 @@ namespace MMEVS2010
         {
             if (!node.MenuItem.Seperator)
             {
-                bool visible = node.MenuItem.IsVisible(GetCurrentMenuContext(m_MenuItemToVSMenu[node.MenuItem.Id].Tag));
+                bool visible = false;
+                try
+                {
+                    visible = node.MenuItem.IsVisible(GetCurrentMenuContext(m_MenuItemToVSMenu[node.MenuItem.Id].Tag));
+                }
+                catch
+                {
+                    //Here I could have chosen to show a messagebox. But since this method is called quite often it would be unbearable.
+                    //Instead I just do not show the menu if there is an exception
+                    visible = false;
+                }
+
                 m_MenuItemToVSMenu[node.MenuItem.Id].Visible = visible;
                 return visible;
             }

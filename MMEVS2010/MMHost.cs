@@ -108,7 +108,7 @@ namespace MMEVS2010
             }
             catch (Exception ex)
             {
-                MessageBox.Show("MMHost.MenuClicked(): " + ex.ToString());
+                MessageBox.Show("MMHost.MenuClicked(): " + ex.ToString(), "The Click event threw an exception");
             }
         }
     }

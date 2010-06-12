@@ -24,7 +24,7 @@ namespace MMETools
             {
                 var menus = new List<MenuItem>();
                 var seperator = new MenuItem("", true);
-                var buildAndGacMenu = new MenuItem("Add assembly to GAC");
+                var buildAndGacMenu = new MenuItem("Copy GAC Command to Clipboard");
                 buildAndGacMenu.Click += GacMenuClick;
                 seperator.IsVisible = BuildAndGacMenuVisible;
                 buildAndGacMenu.IsVisible = BuildAndGacMenuVisible;
@@ -73,9 +73,11 @@ namespace MMETools
             pathToGacUtil = FixPath(pathToGacUtil);
             assemblyFile = FixPath(assemblyFile);
 
-            MessageBox.Show(pathToGacUtil + " /i " + assemblyFile, "Ctrl+C this to a Cmd prompt with Administrative Rights");
+            string gacCommand = pathToGacUtil + " /i " + assemblyFile;
+            Clipboard.SetText(gacCommand);
+            MessageBox.Show(gacCommand, "Added to Clipboard");
             //Because you need administrative rights the line below can typically not be executed
-            //System.Diagnostics.Process.Start(pathToGacUtil, "/i " + assemblyFile);            
+            //System.Diagnostics.Process.Start(gacCommand);            
         }
 
         private string FixPath(string pathToGacUtil)

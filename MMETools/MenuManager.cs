@@ -16,9 +16,9 @@ namespace MMETools
 
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
-            var menus = new List<MenuItem>();
             if (menuForLevel == ContextLevels.Project)
             {
+                var menus = new List<MenuItem>();
                 var seperator = new MenuItem("", true);
                 var buildAndGacMenu = new MenuItem("Build and add to GAC");
                 buildAndGacMenu.Click += BuildAndGacMenuClick;
@@ -28,7 +28,7 @@ namespace MMETools
                 menus.Add(buildAndGacMenu);
                 return menus;
             }
-            return menus;
+            return null;
         }
 
         private void BuildAndGacMenuClick(object sender, EventArgs<IMenuContext> e)

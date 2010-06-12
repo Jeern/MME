@@ -79,11 +79,14 @@ namespace MMEVS2010
                 {
                     menuTree.Add(mainMenu);
                     IEnumerable<IMenuItem> menuList = menuManager.GetMenus(level);
-                    foreach (IMenuItem menu in menuList)
+                    if (menuList != null)
                     {
-                        menuTree.Add(mainMenu, menu);
-                        if (!m_AssociatedMenuManagers.ContainsKey(menu.Id))
-                            m_AssociatedMenuManagers.Add(menu.Id, menuManager);
+                        foreach (IMenuItem menu in menuList)
+                        {
+                            menuTree.Add(mainMenu, menu);
+                            if (!m_AssociatedMenuManagers.ContainsKey(menu.Id))
+                                m_AssociatedMenuManagers.Add(menu.Id, menuManager);
+                        }
                     }
                 }
             }

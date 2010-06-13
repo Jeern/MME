@@ -7,6 +7,7 @@
     <Description xml:space="preserve">Installs a project template which can create Managed Menu Extensions. I.e. Right click menus for the Visual Studio 2010 solution explorer. Creates a project with a class that implements IMenuManager from the MMEContracts assembly. It is a requirement that MME is installed.You can find MME on the Visual Studio Gallery or on http://mme.codeplex.com</Description>
     <Locale>1033</Locale>
     <MoreInfoUrl>http://mme.codeplex.com</MoreInfoUrl>
+    <License>license.txt</License>
     <GettingStartedGuide>http://mme.codeplex.com/documentation</GettingStartedGuide>
     <Icon>MMEGear.ico</Icon>
     <PreviewImage>MMESS.jpg</PreviewImage>

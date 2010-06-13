@@ -1,31 +1,34 @@
 From: "Saved by Windows Internet Explorer 8"
 Subject: MME
-Date: Sun, 13 Jun 2010 14:43:39 +0200
+Date: Sun, 13 Jun 2010 15:39:59 +0200
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----=_NextPart_000_0000_01CB0B06.D02472B0"
+	boundary="----=_NextPart_000_0021_01CB0B0E.AE309BE0"
 X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16543
 
 This is a multi-part message in MIME format.
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: text/html;
 	charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://mme.codeplex.com/wikipage?title=deploying
+Content-Location: file://C:\MMEDeploying.htm
 
 =EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
 "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<HTML class=3D"IE IE7 IE8 " xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD =
-
+<!-- saved from =
+url=3D(0077)http://mme.codeplex.com/wikipage?title=3Ddeploying&referringT=
+itle=3DDocumentation --><HTML=20
+class=3D"Chrome " xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD=20
 id=3Dctl00_ctl00_HeadTag><TITLE>MME</TITLE>
-<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
 <META content=3DIE=3D7 http-equiv=3DX-UA-Compatible><LINK =
 id=3Dctl00_ctl00_MasterCss=20
 rel=3Dstylesheet type=3Dtext/css=20
-href=3D"http://i1.codeplex.com/css/v16694/i70663/StyleSheet.ashx"><LINK=20
-rel=3D"SHORTCUT ICON" href=3D"favicon.ico">
+href=3D"file:///C:/MMEDeploying_files/StyleSheet.ashx"><LINK =
+rel=3D"SHORTCUT ICON"=20
+href=3D"http://mme.codeplex.com/favicon.ico">
 <STYLE type=3Dtext/css>.SideBar {
 	DISPLAY: none
 }
@@ -106,29 +109,28 @@ PADDING-TOP: 0px
 }
 </STYLE>
 
-<SCRIPT type=3Dtext/javascript>
-        function setWikiCommentTextBoxFocus()
-        {
-            $('#Comment').focus();
-            return false;
-        }
-
-        function wikiSearch() {
-            var $textbox =3D $('#searchTextBox');
-            if($textbox.attr('dirty') !=3D 'true')
-                return;
+<SCRIPT type=3Dtext/javascript>=0A=
+        function setWikiCommentTextBoxFocus()=0A=
+        {=0A=
+            $('#Comment').focus();=0A=
+            return false;=0A=
+        }=0A=
+=0A=
+        function wikiSearch() {=0A=
+            var $textbox =3D $('#searchTextBox');=0A=
+            if($textbox.attr('dirty') !=3D 'true')=0A=
+                return;=0A=
             var searchText =3D =
-encodeURIComponent(jQuery.trim($textbox.val()));
-            if(searchText !=3D null & searchText.length > 0)
+encodeURIComponent(jQuery.trim($textbox.val()));=0A=
+            if(searchText !=3D null & searchText.length > 0)=0A=
                 window.location.href =3D =
 'http://mme.codeplex.com/Wiki/Search.aspx' + =
-'?tab=3DDocumentation&SearchText=3D' + searchText;
-        }
-
+'?tab=3DDocumentation&SearchText=3D' + searchText;=0A=
+        }=0A=
+=0A=
     </SCRIPT>
 
-<META id=3Dctl00_ctl00_Header_WTProjectName name=3DWT.pi =
-content=3Dmme></META>
+<META id=3Dctl00_ctl00_Header_WTProjectName name=3DWT.pi content=3Dmme>
 <META id=3Dctl00_ctl00_PageDescription name=3DDescription><LINK =
 title=3DMME=20
 rel=3Dalternate type=3Dapplication/rss+xml=20
@@ -155,7 +157,7 @@ codeplex%3a%2f%2freview%2fmme">
 <BODY onload=3DmasterLoad();>
 <FORM id=3DaspnetForm encType=3Dmultipart/form-data method=3Dpost =
 name=3DaspnetForm=20
-action=3D/wikipage?title=3Ddeploying autocomplete=3D"off">
+action=3D./MMEDeploying_files/MMEDeploying.htm autocomplete=3D"off">
 <DIV><INPUT id=3D__EVENTTARGET type=3Dhidden name=3D__EVENTTARGET> =
 <INPUT=20
 id=3D__EVENTARGUMENT type=3Dhidden name=3D__EVENTARGUMENT> <INPUT =
@@ -184,92 +186,87 @@ NC9zZWFyY2gtYnV0dG9uLW9mZi5naWYWBB4Lb25tb3VzZW92ZXIFUGphdmFzY3JpcHQ6dGhpc=
 y5zcmM9J2h0dHA6Ly9pMy5jb2RlcGxleC5jb20vSW1hZ2VzL3YxNjY5NC9zZWFyY2gtYnV0dG=
 9uLW9uLmdpZic7Hgpvbm1vdXNlb3V0BVFqYXZhc2NyaXB0OnRoaXMuc3JjPSdodHRwOi8vaTM=
 uY29kZXBsZXguY29tL0ltYWdlcy92MTY2OTQvc2VhcmNoLWJ1dHRvbi1vZmYuZ2lmJztkAgMP=
-ZBYEAgEPZBYEZg8PFgIfA2hkFgICAw9kFgJmD2QWAgIBD2QWBAIFDw8WAh8DaGRkAgcPDxYCH=
-wNoZGQCAQ9kFgICAw9kFgICAQ9kFgICAQ9kFgICAQ9kFgICAQ8WAh8ABVBodHRwOi8vbW1lLm=
-NvZGVwbGV4LmNvbS9Qcm9qZWN0L0VkaXRQcm9qZWN0RGV0YWlscy5hc3B4P0ZvY3VzRWxlbWV=
-udD1EZXNjcmlwdGlvbmQCAw9kFgJmDxYCHwNoFgJmDw8WAh8EBTdodHRwOi8vbW1lLmNvZGVw=
-bGV4LmNvbS9Qcm9qZWN0L0VkaXRQcm9qZWN0RGV0YWlscy5hc3B4ZGQCBQ8PFgIfA2hkZAIHD=
-2QWBAIBD2QWEgIBDxYCHgVjbGFzcwUSVGFiIEluYWN0aXZlVGFiTmV3FgICAQ8PFgIfBAUYaH=
-R0cDovL21tZS5jb2RlcGxleC5jb20vZGQCAw8WAh8KBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgI=
-BDw8WAh8EBSBodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9yZWxlYXNlc2RkAgUPFgIfCgUQVGFi=
-IEFjdGl2ZVRhYk5ldxYCAgEPDxYCHwQFJWh0dHA6Ly9tbWUuY29kZXBsZXguY29tL2RvY3VtZ=
-W50YXRpb25kZAIHDxYCHwoFElRhYiBJbmFjdGl2ZVRhYk5ldxYCAgEPDxYCHwQFKGh0dHA6Ly=
-9tbWUuY29kZXBsZXguY29tL1RocmVhZC9MaXN0LmFzcHhkZAIJDxYCHwoFElRhYiBJbmFjdGl=
-2ZVRhYk5ldxYCAgEPDxYCHwQFK2h0dHA6Ly9tbWUuY29kZXBsZXguY29tL3dvcmtpdGVtL2xp=
-c3QvYmFzaWNkZAILDxYCHwoFElRhYiBJbmFjdGl2ZVRhYk5ldxYCAgEPDxYCHwQFNWh0dHA6L=
-y9tbWUuY29kZXBsZXguY29tL1NvdXJjZUNvbnRyb2wvbGlzdC9jaGFuZ2VzZXRzZGQCDQ8WAh=
-8KBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBSFodHRwOi8vbW1lLmNvZGVwbGV4LmN=
-vbS90ZWFtL3ZpZXdkZAIPDxYCHwoFElRhYiBJbmFjdGl2ZVRhYk5ldxYCAgEPDxYCHwQFH2h0=
-dHA6Ly9tbWUuY29kZXBsZXguY29tL2xpY2Vuc2VkZAIRD2QWBAICD2QWAgIDD2QWBGYPZBYCA=
-gEPZBYEAgEPDxYCHwYFOGh0dHA6Ly9pMy5jb2RlcGxleC5jb20vSW1hZ2VzL3YxNjY5NC9hcn=
-Jvd19kc2NfZ3JlZW4uZ2lmZGQCAw8PFgIfBgUxaHR0cDovL2kzLmNvZGVwbGV4LmNvbS9JbWF=
-nZXMvdjE2Njk0L2ljb25fcnNzLmdpZmRkAgEPZBYCAgEPZBYCAgEPZBYOAgEPZBYCAgEPDxYC=
-HwQFL2h0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2plY3QvUHJvamVjdFJzcy5hc3B4ZGQCA=
-w9kFgICAQ8PFgIfBAVbaHR0cDovL21tZS5jb2RlcGxleC5jb20vUHJvamVjdC9Qcm9qZWN0Un=
-NzLmFzcHg/UHJvamVjdFJTU0ZlZWQ9Y29kZXBsZXglM2ElMmYlMmZmb3J1bSUyZm1tZWRkAgU=
-PZBYCAgEPDxYCHwQFXmh0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2plY3QvUHJvamVjdFJz=
-cy5hc3B4P1Byb2plY3RSU1NGZWVkPWNvZGVwbGV4JTNhJTJmJTJmd29ya2l0ZW0lMmZtbWVkZ=
-AIHD2QWAgIBDw8WAh8EBV1odHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3=
-RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZnJlbGVhc2UlMmZtbWV=
-kZAIJD2QWAgIBDw8WAh8EBVxodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2pl=
-Y3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZnJldmlldyUyZm1tZ=
-WRkAgsPZBYCAgEPDxYCHwQFY2h0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2plY3QvUHJvam=
-VjdFJzcy5hc3B4P1Byb2plY3RSU1NGZWVkPWNvZGVwbGV4JTNhJTJmJTJmc291cmNlY29udHJ=
-vbCUyZm1tZWRkAg0PZBYCAgEPDxYCHwQFWmh0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2pl=
-Y3QvUHJvamVjdFJzcy5hc3B4P1Byb2plY3RSU1NGZWVkPWNvZGVwbGV4JTNhJTJmJTJmd2lra=
-SUyZm1tZWRkAgQPZBYEZg8PFgIfBgU6aHR0cDovL2kzLmNvZGVwbGV4LmNvbS9JbWFnZXMvdj=
-E2Njk0L2Fycm93X3JpZ2h0X2dyZWVuLmdpZmRkAgIPDxYCHwYFMWh0dHA6Ly9pMy5jb2RlcGx=
-leC5jb20vSW1hZ2VzL3YxNjY5NC9pY29uX3Jzcy5naWZkZAIHDxYCHgV3aWR0aAUDMTUlFgIC=
-AQ8PFgQeCENzc0NsYXNzBTRTdGFuZGFyZFBhZGRpbmcgU2lkZUJhciBSaWdodFNpZGVCYXIgR=
-3JhZGllbnRTaWRlQmFyHgRfIVNCAgJkZAICDxYCHwcFSjxzY3JpcHQgc3JjPSIvc2l0ZS9saW=
-JyYXJ5L3N2eS9icm9rZXIuanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+PC9zY3JpcHQ+ZAI=
-DDw8WAh8GBS5odHRwOi8vaTMuY29kZXBsZXguY29tL0ltYWdlcy92MTY2OTQvYmxhbmsucG5n=
-FgIeBm9ubG9hZAUZc2VsZi5sb2dvSW1hZ2VMb2FkZWQ9dHJ1ZWQCBA8WAh8DZ2QYAQUeX19Db=
-250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFO2N0bDAwJGN0bDAwJE1hc3RlckNvbnRlbn=
-QkUHJvamVjdFNlYXJjaENvbnRyb2wkU2VhcmNoQnV0dG9u=20
+ZBYEAgEPZBYEZg8PFgIfA2hkZAIBD2QWAgIDD2QWAgIBD2QWAgIBD2QWAgIBD2QWAgIBDxYCH=
+wAFUGh0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2plY3QvRWRpdFByb2plY3REZXRhaWxzLm=
+FzcHg/Rm9jdXNFbGVtZW50PURlc2NyaXB0aW9uZAIDD2QWAmYPZBYCZg8PFgIfBAU3aHR0cDo=
+vL21tZS5jb2RlcGxleC5jb20vUHJvamVjdC9FZGl0UHJvamVjdERldGFpbHMuYXNweGRkAgUP=
+DxYCHwNoZGQCBw9kFgQCAQ9kFhICAQ8WAh4FY2xhc3MFElRhYiBJbmFjdGl2ZVRhYk5ldxYCA=
+gEPDxYCHwQFGGh0dHA6Ly9tbWUuY29kZXBsZXguY29tL2RkAgMPFgIfCgUSVGFiIEluYWN0aX=
+ZlVGFiTmV3FgICAQ8PFgIfBAUgaHR0cDovL21tZS5jb2RlcGxleC5jb20vcmVsZWFzZXNkZAI=
+FDxYCHwoFEFRhYiBBY3RpdmVUYWJOZXcWAgIBDw8WAh8EBSVodHRwOi8vbW1lLmNvZGVwbGV4=
+LmNvbS9kb2N1bWVudGF0aW9uZGQCBw8WAh8KBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WA=
+h8EBShodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9UaHJlYWQvTGlzdC5hc3B4ZGQCCQ8WAh8KBR=
+JUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8WAh8EBStodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9=
+3b3JraXRlbS9saXN0L2Jhc2ljZGQCCw8WAh8KBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgIBDw8W=
+Ah8EBTVodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Tb3VyY2VDb250cm9sL2xpc3QvY2hhbmdlc=
+2V0c2RkAg0PFgIfCgUSVGFiIEluYWN0aXZlVGFiTmV3FgICAQ8PFgIfBAUhaHR0cDovL21tZS=
+5jb2RlcGxleC5jb20vdGVhbS92aWV3ZGQCDw8WAh8KBRJUYWIgSW5hY3RpdmVUYWJOZXcWAgI=
+BDw8WAh8EBR9odHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9saWNlbnNlZGQCEQ9kFgQCAg9kFgIC=
+Aw9kFgRmD2QWAgIBD2QWBAIBDw8WAh8GBThodHRwOi8vaTMuY29kZXBsZXguY29tL0ltYWdlc=
+y92MTY2OTQvYXJyb3dfZHNjX2dyZWVuLmdpZmRkAgMPDxYCHwYFMWh0dHA6Ly9pMy5jb2RlcG=
+xleC5jb20vSW1hZ2VzL3YxNjY5NC9pY29uX3Jzcy5naWZkZAIBD2QWAgIBD2QWAgIBD2QWDgI=
+BD2QWAgIBDw8WAh8EBS9odHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Qcm9qZWN0L1Byb2plY3RS=
+c3MuYXNweGRkAgMPZBYCAgEPDxYCHwQFW2h0dHA6Ly9tbWUuY29kZXBsZXguY29tL1Byb2plY=
+3QvUHJvamVjdFJzcy5hc3B4P1Byb2plY3RSU1NGZWVkPWNvZGVwbGV4JTNhJTJmJTJmZm9ydW=
+0lMmZtbWVkZAIFD2QWAgIBDw8WAh8EBV5odHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Qcm9qZWN=
+0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZndvcmtp=
+dGVtJTJmbW1lZGQCBw9kFgICAQ8PFgIfBAVdaHR0cDovL21tZS5jb2RlcGxleC5jb20vUHJva=
+mVjdC9Qcm9qZWN0UnNzLmFzcHg/UHJvamVjdFJTU0ZlZWQ9Y29kZXBsZXglM2ElMmYlMmZyZW=
+xlYXNlJTJmbW1lZGQCCQ9kFgICAQ8PFgIfBAVcaHR0cDovL21tZS5jb2RlcGxleC5jb20vUHJ=
+vamVjdC9Qcm9qZWN0UnNzLmFzcHg/UHJvamVjdFJTU0ZlZWQ9Y29kZXBsZXglM2ElMmYlMmZy=
+ZXZpZXclMmZtbWVkZAILD2QWAgIBDw8WAh8EBWNodHRwOi8vbW1lLmNvZGVwbGV4LmNvbS9Qc=
+m9qZWN0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUzYSUyZiUyZn=
+NvdXJjZWNvbnRyb2wlMmZtbWVkZAIND2QWAgIBDw8WAh8EBVpodHRwOi8vbW1lLmNvZGVwbGV=
+4LmNvbS9Qcm9qZWN0L1Byb2plY3RSc3MuYXNweD9Qcm9qZWN0UlNTRmVlZD1jb2RlcGxleCUz=
+YSUyZiUyZndpa2klMmZtbWVkZAIED2QWBGYPDxYCHwYFOmh0dHA6Ly9pMy5jb2RlcGxleC5jb=
+20vSW1hZ2VzL3YxNjY5NC9hcnJvd19yaWdodF9ncmVlbi5naWZkZAICDw8WAh8GBTFodHRwOi=
+8vaTMuY29kZXBsZXguY29tL0ltYWdlcy92MTY2OTQvaWNvbl9yc3MuZ2lmZGQCBw8WAh4Fd2l=
+kdGgFAzE1JRYCAgEPDxYEHghDc3NDbGFzcwU0U3RhbmRhcmRQYWRkaW5nIFNpZGVCYXIgUmln=
+aHRTaWRlQmFyIEdyYWRpZW50U2lkZUJhch4EXyFTQgICZGQCAg8WAh8HBUo8c2NyaXB0IHNyY=
+z0iL3NpdGUvbGlicmFyeS9zdnkvYnJva2VyLmpzIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPj=
+wvc2NyaXB0PmQCAw8PFgIfBgUuaHR0cDovL2kzLmNvZGVwbGV4LmNvbS9JbWFnZXMvdjE2Njk=
+0L2JsYW5rLnBuZxYCHgZvbmxvYWQFGXNlbGYubG9nb0ltYWdlTG9hZGVkPXRydWVkAgQPFgIf=
+A2dkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBTtjdGwwMCRjdGwwMCRNY=
+XN0ZXJDb250ZW50JFByb2plY3RTZWFyY2hDb250cm9sJFNlYXJjaEJ1dHRvbgU4Y3RsMDAkY3=
+RsMDAkTWFzdGVyQ29udGVudCRQcm9qZWN0U2lnbkluQ29udHJvbCRMb2dpblZpZXcPD2QCAWQ=
+=3D=20
 type=3Dhidden name=3D__VIEWSTATE> </DIV>
-<SCRIPT type=3Dtext/javascript>
-//<![CDATA[
-var theForm =3D document.forms['aspnetForm'];
-if (!theForm) {
-    theForm =3D document.aspnetForm;
-}
-function __doPostBack(eventTarget, eventArgument) {
-    if (!theForm.onsubmit || (theForm.onsubmit() !=3D false)) {
-        theForm.__EVENTTARGET.value =3D eventTarget;
-        theForm.__EVENTARGUMENT.value =3D eventArgument;
-        theForm.submit();
-    }
-}
-//]]>
+<SCRIPT type=3Dtext/javascript>=0A=
+//<![CDATA[=0A=
+var theForm =3D document.forms['aspnetForm'];=0A=
+if (!theForm) {=0A=
+    theForm =3D document.aspnetForm;=0A=
+}=0A=
+function __doPostBack(eventTarget, eventArgument) {=0A=
+    if (!theForm.onsubmit || (theForm.onsubmit() !=3D false)) {=0A=
+        theForm.__EVENTTARGET.value =3D eventTarget;=0A=
+        theForm.__EVENTARGUMENT.value =3D eventArgument;=0A=
+        theForm.submit();=0A=
+    }=0A=
+}=0A=
+//]]>=0A=
 </SCRIPT>
 
 <SCRIPT type=3Dtext/javascript=20
-src=3D"http://mme.codeplex.com/WebResource.axd?d=3Daz5BZ-9qYZGtlZ8uC5a1Pw=
-2&amp;t=3D634069423273825256"></SCRIPT>
+src=3D"file:///C:/MMEDeploying_files/WebResource.axd"></SCRIPT>
 
 <SCRIPT type=3Dtext/javascript=20
-src=3D"http://mme.codeplex.com/ScriptResource.axd?d=3DxNw9FpiVpFVQ4jNrrYM=
-4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QWX2YUnHWgHggm04qKBdGBTS3cVY0=
-ZgzlecOnmEPtUuw1&amp;t=3D16ab2387"></SCRIPT>
+src=3D"file:///C:/MMEDeploying_files/ScriptResource.axd"></SCRIPT>
 
 <SCRIPT type=3Dtext/javascript=20
-src=3D"http://mme.codeplex.com/ScriptResource.axd?d=3DxNw9FpiVpFVQ4jNrrYM=
-4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QgGaFo13npFNrDU20b7v-e_jX6HsU=
-p5jBxRa6Wlbmf9g1&amp;t=3D16ab2387"></SCRIPT>
+src=3D"file:///C:/MMEDeploying_files/ScriptResource(1).axd"></SCRIPT>
 
 <SCRIPT type=3Dtext/javascript=20
-src=3D"http://i1.codeplex.com/scripts/v16694/i33554415/ScriptLoader.ashx"=
-></SCRIPT>
+src=3D"file:///C:/MMEDeploying_files/ScriptLoader.ashx"></SCRIPT>
 
 <DIV><INPUT id=3D__EVENTVALIDATION =
-value=3D/wEWAwKUv5beAgLYp/iUDgKD35z6DQ=3D=3D=20
+value=3D/wEWAwLhoeP+AwLYp/iUDgKD35z6DQ=3D=3D=20
 type=3Dhidden name=3D__EVENTVALIDATION> </DIV>
-<SCRIPT type=3Dtext/javascript>
-//<![CDATA[
+<SCRIPT type=3Dtext/javascript>=0A=
+//<![CDATA[=0A=
 Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ScriptManager', =
-'aspnetForm', [], [], [], 90, 'ctl00$ctl00');
-//]]>
+'aspnetForm', [], [], [], 90, 'ctl00$ctl00');=0A=
+//]]>=0A=
 </SCRIPT>
 
 <TABLE id=3DCanvasTable cellSpacing=3D0 cellPadding=3D0>
@@ -302,9 +299,7 @@ id=3Dctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectTitleLink=20
                   =
 id=3Dctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectLogo=20
                   =
-src=3D"http://download.codeplex.com/Project/Download/FileDownload.aspx?Pr=
-ojectName=3Dmme&amp;DownloadId=3D126606&amp;Build=3D16694"></A>=20
-                  <A=20
+src=3D"file:///C:/MMEDeploying_files/FileDownload.aspx"></A> <A=20
                   =
 id=3Dctl00_ctl00_MasterContent_ProjectTitleControl1_ProjectTitleLink1=20
                   href=3D"http://mme.codeplex.com/">
@@ -326,17 +321,18 @@ Home</DIV></A></DIV></DIV></TD>
           class=3D"StandardPaddingTop SiteHeaderProjectRight" =
 vAlign=3Dtop>
             <DIV class=3D"NoWrap ProjectSignInControl"><A =
-id=3DregisterLink=20
-            class=3DZoomFix=20
-            href=3D"https://www.codeplex.com/site/register">Register</A> =
-<SPAN=20
-            class=3D"VerticalBarTop ZoomFix">|</SPAN> <A id=3DsignInLink =
-
+class=3DZoomFix=20
+            title=3D"Update Your Profile"=20
+            href=3D"http://www.codeplex.com/site/users/view/jern"><SPAN=20
+            =
+id=3Dctl00_ctl00_MasterContent_ProjectSignInControl_LoginView_LoginName>j=
+ern</SPAN></A>=20
+            <SPAN class=3D"VerticalBarTop ZoomFix">|</SPAN> <A =
+id=3DsignOutLink=20
             class=3DZoomFix=20
             =
-href=3D"https://www.codeplex.com/site/login?RedirectUrl=3Dhttp%3a%2f%2fmm=
-e.codeplex.com%2fwikipage%3ftitle%3ddeploying%26ProjectName%3dmme">Sign=20
-            In</A> <SPAN class=3D"VerticalBarTop ZoomFix">|</SPAN> <A=20
+href=3D"https://www.codeplex.com/UserAccount/SignOut.ashx">Sign=20
+            Out</A> <SPAN class=3D"VerticalBarTop ZoomFix">|</SPAN> <A=20
             class=3DZoomFix href=3D"http://www.codeplex.com/">CodePlex =
 Home</A>=20
             </DIV>
@@ -349,13 +345,14 @@ id=3Dctl00_ctl00_MasterContent_ProjectSearchControl_ProjectSearchPanel=20
 WebForm_FireDefaultButton(event, =
 'ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton')">
             <DIV class=3DProjectSearchPanel><INPUT=20
+            style=3D"FONT-STYLE: italic; COLOR: rgb(170,170,170)"=20
             =
 id=3Dctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox=20
-            class=3D"SingleLineTextBox ProjectSearchTextBox" =
-maxLength=3D500=20
+            class=3D"SingleLineTextBox ProjectSearchTextBox"=20
+            title=3D"Search all CodePlex projects" maxLength=3D500=20
             =
-name=3Dctl00$ctl00$MasterContent$ProjectSearchControl$SearchTextBox>=20
-            <INPUT=20
+name=3Dctl00$ctl00$MasterContent$ProjectSearchControl$SearchTextBox=20
+            autocomplete=3D"off"> <INPUT=20
             style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; =
 BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"=20
             =
@@ -364,95 +361,134 @@ id=3Dctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton=20
             =
 onmouseover=3D"javascript:this.src=3D'http://i3.codeplex.com/Images/v1669=
 4/search-button-on.gif';"=20
+            title=3D"Search all CodePlex projects"=20
             =
 onmouseout=3D"javascript:this.src=3D'http://i3.codeplex.com/Images/v16694=
 /search-button-off.gif';"=20
-            alt=3DSearch=20
-            =
-src=3D"http://i3.codeplex.com/Images/v16694/search-button-off.gif"=20
+            alt=3DSearch =
+src=3D"file:///C:/MMEDeploying_files/search-button-off.gif"=20
             type=3Dimage=20
             =
 name=3Dctl00$ctl00$MasterContent$ProjectSearchControl$SearchButton>
             <SCRIPT type=3Dtext/javascript defer=20
             =
-src=3D"http://i4.services.social.microsoft.com/search/Widgets/SearchBox.j=
-ss?appid=3D1000&amp;scopeid=3D1&amp;boxId=3Dctl00_ctl00_MasterContent_Pro=
-jectSearchControl_SearchTextBox&amp;btnId=3Dctl00_ctl00_MasterContent_Pro=
-jectSearchControl_SearchButton&amp;watermark=3DSearch%20all%20CodePlex%20=
-projects&amp;overrideWatermark=3Dtrue&amp;searchLocation=3Dhttp%3a%2f%2fw=
-ww.codeplex.com%2fsite%2fsearch&amp;allowEmptySearch=3Dtrue"></SCRIPT>
+src=3D"file:///C:/MMEDeploying_files/SearchBox.jss"></SCRIPT>
 
-            <SCRIPT type=3Dtext/javascript>
-            $(document).ready(function () {
+            <SCRIPT type=3Dtext/javascript>=0A=
+            $(document).ready(function () {=0A=
                 if (typeof epx_loaded =3D=3D=3D 'undefined' || =
-!epx_loaded) {
+!epx_loaded) {=0A=
                     =
 $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton').bind('c=
-lick', doProjectSearch);
+lick', doProjectSearch);=0A=
                     =
 $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox').bind('=
 keydown', function (e) { { if ($keyCode(e) =3D=3D=3D 13) return =
-doProjectSearch(); } });
-                }
-            })
-            function doProjectSearch() {
+doProjectSearch(); } });=0A=
+                }=0A=
+            })=0A=
+            function doProjectSearch() {=0A=
                 =
 window.location.replace('http://www.codeplex.com/site/search?query=3D' + =
 $('#ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox').val())=
-;
-                return false;
-            }
+;=0A=
+                return false;=0A=
+            }=0A=
         </SCRIPT>
-             </DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+            =20
+            <DIV=20
+            style=3D"Z-INDEX: 1000; BORDER-BOTTOM: buttonshadow 1px =
+solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: buttonshadow =
+1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: rgb(255,255,255); =
+PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: none; FONT-FAMILY: =
+arial; COLOR: rgb(0,0,255); BORDER-TOP: buttonshadow 1px solid; =
+BORDER-RIGHT: buttonshadow 1px solid; PADDING-TOP: 2px"=20
+            id=3DSearchFlyoutContainer>
+            <DIV id=3DSuggestionContainer>
+            <DIV=20
+            style=3D"PADDING-BOTTOM: 1px; MARGIN-TOP: 4px; PADDING-LEFT: =
+1px; PADDING-RIGHT: 1px; COLOR: gray; FONT-SIZE: 8pt; VERTICAL-ALIGN: =
+middle; FONT-WEIGHT: bold; PADDING-TOP: 1px">Suggestions
+            <DIV=20
+            style=3D"BORDER-RIGHT-WIDTH: 0px; MARGIN-TOP: 1px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; BORDER-TOP: rgb(221,221,221) 1px =
+solid; BORDER-LEFT-WIDTH: 0px"></DIV></DIV>
+            <UL=20
+            style=3D"PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: =
+1px; PADDING-LEFT: 1px; PADDING-RIGHT: 2px; FONT-SIZE: 8pt; CURSOR: =
+pointer; PADDING-TOP: 4px"></UL></DIV>
+            <DIV=20
+            style=3D"TEXT-ALIGN: right; MARGIN: 0px; WIDTH: 100%; =
+FONT-SIZE: 8pt"=20
+            id=3DFooterContainer><A=20
+            =
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">Close</A></DIV></DIV></DIV></DIV></DIV></TD></TR><=
+/TBODY></TABLE></DIV>
       <DIV id=3DProjectBody class=3DSiteContent>
       <DIV id=3Dctl00_ctl00_MasterContent_ProjectDetailsDiv>
-      <SCRIPT type=3Dtext/javascript>
-    function VerifyProjectDeletion()
-    {
+      <SCRIPT type=3Dtext/javascript>=0A=
+    function VerifyProjectDeletion()=0A=
+    {=0A=
         var result =3D confirm("Are you sure you want to delete this =
-project?  You will not be able to recover it later");
-        if (result)
-            ShowUpdatingPanel();
-        else
-            allowUnsavedDataAlert();
-        return result;
-    }
-    function ShowPublishPanel()
-    {
-        ShowUpdatingPanel();
-    }
-    function ShowUpdatingPanel()
-    {
+project?  You will not be able to recover it later");=0A=
+        if (result)=0A=
+            ShowUpdatingPanel();=0A=
+        else=0A=
+            allowUnsavedDataAlert();=0A=
+        return result;=0A=
+    }=0A=
+    function ShowPublishPanel()=0A=
+    {=0A=
+        ShowUpdatingPanel();=0A=
+    }=0A=
+    function ShowUpdatingPanel()=0A=
+    {=0A=
         var =
 publishButton=3D$('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishPro=
-ject_PublishButton')[0];
+ject_PublishButton')[0];=0A=
         var =
 deleteButton=3D$('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishProj=
-ect_DeleteButton')[0];
-
+ect_DeleteButton')[0];=0A=
+=0A=
         setTimeout(function() { =
 CodePlex.UpdateProgress.displayPanelAndDisableControls('Updating...', =
-publishButton, deleteButton) }, 1);
-    }
+publishButton, deleteButton) }, 1);=0A=
+    }=0A=
 </SCRIPT>
 
       <DIV class=3DClearBoth></DIV>
       <DIV class=3DStandardPaddingBottom></DIV>
-      <SCRIPT type=3Dtext/javascript>
+      <SCRIPT type=3Dtext/javascript>=0A=
     // replaces the smartdatecontrol's "Today" with "today" or "on =
-{Date}" for this user control
-    function formatDate() {
+{Date}" for this user control=0A=
+    function formatDate() {=0A=
         var dateSpan =3D =
 $('#ctl00_ctl00_MasterContent_ProjectCountdown_PublishProject_DeletionDat=
-eLiteral');
-        if (dateSpan.text().toLowerCase() =3D=3D "today")
-            dateSpan.text("today");
-        else
-            dateSpan.text("on " + dateSpan.text());
-    }
-    formatDate();
+eLiteral');=0A=
+        if (dateSpan.text().toLowerCase() =3D=3D "today")=0A=
+            dateSpan.text("today");=0A=
+        else=0A=
+            dateSpan.text("on " + dateSpan.text());=0A=
+    }=0A=
+    formatDate();=0A=
 </SCRIPT>
-      </DIV>
+
+      <DIV=20
+      =
+id=3Dctl00_ctl00_MasterContent_EditProjectDetailsLink_EditProjectDetailsD=
+iv=20
+      class=3D"SubLink StandardPaddingBottom StandardMarginBottom =
+StandardMarginTop ProjectEditProjectDetails"><IMG=20
+      style=3D"PADDING-LEFT: 0.1em" title=3D"Edit Project Summary &amp; =
+Details"=20
+      alt=3D"Edit Project Summary &amp; Details"=20
+      src=3D"file:///C:/MMEDeploying_files/editicon.gif"> <A=20
+      =
+id=3Dctl00_ctl00_MasterContent_EditProjectDetailsLink_editProjectLink=20
+      =
+href=3D"http://mme.codeplex.com/Project/EditProjectDetails.aspx">Edit=20
+      Project Summary &amp; Details</A> </DIV></DIV>
       <TABLE class=3DSiteContentTable cellSpacing=3D0 cellPadding=3D0>
         <TBODY>
         <TR vAlign=3Dtop>
@@ -554,32 +590,32 @@ id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_ProjectDirectoryStyles=20
 }
 </STYLE>
 
-                  <SCRIPT type=3Dtext/javascript>
-        function setMaxHeight(divName, bottomPixelPadding){
-            var constraindiv =3D $('#' + divName)[0];
+                  <SCRIPT type=3Dtext/javascript>=0A=
+        function setMaxHeight(divName, bottomPixelPadding){=0A=
+            var constraindiv =3D $('#' + divName)[0];=0A=
             var divpoint =3D =
-CodePlex.UI.getElementPosition(constraindiv);
+CodePlex.UI.getElementPosition(constraindiv);=0A=
             var maxHeight =3D $('#Canvas').offset().top - divpoint.y - =
-bottomPixelPadding;
-            var scrollHeight =3D constraindiv.scrollHeight;
+bottomPixelPadding;=0A=
+            var scrollHeight =3D constraindiv.scrollHeight;=0A=
             constraindiv.style.height =3D (scrollHeight > maxHeight) ? =
-maxHeight + 'px' : 'auto';
-        }
-        function placeHover(linkname, hovername) {
-            var link =3D $('#' + linkname)[0];
-            var $hover =3D $('#' + hovername);
-            var point =3D CodePlex.UI.getElementPosition(link);
-            $hover.css('left', (point.x - 135) + 'px');
-            $hover.css('top', (point.y - 7) + 'px');
-            $hover.css('display', 'block');
-        }
-       =20
-        function closeHover(hovername) {
-            $('#' + hovername).css('display', '');
-        }
-        function closeHovers() {
-            $('#rssHoverDiv').css('display', '');
-        }
+maxHeight + 'px' : 'auto';=0A=
+        }=0A=
+        function placeHover(linkname, hovername) {=0A=
+            var link =3D $('#' + linkname)[0];=0A=
+            var $hover =3D $('#' + hovername);=0A=
+            var point =3D CodePlex.UI.getElementPosition(link);=0A=
+            $hover.css('left', (point.x - 135) + 'px');=0A=
+            $hover.css('top', (point.y - 7) + 'px');=0A=
+            $hover.css('display', 'block');=0A=
+        }=0A=
+        =0A=
+        function closeHover(hovername) {=0A=
+            $('#' + hovername).css('display', '');=0A=
+        }=0A=
+        function closeHovers() {=0A=
+            $('#rssHoverDiv').css('display', '');=0A=
+        }=0A=
 </SCRIPT>
 
                   <DIV id=3DrssHoverDiv=20
@@ -600,14 +636,16 @@ anel=20
 onclick=3D"allowUnsavedDataAlert();closeHover('rssHoverDiv'); return =
 false;"=20
                   =
-href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying#">Close</A>=20
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">Close</A>=20
                   </DIV>
                   <DIV style=3D"FLOAT: left"=20
                   =
 onclick=3D"allowUnsavedDataAlert();closeHover('rssHoverDiv');"><A=20
                   onclick=3D"return false;"=20
                   =
-href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying#"><IMG=20
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#"><IMG=20
                   style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 9px; =
 BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 9px; =
 BORDER-LEFT-WIDTH: 0px"=20
@@ -615,10 +653,11 @@ BORDER-LEFT-WIDTH: 0px"=20
 id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_ArrowDo=
 wnImg3=20
                   =
-src=3D"http://i3.codeplex.com/Images/v16694/arrow_dsc_green.gif"></A>=20
+src=3D"file:///C:/MMEDeploying_files/arrow_dsc_green.gif"></A>=20
                   <A onclick=3D"return false;"=20
                   =
-href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying#">RSS</A>=20
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">RSS</A>=20
                   <IMG=20
                   style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: =
 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: bottom; =
@@ -627,8 +666,7 @@ BORDER-LEFT-WIDTH: 0px"=20
 id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_RssHoverContentPanel_rssFeed=
 ImageHover=20
                   hspace=3D5 alt=3D"RSS Feed"=20
-                  =
-src=3D"http://i3.codeplex.com/Images/v16694/icon_rss.gif">=20
+                  src=3D"file:///C:/MMEDeploying_files/icon_rss.gif"> =
 </DIV>
                   <DIV class=3DClearBoth></DIV></DIV></DIV>
                   <DIV=20
@@ -751,10 +789,11 @@ id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_FeedsLabel><IMG=20
 id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_rssRightArrow=20
                   title=3D"RSS Feed" align=3DabsMiddle=20
                   =
-src=3D"http://i3.codeplex.com/Images/v16694/arrow_right_green.gif">=20
-                  <A onclick=3D"return false;"=20
+src=3D"file:///C:/MMEDeploying_files/arrow_right_green.gif"> <A=20
+                  onclick=3D"return false;"=20
                   =
-href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying#">RSS</A>=20
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">RSS</A>=20
                   <IMG=20
                   style=3D"BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: =
 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: bottom; =
@@ -763,7 +802,7 @@ BORDER-LEFT-WIDTH: 0px"=20
 id=3Dctl00_ctl00_MasterContent_Tabs_rssFeeds_rssFeedImage=20
                   hspace=3D5 alt=3D"RSS Feed"=20
                   =
-src=3D"http://i3.codeplex.com/Images/v16694/icon_rss.gif"></SPAN>=20
+src=3D"file:///C:/MMEDeploying_files/icon_rss.gif"></SPAN>=20
                   </SPAN></DIV></TD></TR></TBODY></TABLE></DIV>
             <DIV style=3D"DISPLAY: none" id=3DDeleteWikiPagePanel=20
             title=3D"Are you Sure?">
@@ -782,16 +821,28 @@ cellSpacing=3D0=20
               <TBODY>
               <TR id=3DwikiTop class=3DwikiTop width=3D"100%">
                 <TD noWrap align=3Dleft>
-                  <DIV id=3DwikiLinksPanel><A id=3DCommentsHyperLink =
-onclick=3D""=20
+                  <DIV id=3DwikiLinksPanel><A id=3DcreateWikiHyperLink=20
                   =
-href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying#CommentsAnchor=
-">Show=20
+href=3D"http://mme.codeplex.com/wikipage?action=3DCreate&amp;version=3D9&=
+amp;referringTitle=3Ddeploying">Create=20
+                  New Page</A> | <A id=3DeditWikiHyperLink=20
+                  =
+href=3D"http://mme.codeplex.com/wikipage?action=3DEdit&amp;title=3Ddeploy=
+ing&amp;version=3D9&amp;referringTitle=3DDocumentation">Edit</A>=20
+                  | <A id=3DdeleteWikiHyperLink=20
+                  =
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">Delete</A>=20
+                  <SPAN>|</SPAN> <A id=3DCommentsHyperLink=20
+                  onclick=3D"return setWikiCommentTextBoxFocus();"=20
+                  =
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#CommentsAnchor">Show=20
                   Page Comments</A> <SPAN>|</SPAN> <A=20
                   id=3DprinterFriendlyHyperLink=20
                   =
 href=3D"javascript:openPreviewWikiWindow('http://mme.codeplex.com/Wiki/Pr=
-int.aspx?action=3DPrint&amp;title=3Ddeploying&amp;version=3D8');">Print=20
+int.aspx?action=3DPrint&amp;title=3Ddeploying&amp;version=3D9');">Print=20
                   View</A> <SPAN>|</SPAN> <A id=3DpageInfoHyperLink=20
                   =
 href=3D"http://mme.codeplex.com/Wiki/Info.aspx?title=3Ddeploying&amp;acti=
@@ -806,7 +857,7 @@ p;(all&nbsp;pages)</A>=20
 
                   id=3DsearchTextBox=20
                   class=3D"SingleLineTextBox ProjectSearchTextBox =
-WikiSearchTextBox"=20
+WikiSearchTextBox EmptyTextBox"=20
                   onkeypress=3D"if ($keyCode(event) =3D=3D 13) { =
 wikiSearch(); return false; }"=20
                   maxLength=3D500> <INPUT=20
@@ -821,12 +872,12 @@ onmouseout=3D"javascript:this.src=3D'http://i3.codeplex.com/Images/v16694=
 /go-off.gif'"=20
                   onclick=3D"wikiSearch();return false;" alt=3DSearch =
 align=3Dtop=20
-                  =
-src=3D"http://i3.codeplex.com/Images/v16694/go-off.gif"=20
-                  type=3Dimage> </DIV>
-                  <SCRIPT type=3Dtext/javascript>
+                  src=3D"file:///C:/MMEDeploying_files/go-off.gif" =
+type=3Dimage>=20
+                  </DIV>
+                  <SCRIPT type=3Dtext/javascript>=0A=
                     $('#searchTextBox').promptBox('Search Wiki & =
-Documentation');
+Documentation');=0A=
                 </SCRIPT>
                 </TD></TR></TBODY></TABLE></DIV>
             <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
@@ -840,8 +891,8 @@ class=3DContent>
                   =
 href=3D"http://mme.codeplex.com/documentation">Documentation</A>=20
                   <IMG alt=3DGo align=3Dbaseline=20
-                  =
-src=3D"http://i3.codeplex.com/Images/v16694/arrow_sm.gif"> <A=20
+                  src=3D"file:///C:/MMEDeploying_files/arrow_sm.gif"> <A =
+
                   =
 href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying">deploying</A>=
 =20
@@ -852,26 +903,28 @@ href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying">deploying</A>=
 Managed Menu=20
                   Extensions to a developers Machine the following needs =
 to be=20
-                  done:<BR><BR>1. Make sure he has installed a version =
-of Visual=20
-                  Studio 2010 (not express)<BR>2. Make sure he has =
-installed=20
-                  MME.msi<BR>3. Place the assemblies you have made with=20
-                  implementations of IMenuManager in one or more of 3 =
-different=20
-                  locations.<BR><BR>It is on purpose I say assemblies in =
-plural.=20
-                  You can make as many IMenuManager implementations as =
-you want,=20
-                  and have them all in one assembly or spread them over =
-a number=20
-                  of assemblies. If several implementations of =
-IMenuManager use=20
-                  the same name for the MainMenu() the submenus are =
-placed under=20
-                  the same submenu. But the ordering will be dependent =
-on the=20
-                  order MEF loads the IMenuManager's in.<BR>
+                  done:<BR><BR>1. Make sure she has installed a version =
+of=20
+                  Visual Studio 2010 (not express)<BR>2. Make sure she =
+has=20
+                  installed MME.msi<BR>3. Place the assemblies you have =
+made=20
+                  with implementations of IMenuManager in one or more of =
+3=20
+                  different locations.<BR><BR>It is on purpose I say =
+assemblies=20
+                  in plural. You can make as many IMenuManager =
+implementations=20
+                  as you want, and have them all in one assembly or =
+spread them=20
+                  over a number of assemblies. If several =
+implementations of=20
+                  IMenuManager use the same name for the MainMenu() the =
+submenus=20
+                  are placed under the same submenu. But the ordering =
+will be=20
+                  dependent on the order MEF loads the IMenuManager's =
+in.<BR>
                   <H2>Where to place your MME assemblies</H2>You can =
 place MME=20
                   assemblies in the C:\ProgramData\MME folder. The name =
@@ -914,50 +967,50 @@ an MSI=20
                   <DIV id=3DWikiInfo class=3D"wikiSource WikiInfo">
                   <DIV id=3DeditedInfoPanel><SPAN class=3DSubText>Last =
 edited <SPAN=20
-                  class=3DsmartDate LocalTimeTicks=3D"1276364703">Sat at =
-10:45=20
-                  AM</SPAN>&nbsp;by&nbsp;<A id=3DwikiEditByLink=20
+                  class=3DsmartDate localtimeticks=3D"1276468648">Today =
+at 3:37=20
+                  PM</SPAN>&nbsp;by&nbsp;<A id=3DwikiEditByLink=20
                   =
 href=3D"http://www.codeplex.com/site/users/view/Jern">Jern</A>,=20
-                  version 8 </SPAN></DIV></DIV>
+                  version 9 </SPAN></DIV></DIV>
                   <DIV id=3DComments>
-                  <SCRIPT type=3Dtext/javascript>
-    var commentCount =3D 0
-    function addComment() {
-        var input =3D $('#Comment');
-        input.val(input.val().trim());
-        if (MvcValidation_Validate('AddComment')) {
+                  <SCRIPT type=3Dtext/javascript>=0A=
+    var commentCount =3D 0=0A=
+    function addComment() {=0A=
+        var input =3D $('#Comment');=0A=
+        input.val(input.val().trim());=0A=
+        if (MvcValidation_Validate('AddComment')) {=0A=
             CodePlex.UpdateProgress.showWithCustomText(true, =
-'Working...');
+'Working...');=0A=
             =
 $.post('http://mme.codeplex.com/wikipage/comment?title=3Ddeploying', { =
-Comment: input.val() }, function(data, textStatus) {
-                if (textStatus =3D=3D 'success') {
-                    if(commentCount++ =3D=3D 0)
-                        $('#wikiCommentsEmpty').empty();
-                    $('#wikiComments').append(data);
-                    input.val('');
-                }
-                CodePlex.UpdateProgress.hide();
-            });
-        }
-    }
-    function deleteComment(id) {
-        if (confirm('Are you sure you want to delete this comment?')) {
+Comment: input.val() }, function(data, textStatus) {=0A=
+                if (textStatus =3D=3D 'success') {=0A=
+                    if(commentCount++ =3D=3D 0)=0A=
+                        $('#wikiCommentsEmpty').empty();=0A=
+                    $('#wikiComments').append(data);=0A=
+                    input.val('');=0A=
+                }=0A=
+                CodePlex.UpdateProgress.hide();=0A=
+            });=0A=
+        }=0A=
+    }=0A=
+    function deleteComment(id) {=0A=
+        if (confirm('Are you sure you want to delete this comment?')) {=0A=
             CodePlex.UpdateProgress.showWithCustomText(true, =
-'Removing...');
-            $.ajax({
-                type: 'DELETE',
+'Removing...');=0A=
+            $.ajax({=0A=
+                type: 'DELETE',=0A=
                 url: 'http://mme.codeplex.com/wikipage/comment' + '/' + =
-id,
-                success: function() {
-                    $('#comment' + id).empty();
-                    CodePlex.UpdateProgress.hide();
-                },
-                error: function() { CodePlex.UpdateProgress.hide(); }
-            });
-        }
-    }
+id,=0A=
+                success: function() {=0A=
+                    $('#comment' + id).empty();=0A=
+                    CodePlex.UpdateProgress.hide();=0A=
+                },=0A=
+                error: function() { CodePlex.UpdateProgress.hide(); }=0A=
+            });=0A=
+        }=0A=
+    }=0A=
 </SCRIPT>
 
                   <DIV id=3DCommentsAnchor =
@@ -969,40 +1022,67 @@ PADDING-RIGHT: 0.5em; PADDING-TOP: 0.5em">
                   <DIV id=3DwikiComments>
                   <DIV id=3DwikiCommentsEmpty>No comments =
 yet.<BR><BR></DIV></DIV>
-                  <DIV id=3DaddComment><A id=3DSignInToAddCommentLink=20
-                  =
-href=3D"https://www.codeplex.com/site/login?RedirectUrl=3Dhttp%3a%2f%2fmm=
-e.codeplex.com%2fwikipage%3ftitle%3ddeploying%26FocusElement%3dComment">S=
-ign=20
-                  in to add a comment</A> </DIV></DIV></DIV></DIV></DIV>
-                  <SCRIPT type=3Dtext/javascript>
-
-        $(document).ready(function () {
-            $('#deleteWikiHyperLink').click(function () {
+                  <DIV id=3DsaveComment><TEXTAREA style=3D"WIDTH: 99%; =
+HEIGHT: 5em" id=3DComment class=3DcommentTextBox =
+name=3DComment></TEXTAREA>=20
+<INPUT id=3DaddCommentButton class=3D"Button StandardMarginTop" =
+onclick=3D"addComment(); return false;" value=3D"Add Comment" =
+type=3Dbutton>=20
+                  <SPAN style=3D"DISPLAY: none"=20
+                  id=3DMvcValidation_GeneralErrorMessages=20
+                  class=3DErrorMessage></SPAN>
+                  <SCRIPT><!--=0A=
+=0A=
+var MvcValidation_ShowErrorsAfterInputFields =3D true;=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+Sys.Application.add_load(MvcValidation_Initialize);=0A=
+=0A=
+function MvcValidation_Initialize() {=0A=
+MvcValidation_ValidatonElements.push('Comment');=0A=
+MvcValidation_ValidationFunctions.push({ clientId: 'Comment', =
+validationFunction: function() { return =
+MvcValidation_RequiresFormat('Comment', /^(.|\r|\n){0,10000}$/, false, =
+'Comment may not exceed 10,000 characters'); }, group: 'AddComment'});=0A=
+MvcValidation_ValidationFunctions.push({ clientId: 'Comment', =
+validationFunction: function() { return =
+MvcValidation_Required('Comment', 'Comment is required'); }, =
+validatorName: 'required', group: 'AddComment'});=0A=
+MvcValidation_HookupEvents();=0A=
+MvcValidation_FocusFirstError();=0A=
+}=0A=
+--></SCRIPT>
+                  </DIV></DIV></DIV></DIV></DIV>
+                  <SCRIPT type=3Dtext/javascript>=0A=
+=0A=
+        $(document).ready(function () {=0A=
+            $('#deleteWikiHyperLink').click(function () {=0A=
                 OpenDialog('#DeleteWikiPagePanel', true, '30em', =
-'ClosePanel');
-            });
-            $('#DeleteButton').click(function () {
-                OpenDialog('#DeleteWikiPagePanel', false);
+'ClosePanel');=0A=
+            });=0A=
+            $('#DeleteButton').click(function () {=0A=
+                OpenDialog('#DeleteWikiPagePanel', false);=0A=
                 CodePlex.UpdateProgress.showWithCustomText(true, =
-'Deleting...');
-                $.ajax({
-                    type: 'DELETE',
+'Deleting...');=0A=
+                $.ajax({=0A=
+                    type: 'DELETE',=0A=
                     url: =
-'http://mme.codeplex.com/wikipage?title=3Ddeploying',
-                    success: function (data) {
-                        CodePlex.UpdateProgress.hide();
-                        window.location =3D data;
-                    },
-                    error: function (data) {
-                        CodePlex.UpdateProgress.hide();
-                    }
-                });
-            });
-            $('#CancelButton').click(function () {
-                OpenDialog('#DeleteWikiPagePanel', false);
-            });
-        });
+'http://mme.codeplex.com/wikipage?title=3Ddeploying',=0A=
+                    success: function (data) {=0A=
+                        CodePlex.UpdateProgress.hide();=0A=
+                        window.location =3D data;=0A=
+                    },=0A=
+                    error: function (data) {=0A=
+                        CodePlex.UpdateProgress.hide();=0A=
+                    }=0A=
+                });=0A=
+            });=0A=
+            $('#CancelButton').click(function () {=0A=
+                OpenDialog('#DeleteWikiPagePanel', false);=0A=
+            });=0A=
+        });=0A=
     </SCRIPT>
                   </DIV></TD>
                 <TD id=3Dctl00_ctl00_MasterContent_RightSideBarCell =
@@ -1011,44 +1091,189 @@ vAlign=3Dtop=20
                   <DIV id=3Dctl00_ctl00_MasterContent_RightSideBarPanel=20
                   class=3D"StandardPadding SideBar RightSideBar =
 GradientSideBar">
-                  <SCRIPT type=3Dtext/javascript>
+                  <SCRIPT type=3Dtext/javascript>=0A=
     var requirementsActionUri =3D =
-'http://mme.codeplex.com/documentation/requirements';
-   =20
-   =20
-
-    function LoadRequirements(json) {
-        var html =3D '';
-        if (json =3D=3D=3D undefined || !json.length) {
+'http://mme.codeplex.com/documentation/requirements';=0A=
+    =0A=
+    =0A=
+    var changesExist =3D false;=0A=
+    =0A=
+    function EditRequirements() {=0A=
+        CodePlex.UpdateProgress.showWithCustomText(true, 'Loading...');=0A=
+=0A=
+        $.ajax({=0A=
+            data: {getTypesIfNoRequirements:true},=0A=
+            url: requirementsActionUri,=0A=
+            success: EditRequirementsCallback,=0A=
+            dataType: 'json'=0A=
+        });=0A=
+    }=0A=
+=0A=
+    function EditRequirementsCallback(data) {=0A=
+        var html =3D '';=0A=
+        changesExist =3D false;=0A=
+        for (var i =3D 0; i < data.length; i++) {=0A=
+            var requirementType =3D data[i];=0A=
+            html +=3D '<h3>' + requirementType.Caption + '</h3>';=0A=
+            html +=3D '<div requirementType=3D\'' + requirementType.Type =
++ '\'>';=0A=
+            for (var j =3D 0; j < requirementType.Requirements.length; =
+j++) {=0A=
+                var requirement =3D requirementType.Requirements[j];=0A=
+                html +=3D CreateEditRequirementInput(requirement.Id, =
+requirementType.Type, requirement.Title);=0A=
+            }=0A=
+            html +=3D '</div>';=0A=
+            html +=3D '&nbsp;<a href=3D\'#\' title=3D\'Add New =
+Requirement\' onClick=3D\'AddRequirement(' + requirementType.Type + =
+');return false;\'>Add New Requirement</a>';=0A=
+        }=0A=
+=0A=
+        $('#EditRequirementsBody').html(html);=0A=
+        FixJQueryVal($('input[originalValue]'));=0A=
+        OpenDialog('#EditRequirementsContainer', true, '36em', =
+'ClosePanel');=0A=
+        CodePlex.UpdateProgress.show(false);=0A=
+    }=0A=
+=0A=
+    function CreateEditRequirementInput(id, type, title) {=0A=
+        var $div =3D $("<div><div class=3D'input'><input type=3D'text' =
+maxlength=3D'255' style=3D'width:26em;' class=3D'EditRequirement' =
+onkeydown=3D'changesExist =3D true;'/>&nbsp;<a href=3D'#' =
+title=3D'Delete Requirement' onClick=3D'DeleteRequirement(this);return =
+false;'>Delete</a></div></div>");=0A=
+        $('input', $div)=0A=
+            .attr('requirementType', type)=0A=
+            .attr('requirementId', id)=0A=
+            .attr('originalValue', title);=0A=
+        return $div.html();=0A=
+    }=0A=
+=0A=
+    function DeleteRequirement(ref) {=0A=
+        var $container =3D $(ref).parent();=0A=
+        var $input =3D $('input[requirementId]', $container);=0A=
+        if (!$input.val().trim().length || confirm('Are you sure you =
+want to delete this requirement?')) {=0A=
+            var requirementId =3D $input.attr('requirementId');=0A=
+            if (requirementId > 0) {=0A=
+                $.ajax({=0A=
+                    data: { RequirementId: requirementId },=0A=
+                    url: requirementsActionUri,=0A=
+                    type: 'DELETE'=0A=
+                });=0A=
+            }=0A=
+            $container.remove();=0A=
+        }=0A=
+    }=0A=
+=0A=
+    function AddRequirement(requirementType) {=0A=
+        var editInput =3D CreateEditRequirementInput(0, requirementType, =
+'');=0A=
+        var $editContainer =3D $('div[requirementType=3D' + =
+requirementType + ']');=0A=
+        $editContainer.append(editInput);=0A=
+        $editContainer.children('div:last').children('input').focus();=0A=
+    }=0A=
+    =0A=
+    function FixJQueryVal($jQuery) {=0A=
+        // hack for jQuery bug where .html() doesn't return the value =
+attribute.=0A=
+        $jQuery.attr('value', function(i){return =
+$(this).attr('originalValue')});=0A=
+    }=0A=
+    =0A=
+    function SaveRequirements() {=0A=
+        var $inputs =3D $(':text', '#EditRequirementsContainer');=0A=
+        // TODO: Doing string concat for now. Use x-browser =
+JSON.stringify instead so we don't have to worry about encoding/escape =
+issues. =0A=
+        var requirements;=0A=
+        $inputs.each(function() {=0A=
+            var originalValue =3D $(this).attr('originalValue');=0A=
+            var requirementId =3D $(this).attr('requirementId');=0A=
+            if (requirementId && $(this).val().trim().length && =
+(requirementId =3D=3D 0 || originalValue !=3D $(this).val())) {=0A=
+                if (requirements)=0A=
+                    requirements +=3D ',';=0A=
+                else=0A=
+                    requirements =3D '[';=0A=
+                    =0A=
+                requirements +=3D '{"RequirementId":"' + requirementId + =0A=
+                    '","Type":"' +  $(this).attr('requirementType') +=0A=
+                    '","Title":"' + $(this).val().replace(/[\"']/g,'') + =
+'"}';=0A=
+            }=0A=
+        });=0A=
+        =0A=
+        if (requirements) {=0A=
+            requirements +=3D ']';=0A=
+        =0A=
+            CodePlex.UpdateProgress.showWithCustomText(true, =
+'Saving...');=0A=
+=0A=
+            $.ajax({=0A=
+                data: requirements,=0A=
+                url: requirementsActionUri,=0A=
+                type: 'POST',=0A=
+                contentType: "application/json; charset=3Dutf-8",=0A=
+                success: function(data) {=0A=
+                    LoadRequirements(data);=0A=
+                    CodePlex.UpdateProgress.show(false);=0A=
+                    OpenDialog('#EditRequirementsContainer', false);=0A=
+                },=0A=
+                dataType:'json'=0A=
+            });=0A=
+        } else {=0A=
+            CancelRequirements(true);=0A=
+        }=0A=
+    }=0A=
+=0A=
+    function CancelRequirements(confirmed) {=0A=
+        if (confirmed || !changesExist || (changesExist && confirm('Are =
+you sure you want to cancel without saving?'))) {=0A=
+            $.ajax({=0A=
+                data: {getTypesIfNoRequirements:false},=0A=
+                url: requirementsActionUri,=0A=
+                success: function(data) {LoadRequirements(data);},=0A=
+                dataType: 'json'=0A=
+            });=0A=
+        =0A=
+            OpenDialog('#EditRequirementsContainer', false);=0A=
+        }=0A=
+    }=0A=
+    =0A=
+=0A=
+    function LoadRequirements(json) {=0A=
+        var html =3D '';=0A=
+        if (json =3D=3D=3D undefined || !json.length) {=0A=
             html =3D '<div id=3D"NoRequirementsDefined">There are =
-currently no defined requirements.</div>';
-        } else {
-            for (var i =3D 0; i < json.length; i++) {
-               var requirementType =3D json[i];
-                html +=3D '<h3>' + requirementType.Caption + =
-'</h3><ul>';
+currently no defined requirements.</div>';=0A=
+        } else {=0A=
+            for (var i =3D 0; i < json.length; i++) {=0A=
+               var requirementType =3D json[i];=0A=
+                html +=3D '<h3>' + requirementType.Caption + '</h3><ul>';=0A=
                 for (var j =3D 0; j < =
-requirementType.Requirements.length; j++) {
-                    var requirement =3D requirementType.Requirements[j];
+requirementType.Requirements.length; j++) {=0A=
+                    var requirement =3D requirementType.Requirements[j];=0A=
                     html +=3D '<li>' + requirement.DisplayTitle + =
-'</li>';
-                }
-                html +=3D '</ul>';
-            }
-        }
-       =20
-        $('#RequirementsBody').html(html);
-    }
-
-    $(document).ready(function() {
+'</li>';=0A=
+                }=0A=
+                html +=3D '</ul>';=0A=
+            }=0A=
+        }=0A=
+        =0A=
+        $('#RequirementsBody').html(html);=0A=
+    }=0A=
+=0A=
+    $(document).ready(function() {=0A=
         LoadRequirements([{"Caption":"For =
 Use","Type":1,"Requirements":[{"Id":3987,"Title":"Visual Studio 2010 =
 (Not express editions !)","DisplayTitle":"Visual Studio 2010 &#40;Not =
 express editions &#33;&#41;"}]},{"Caption":"For =
 Development","Type":2,"Requirements":[{"Id":3988,"Title":"Visual Studio =
 2010 (even express but then you cannot test)","DisplayTitle":"Visual =
-Studio 2010 &#40;even express but then you cannot test&#41;"}]}]);
-    });
+Studio 2010 &#40;even express but then you cannot test&#41;"}]}]);=0A=
+    });=0A=
 </SCRIPT>
 
                   <DIV id=3DRequirementsContainer=20
@@ -1058,46 +1283,63 @@ Studio 2010 &#40;even express but then you cannot test&#41;"}]}]);
                   style=3D"PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; =
 PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px">System=20
                   Requirements</H2>
+                  <DIV style=3D"FLOAT: right" id=3DEditRequirements><A=20
+                  onclick=3D"EditRequirements();return false;"=20
+                  =
+href=3D"http://mme.codeplex.com/wikipage?title=3Ddeploying&amp;referringT=
+itle=3DDocumentation#">Edit</A>=20
+                  </DIV>
                   <DIV class=3DClearBoth></DIV></DIV>
-                  <DIV=20
-            =
-id=3DRequirementsBody></DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV><=
-/DIV></TD></TR></TBODY></TABLE></DIV></DIV></DIV>
-      <DIV id=3DUpdateProgressPanel class=3DUpdateProgress><SPAN=20
-      id=3DUpdateProgressText =
-class=3DUpdateProgressText>Updating...</SPAN> </DIV>
+                  <DIV id=3DRequirementsBody>
+                  <H3>For Use</H3>
+                  <UL>
+                    <LI>Visual Studio 2010 (Not express editions =
+!)</LI></UL>
+                  <H3>For Development</H3>
+                  <UL>
+                    <LI>Visual Studio 2010 (even express but then you =
+cannot=20
+                    test)</LI></UL></DIV></DIV>
+                  <DIV style=3D"DISPLAY: none" =
+id=3DEditRequirementsContainer=20
+                  title=3D"Edit System Requirements">
+                  <DIV style=3D"OVERFLOW-Y: auto; HEIGHT: 320px"=20
+                  id=3DEditRequirementsBody class=3DBody></DIV>
+                  <DIV style=3D"FLOAT: right" class=3DButtons><INPUT =
+id=3DSave class=3DButton onclick=3DSaveRequirements() value=3DSave =
+type=3Dbutton>=20
+<INPUT id=3DCancel class=3DButton onclick=3DCancelRequirements() =
+value=3DCancel type=3Dbutton>=20
+                  =
+</DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY=
+></TABLE></DIV></DIV></DIV>
+      <DIV style=3D"TOP: 414px; LEFT: 747px" id=3DUpdateProgressPanel=20
+      class=3DUpdateProgress><SPAN id=3DUpdateProgressText=20
+      class=3DUpdateProgressText>Updating...</SPAN> </DIV>
       <DIV style=3D"WIDTH: 70%" id=3DAnalytics>
-      <SCRIPT type=3Dtext/javascript=20
-      =
-src=3D"http://mme.codeplex.com/site/library/svy/broker.js"></SCRIPT>
+      <SCRIPT type=3Dtext/javascript src=3D""></SCRIPT>
       <IMG=20
       style=3D"BORDER-RIGHT-WIDTH: 0px; WIDTH: 0px; BORDER-TOP-WIDTH: =
 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 0px; BORDER-LEFT-WIDTH: 0px"=20
-      id=3Dctl00_ctl00_BlankImage=20
-      src=3D"http://i3.codeplex.com/Images/v16694/blank.png"=20
+      id=3Dctl00_ctl00_BlankImage =
+src=3D"file:///C:/MMEDeploying_files/blank.png"=20
       onload=3Dself.logoImageLoaded=3Dtrue>
-      <SCRIPT language=3Djavascript type=3Dtext/javascript>
-                        var date =3D new Date();
+      <SCRIPT language=3Djavascript type=3Dtext/javascript>=0A=
+                        var date =3D new Date();=0A=
                         var timezoneOffset =3D date.getTimezoneOffset() =
-/ 60 * -1;
+/ 60 * -1;=0A=
                         var timezoneOffsetCookie =3D =
-getCookie("TimezoneOffset");
-                        var firstTimeSetTimezoneCookie =3D false;
-
+getCookie("TimezoneOffset");=0A=
+                        var firstTimeSetTimezoneCookie =3D false;=0A=
+=0A=
                         if (timezoneOffsetCookie =3D=3D null || =
-timezoneOffsetCookie !=3D timezoneOffset) {
-                            firstTimeSetTimezoneCookie =3D true;
+timezoneOffsetCookie !=3D timezoneOffset) {=0A=
+                            firstTimeSetTimezoneCookie =3D true;=0A=
                             document.cookie =3D "TimezoneOffset=3D" + =
-timezoneOffset + '; domain=3D.codeplex.com';
-                        }
+timezoneOffset + '; domain=3D.codeplex.com';=0A=
+                        }=0A=
                     </SCRIPT>
-       <NOSCRIPT><A title=3D"Web Analytics" =
-href=3D"http://www.omniture.com/"><IMG=20
-      border=3D0 alt=3D""=20
-      =
-src=3D"http://msstonojstemp.112.2o7.net/b/ss/msstonojstemp/1/H.20.2--NS/0=
-"=20
-      width=3D1 height=3D1> </A></NOSCRIPT></DIV></TD></TR>
+       <NOSCRIPT></NOSCRIPT></DIV></TD></TR>
   <TR vAlign=3Dbottom>
     <TD>
       <DIV id=3DCanvasFooter>=C2=A9 2006-2010 Microsoft <SPAN=20
@@ -1119,10 +1361,10 @@ class=3DVerticalBar>|</SPAN>=20
       Version 2010.5.18.16694 =
 </DIV></TD></TR></TBODY></TABLE></FORM></BODY></HTML>
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
-Content-Type: application/octet-stream
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
+Content-Type: application/xml
 Content-Transfer-Encoding: base64
-Content-Location: http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=mme&DownloadId=126606&Build=16694
+Content-Location: file:///C:/MMEDeploying_files/FileDownload.aspx
 
 /9j/4AAQSkZJRgABAQEAYABgAAD/4QBmRXhpZgAASUkqAAgAAAAEABoBBQABAAAAPgAAABsBBQAB
 AAAARgAAACgBAwABAAAAAgAAgDEBAgAQAAAATgAAAAAAAABgAAAAAQAAAGAAAAABAAAAUGFpbnQu
@@ -1354,18 +1596,27 @@ n9g3/gusRj/iIf8A/NSvDH/x+iip9nT7DVSd9xw/YJ/4Lrjgf8HEP/mpPhj/AOP1u/sZf8ExP2r/
 AIMft5337f8A+2J/wUa/4Xj4nufhBN4AsIP+FQWHhn7Jp51SDUUbdY3LRybZY5xgxbj9o5kwirRR
 S5IJ6ItybR9tp90VLRRTewluPT7oqRPuiiis5bFLYWiiioGf/9k=
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/arrow_dsc_green.gif
+Content-Location: file:///C:/MMEDeploying_files/editicon.gif
+
+R0lGODlhEAANAKIAAP///ztfqdLc8d1wcHqUy6MrK+y0tAAAACH5BAAAAAAALAAAAAAQAA0AAAM8
+GLocACMGQWt10Yz5+hNBNhQcYZqAIBYA5z3rU55ELAuvfQP0oLEeVydCes0IBULKEcS9lkaLlNlp
+WF8JADs=
+
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/MMEDeploying_files/arrow_dsc_green.gif
 
 R0lGODlhCQAJAJH/AP///wCZMwAAAMDAwCH5BAEAAAMALAAAAAAJAAkAQAIPnI+ZwWwN3Qmqjihf
 tqMAADs=
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/icon_rss.gif
+Content-Location: file:///C:/MMEDeploying_files/icon_rss.gif
 
 R0lGODlhDgAOAPcAAAAAAM9HCM5VGNJGB9dJB9JICdZJCddKCdVNDdZOD9hBANhKCdhODthPD9dO
 F9VNGtVOGtZSFNVZGthVGtlaGt5dGtddItleItZuENpgHNhnH95lGdxlHdxnHdtuENtyF9t0Ftt1
@@ -1386,42 +1637,35 @@ d7RwyaLgAAcNYZjsQMJmUCE9Xa7U7FDiI6A1SYIIKrTlSM0cQOLs+TjnBZlCdmwoWMBjiRIYTwIV
 MhNCTiEZCgzEmFGDiIsfhfx8aFNIjIICHugUylMEBJ9CI74UGqMgAAZCH42wgFOoiZdCbxQMWFGn
 EB4cLZyU2WDCBwQFFmgIGYLjhgwVKCpMeOCg4QUFsGPLbhgQADs=
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/arrow_right_green.gif
+Content-Location: file:///C:/MMEDeploying_files/arrow_right_green.gif
 
 R0lGODlhCQAJAJH/AP///wCZMwAAAMDAwCH5BAEAAAMALAAAAAAJAAkAQAIR3GKZqBvPDGznUXun
 glH2UQAAOw==
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/arrow_sm.gif
+Content-Location: file:///C:/MMEDeploying_files/arrow_sm.gif
 
 R0lGODlhBAAHAIAAAP///9GNDyH5BAEAAAAALAAAAAAEAAcAAAIITACGqGnn1ioAOw==
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/png
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/blank.png
+Content-Location: file:///C:/MMEDeploying_files/blank.png
 
 iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlz
 AAAAJwAAACcBKgmRTwAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM1MO6znwAAAAtJREFU
 GFdj+A8EAAn7A/0r1QhFAAAAAElFTkSuQmCC
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
-Content-Type: application/octet-stream
-Content-Transfer-Encoding: base64
-Content-Location: http://msstonojstemp.112.2o7.net/b/ss/msstonojstemp/1/H.20.2--NS/0
-
-R0lGODlhAgACAIAAAP///wAAACH5BAEAAAAALAAAAAACAAIAAAIChFEAOw==
-
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/search-button-off.gif
+Content-Location: file:///C:/MMEDeploying_files/search-button-off.gif
 
 R0lGODlhPAAUAPcAAGutIkWOAEGIAF6jFVKVEFebEE6bAEqODEqUAFOhAFimAEJ/EX6sVXmvQN/t
 0LrZmE6QEVysAHqoVabOeqTFiNjmzFGWEd3rz77VqtnnzIvESX+4P2KiIGCWM0+IIuHv0/L37oCw
@@ -1448,10 +1692,10 @@ SGQFFMDBgFJvAEnlj2DmIeaYZOaRhm4ndJBHBzfohkYHSN5AgiASzCmBmDScoJsEStGQh51lBsrH
 oIQWOqgHKXhgKBEsLEAoC4M6yoekhCLq6AKUUmpooYN06umnoIYq6qiklmrqqaimquqqrLbq6quw
 xgUq66wBAQA7
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: image/gif
 Content-Transfer-Encoding: base64
-Content-Location: http://i3.codeplex.com/Images/v16694/go-off.gif
+Content-Location: file:///C:/MMEDeploying_files/go-off.gif
 
 R0lGODlhFAAUANUAAFebEEGIAF6jFVKVEEqUAEWOAE6bAEqODPP370eMCPL271OhAFaiBYa9TPb6
 8U+bAvX68U+TDGGoFFiMMEuEIESKBPT475zPX/P472GZMFGVEJrMYUKJAlmQMGSeMGyxHpHEVlWe
@@ -1461,10 +1705,2938 @@ SCwWa8ikcrmkOZ/QaFRGrVqv15h2q01duODYa0we20ybsrrFbrNtthHI3f6s7vg73OZo4EUSDAsC
 hIWEezYQJyQhDwaPAJGSkYg2FigEmZkDnJ0DEZUYGgWkpAcHCQkVHAEBiAgerbIBLLW2tXsIGbe2
 Lr6/vnAqJcDAMMfIxzYKHcnON9DR0BMU0tbX2Nna29zd3tZBADs=
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
+Content-Type: application/xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/MMEDeploying_files/StyleSheet.ashx
+
+HTML {
+	MIN-WIDTH: 970px; HEIGHT: 100%
+}
+FORM {
+	MIN-WIDTH: 970px; HEIGHT: 100%
+}
+FORM.table {
+	MIN-WIDTH: 970px; HEIGHT: 100%
+}
+BODY {
+	POSITION: relative; BACKGROUND-COLOR: #fff; FONT-STYLE: normal; MARGIN: =
+0px; HEIGHT: 100%; FONT-SIZE: 0.8em
+}
+HTML.Opera {
+	HEIGHT: 100%
+}
+.Opera FORM {
+	HEIGHT: 100%
+}
+.Opera FORM.table {
+	HEIGHT: 100%
+}
+.Opera BODY {
+	HEIGHT: 100%
+}
+.Opera FORM {
+	MARGIN: 0px
+}
+.IE FORM {
+	MARGIN: 0px
+}
+.IE6 .MinWidthDiv {
+	WIDTH: 970px; HEIGHT: 1px; OVERFLOW: hidden
+}
+.IE6 .MinWidthContent {
+	MARGIN-TOP: -1px
+}
+.IE TABLE.MinWidthContent {
+	TABLE-LAYOUT: fixed
+}
+HR {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-LEFT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: square; PADDING-LEFT: 2em; MARGIN-LEFT: 0em; =
+LIST-STYLE-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/bullet_square.gif)
+}
+LI {
+	MARGIN-TOP: 0.1em; MARGIN-BOTTOM: 0.1em; MARGIN-LEFT: 0px
+}
+TH {
+	VERTICAL-ALIGN: bottom; FONT-WEIGHT: normal
+}
+.FloatRight {
+	FLOAT: right
+}
+.FloatLeft {
+	FLOAT: left
+}
+.FloatNone {
+	FLOAT: none
+}
+.ClearLeft {
+	CLEAR: left
+}
+.ClearRight {
+	CLEAR: right
+}
+.ClearBoth {
+	CLEAR: both
+}
+.Block {
+	DISPLAY: block
+}
+.NoTopMargin {
+	MARGIN-TOP: 0px
+}
+.Inline {
+	DISPLAY: inline
+}
+.IE .Fixed {
+	TABLE-LAYOUT: fixed
+}
+.IE7 .ZoomFix {
+	ZOOM: 100%
+}
+.Separator {
+	WIDTH: 95%; COLOR: #bbb
+}
+.Opera .ajax__calendar_container {
+	Z-INDEX: 1
+}
+.FF .FixWidthDiv {
+	OVERFLOW: hidden
+}
+.Opera .FixWidthDiv {
+	OVERFLOW: hidden
+}
+BODY {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+COLOR: #30332d
+}
+INPUT {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+COLOR: #30332d
+}
+SELECT {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+COLOR: #30332d
+}
+TEXTAREA {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+COLOR: #30332d
+}
+INPUT {
+	FONT-SIZE: 1em
+}
+SELECT {
+	FONT-SIZE: 1em
+}
+TEXTAREA {
+	FONT-SIZE: 1em
+}
+P {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+.Opera WBR:after {
+	CONTENT: "?"
+}
+.MonoSpace {
+	FONT-FAMILY: Consolas,"Courier New",Courier,Monospace
+}
+.ProperCase {
+	TEXT-TRANSFORM: capitalize
+}
+.NoWrap {
+	WHITE-SPACE: nowrap
+}
+.EmptyTextBox {
+	FONT-STYLE: italic; COLOR: #3e62a6 !important
+}
+.HeaderDarkText {
+	COLOR: #30332d !important
+}
+A {
+	COLOR: #3e62a6; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #3e62a6; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #3e62a6; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #3e62a6
+}
+A:hover {
+	COLOR: #ce8b10
+}
+.SecondaryText A {
+	COLOR: #56862e
+}
+.SecondaryText A:active {
+	COLOR: #56862e
+}
+.SecondaryText A:link {
+	COLOR: #56862e
+}
+.SecondaryText A:visited {
+	COLOR: #56862e
+}
+A SecondaryText {
+	COLOR: #56862e
+}
+A.SecondaryText:active {
+	COLOR: #56862e
+}
+A.SecondaryText:link {
+	COLOR: #56862e
+}
+A.SecondaryText:visited {
+	COLOR: #56862e
+}
+.NoUnderline {
+	TEXT-DECORATION: none !important
+}
+.NoUnderline A:active {
+	TEXT-DECORATION: none !important
+}
+.NoUnderline A:link {
+	TEXT-DECORATION: none !important
+}
+.NoUnderline A:visited {
+	TEXT-DECORATION: none !important
+}
+.NoUnderlineGrayText {
+	COLOR: gray !important; TEXT-DECORATION: none !important
+}
+.NoUnderlineGrayText A:active {
+	COLOR: gray !important; TEXT-DECORATION: none !important
+}
+.NoUnderlineGrayText A:link {
+	COLOR: gray !important; TEXT-DECORATION: none !important
+}
+.NoUnderlineGrayText A:visited {
+	COLOR: gray !important; TEXT-DECORATION: none !important
+}
+.NoUnderlineGrayText A:hover {
+	COLOR: gray !important; TEXT-DECORATION: none !important
+}
+.UnderlineHover {
+	TEXT-DECORATION: none !important
+}
+.UnderlineHover A:active {
+	TEXT-DECORATION: none !important
+}
+.UnderlineHover A:link {
+	TEXT-DECORATION: none !important
+}
+.UnderlineHover A:visited {
+	TEXT-DECORATION: none !important
+}
+.UnderlineHover A:hover {
+	TEXT-DECORATION: underline !important
+}
+A.disabled {
+	COLOR: #777; CURSOR: text; TEXT-DECORATION: none
+}
+A.disabled:hover {
+	COLOR: #777; CURSOR: text; TEXT-DECORATION: none
+}
+A.disabled:active {
+	COLOR: #777; CURSOR: text; TEXT-DECORATION: none
+}
+A.disabled:link {
+	COLOR: #777; CURSOR: text; TEXT-DECORATION: none
+}
+A.disabled:visited {
+	COLOR: #777; CURSOR: text; TEXT-DECORATION: none
+}
+.SiteHeader {
+	COLOR: #fff
+}
+.SiteHeader A {
+	COLOR: #fff
+}
+.SiteHeader A:link {
+	COLOR: #fff
+}
+.SiteHeader A:visited {
+	COLOR: #fff
+}
+.BrowseDirectoryLink {
+	TEXT-ALIGN: left !important; MARGIN: 0.25em 0px 0px; WHITE-SPACE: =
+nowrap; FONT-SIZE: 0.95em
+}
+.BrowseDirectoryLink A {
+	COLOR: #3e62a6 !important
+}
+.BrowseDirectoryLink A:link {
+	COLOR: #3e62a6 !important
+}
+.BrowseDirectoryLink A:hover {
+	COLOR: #ce8b10 !important
+}
+.SiteHeader A:hover {
+	COLOR: #ccc
+}
+.NoImages .SiteHeaderLeft A {
+	PADDING-LEFT: 0.7em; COLOR: #27602e; FONT-SIZE: 3em; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.NoImages .SiteHeaderLeft A:active {
+	PADDING-LEFT: 0.7em; COLOR: #27602e; FONT-SIZE: 3em; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.NoImages .SiteHeaderLeft A:link {
+	PADDING-LEFT: 0.7em; COLOR: #27602e; FONT-SIZE: 3em; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.NoImages .SiteHeaderLeft A:visited {
+	PADDING-LEFT: 0.7em; COLOR: #27602e; FONT-SIZE: 3em; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.NoImages .SiteHeaderLeft A:hover {
+	PADDING-LEFT: 0.7em; COLOR: #27602e; FONT-SIZE: 3em; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.NoImages .SiteHeaderLeft {
+	PADDING-TOP: 1.2em
+}
+.BulletLink {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/bullet_arrow.gif); =
+PADDING-LEFT: 18px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+left center; COLOR: #3e62a6; MARGIN-RIGHT: 0.4em
+}
+.BulletLink A {
+	COLOR: #3e62a6
+}
+.BulletLink A:hover {
+	COLOR: #ce8b10
+}
+.SingleLineTextBox {
+	BORDER-BOTTOM: #a5acb2 0.1em solid; BORDER-LEFT: #a5acb2 0.1em solid; =
+COLOR: #333; VERTICAL-ALIGN: middle; BORDER-TOP: #a5acb2 0.1em solid; =
+MARGIN-RIGHT: 0.2em; BORDER-RIGHT: #a5acb2 0.1em solid
+}
+.VerticalAlignMiddle {
+	VERTICAL-ALIGN: middle
+}
+.MultilineTextBox {
+	BORDER-BOTTOM: #a5acb2 0.1em solid; BORDER-LEFT: #a5acb2 0.1em solid; =
+PADDING-BOTTOM: 0.13em; PADDING-LEFT: 0.13em; WIDTH: 99%; PADDING-RIGHT: =
+0.13em; HEIGHT: 20em; COLOR: #333; VERTICAL-ALIGN: middle; BORDER-TOP: =
+#a5acb2 0.1em solid; BORDER-RIGHT: #a5acb2 0.1em solid; PADDING-TOP: =
+0.13em
+}
+.Bold {
+	FONT-WEIGHT: bold
+}
+.BoldHighlightItem {
+	BACKGROUND-COLOR: yellow; FONT-WEIGHT: bold
+}
+.HighlightItem {
+	BACKGROUND-COLOR: #fff999
+}
+.Normal {
+	FONT-WEIGHT: normal
+}
+.Italic {
+	FONT-STYLE: italic
+}
+.SubText {
+	COLOR: #666; FONT-SIZE: 0.9em
+}
+A.SubLink {
+	COLOR: #3e62a6; FONT-SIZE: 0.9em; FONT-WEIGHT: normal
+}
+.SubLink A {
+	COLOR: #3e62a6; FONT-SIZE: 0.9em; FONT-WEIGHT: normal
+}
+A.SubLink:hover {
+	COLOR: #ce8b10
+}
+.SubLink A:hover {
+	COLOR: #ce8b10
+}
+.SubTextIndent {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.4em; PADDING-RIGHT: 0.4em; =
+PADDING-TOP: 0px
+}
+.CheckBox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1em; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+BUTTON {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/button_gradient.gif); =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0.3em; =
+WIDTH: 7.5em; PADDING-RIGHT: 0.3em; DISPLAY: inline-block; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; =
+PADDING-TOP: 0.3em
+}
+.Button {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/button_gradient.gif); =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0.3em; =
+WIDTH: 7.5em; PADDING-RIGHT: 0.3em; DISPLAY: inline-block; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; =
+PADDING-TOP: 0.3em
+}
+.StretchButton {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/button_gradient.gif); =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0.3em; =
+WIDTH: 7.5em; PADDING-RIGHT: 0.3em; DISPLAY: inline-block; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; =
+PADDING-TOP: 0.3em
+}
+.DefaultButton {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/button_gradient.gif); =
+PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0.3em; =
+WIDTH: 7.5em; PADDING-RIGHT: 0.3em; DISPLAY: inline-block; =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; =
+PADDING-TOP: 0.3em
+}
+.IE BUTTON {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0.3em
+}
+.IE .Button {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0.3em
+}
+.IE .StretchButton {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0.3em
+}
+.IE .DefaultButton {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0.3em
+}
+.StretchButton {
+	WIDTH: auto
+}
+.DefaultButton {
+	BORDER-BOTTOM-COLOR: #a5c2ee; BORDER-TOP-COLOR: #a5c2ee; =
+BORDER-RIGHT-COLOR: #a5c2ee; BORDER-LEFT-COLOR: #a5c2ee; =
+border-light-color: #A5C2EE; border-dark-color: #6983BE
+}
+.Opera .DefaultButton {
+	BORDER-BOTTOM: #a5c2ee 0.15em outset; BORDER-LEFT: #a5c2ee 0.15em =
+outset; BORDER-TOP: #a5c2ee 0.15em outset; BORDER-RIGHT: #a5c2ee 0.15em =
+outset
+}
+.StandardPadding {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+PADDING-TOP: 0.2em
+}
+TABLE.StandardPadding TD {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+PADDING-TOP: 0.2em
+}
+TABLE.StandardPadding TH {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+PADDING-TOP: 0.2em
+}
+.Opera .StandardPadding {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.Safari .StandardPadding {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+.StandardPaddingBottom {
+	PADDING-BOTTOM: 0.2em
+}
+TABLE.StandardPaddingBottom TD {
+	PADDING-BOTTOM: 0.2em
+}
+TABLE.StandardPaddingBottom TH {
+	PADDING-BOTTOM: 0.2em
+}
+.StandardPaddingTop {
+	PADDING-TOP: 0.2em
+}
+TABLE.StandardPaddingTop TD {
+	PADDING-TOP: 0.2em
+}
+TABLE.StandardPaddingTop TH {
+	PADDING-TOP: 0.2em
+}
+.StandardPaddingLeft {
+	PADDING-LEFT: 0.7em
+}
+TABLE.StandardPaddingLeft TD {
+	PADDING-LEFT: 0.7em
+}
+TABLE.StandardPaddingLeft TH {
+	PADDING-LEFT: 0.7em
+}
+.StandardPaddingRight {
+	PADDING-RIGHT: 0.7em
+}
+TABLE.StandardPaddingRight TD {
+	PADDING-RIGHT: 0.7em
+}
+TABLE.StandardPaddingRight TH {
+	PADDING-RIGHT: 0.7em
+}
+.DoublePadding {
+	PADDING-BOTTOM: 0.4em; PADDING-LEFT: 1.4em; PADDING-RIGHT: 1.4em; =
+PADDING-TOP: 0.4em
+}
+TABLE.DoublePadding TD {
+	PADDING-BOTTOM: 0.4em; PADDING-LEFT: 1.4em; PADDING-RIGHT: 1.4em; =
+PADDING-TOP: 0.4em
+}
+TABLE.DoublePadding TH {
+	PADDING-BOTTOM: 0.4em; PADDING-LEFT: 1.4em; PADDING-RIGHT: 1.4em; =
+PADDING-TOP: 0.4em
+}
+.DoublePaddingBottom {
+	PADDING-BOTTOM: 0.4em
+}
+TABLE.DoublePaddingBottom TD {
+	PADDING-BOTTOM: 0.4em
+}
+TABLE.DoublePaddingBottom TH {
+	PADDING-BOTTOM: 0.4em
+}
+.DoublePaddingTop {
+	PADDING-TOP: 0.4em
+}
+TABLE.DoublePaddingTop TD {
+	PADDING-TOP: 0.4em
+}
+TABLE.DoublePaddingTop TH {
+	PADDING-TOP: 0.4em
+}
+.DoublePaddingLeft {
+	PADDING-LEFT: 1.4em
+}
+TABLE.DoublePaddingLeft TD {
+	PADDING-LEFT: 1.4em
+}
+TABLE.DoublePaddingLeft TH {
+	PADDING-LEFT: 1.4em
+}
+.DoublePaddingRight {
+	PADDING-RIGHT: 1.4em
+}
+TABLE.DoublePaddingRight TD {
+	PADDING-RIGHT: 1.4em
+}
+TABLE.DoublePaddingRight TH {
+	PADDING-RIGHT: 1.4em
+}
+.HalfPadding {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.35em; PADDING-RIGHT: 0.35em; =
+PADDING-TOP: 0.1em
+}
+TABLE.HalfPadding TD {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.35em; PADDING-RIGHT: 0.35em; =
+PADDING-TOP: 0.1em
+}
+TABLE.HalfPadding TH {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.35em; PADDING-RIGHT: 0.35em; =
+PADDING-TOP: 0.1em
+}
+.HalfPaddingBottom {
+	PADDING-BOTTOM: 0.1em
+}
+TABLE.HalfPaddingBottom TD {
+	PADDING-BOTTOM: 0.1em
+}
+TABLE.HalfPaddingBottom TH {
+	PADDING-BOTTOM: 0.1em
+}
+.HalfPaddingTop {
+	PADDING-TOP: 0.1em
+}
+TABLE.HalfPaddingTop TD {
+	PADDING-TOP: 0.1em
+}
+TABLE.HalfPaddingTop TH {
+	PADDING-TOP: 0.1em
+}
+.HalfPaddingLeft {
+	PADDING-LEFT: 0.35em
+}
+TABLE.HalfPaddingLeft TD {
+	PADDING-LEFT: 0.35em
+}
+TABLE.HalfPaddingLeft TH {
+	PADDING-LEFT: 0.35em
+}
+.HalfPaddingRight {
+	PADDING-RIGHT: 0.35em
+}
+TABLE.HalfPaddingRight TD {
+	PADDING-RIGHT: 0.35em
+}
+TABLE.HalfPaddingRight TH {
+	PADDING-RIGHT: 0.35em
+}
+TD.VerticalPadding {
+	HEIGHT: 0.5em
+}
+TD.HorizontalListPadding {
+	TEXT-ALIGN: center; WIDTH: 2.5em
+}
+SPAN.HorizontalListPadding {
+	MARGIN-LEFT: 2.5em
+}
+.IE7 SPAN.HorizontalListPadding {
+	ZOOM: 100%
+}
+.NoPadding {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; =
+PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.StandardMargin {
+	MARGIN-BOTTOM: 0.7em; MARGIN-LEFT: 0.7em
+}
+.StandardMarginTop {
+	MARGIN-TOP: 0.7em
+}
+.StandardMarginBottom {
+	MARGIN-BOTTOM: 0.7em
+}
+.StandardMarginLeft {
+	MARGIN-LEFT: 0.7em
+}
+.StandardMarginRight {
+	MARGIN-RIGHT: 0.7em
+}
+.HalfMarginTop {
+	MARGIN-TOP: 0.3em
+}
+.HalfMarginBottom {
+	MARGIN-BOTTOM: 0.3em
+}
+.HalfMarginLeft {
+	MARGIN-LEFT: 0.3em
+}
+.NoMargin {
+	MARGIN: 0px
+}
+.NoBorder {
+	BORDER-BOTTOM-STYLE: none !important; BORDER-RIGHT-STYLE: none =
+!important; BORDER-TOP-STYLE: none !important; BORDER-LEFT-STYLE: none =
+!important
+}
+.VerticalBar {
+	PADDING-LEFT: 1em; PADDING-RIGHT: 1em; DISPLAY: inline; COLOR: #777; =
+FONT-SIZE: 1em; VERTICAL-ALIGN: text-top; OVERFLOW: hidden
+}
+.ClearBoth {
+	CLEAR: both
+}
+.BulletError {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/cautionsign_bug.gif); =
+PADDING-LEFT: 22px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+left top; COLOR: #f00; FONT-SIZE: 0.9em; FONT-WEIGHT: bold
+}
+.BulletErrorExtra {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; =
+FONT-WEIGHT: bold
+}
+DIV.BulletError {
+	MARGIN-TOP: 0.7em; MARGIN-BOTTOM: 0.7em
+}
+.DottedLine {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/underline_dot_green.gif); =
+LINE-HEIGHT: 1em; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left =
+bottom; MARGIN-BOTTOM: 0.4em; PADDING-TOP: 0.1em
+}
+H1.DottedLine {
+	PADDING-BOTTOM: 0.1em !important; WIDTH: 100%; DISPLAY: block =
+!important; MARGIN-BOTTOM: 0.8em !important
+}
+H2.DottedLine {
+	PADDING-BOTTOM: 0.1em !important; WIDTH: 100%; DISPLAY: block =
+!important; MARGIN-BOTTOM: 0.8em !important
+}
+H3.DottedLine {
+	PADDING-BOTTOM: 0.1em !important; WIDTH: 100%; DISPLAY: block =
+!important; MARGIN-BOTTOM: 0.8em !important
+}
+.Error {
+	COLOR: #f00 !important
+}
+.ErrorMessage {
+	COLOR: #f00 !important
+}
+.Required {
+	COLOR: #f00 !important
+}
+.field-validation-error {
+	COLOR: #f00 !important
+}
+.SuccessMessage {
+	PADDING-BOTTOM: 0.25em; BACKGROUND-COLOR: #dbebc8; PADDING-LEFT: =
+0.25em; PADDING-RIGHT: 0.25em; COLOR: #529900; FONT-WEIGHT: bold; =
+PADDING-TOP: 0.25em
+}
+.ErrorMessage SPAN {
+	DISPLAY: block
+}
+.ServiceUnavailableError {
+	FONT-STYLE: italic; COLOR: #f00; FONT-SIZE: 1.6em
+}
+.Required {
+	FONT-STYLE: italic; COLOR: #f00 !important
+}
+.Disabled {
+	COLOR: #777; CURSOR: text
+}
+.Header {
+	MARGIN: 0px
+}
+.Header H1 {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+H1.Header {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+.Header H2 {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+H2.Header {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+H3.Header {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+Header H3 {
+	MARGIN: 0px; DISPLAY: inline; COLOR: #27602e
+}
+.AlternateHeader H1 {
+	COLOR: #447733
+}
+H1.AlternateHeader {
+	COLOR: #447733
+}
+.AlternateHeader H2 {
+	COLOR: #447733
+}
+H2.AlternateHeader {
+	COLOR: #447733
+}
+H3.AlternateHeader {
+	COLOR: #447733
+}
+.AlternateHeader H3 {
+	COLOR: #447733
+}
+H1 {
+	MARGIN-BOTTOM: 0.7em; FONT-SIZE: 1.6em
+}
+H2 {
+	PADDING-BOTTOM: 0.7em; FONT-SIZE: 1.2em; PADDING-TOP: 0.7em
+}
+H3 {
+	PADDING-BOTTOM: 0px; FONT-SIZE: 1em
+}
+H4 {
+	PADDING-BOTTOM: 0.2em; FONT-SIZE: 0.8em
+}
+.SubHeader {
+	MARGIN-BOTTOM: 0em; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.SubHeader A {
+	MARGIN-BOTTOM: 0em; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.SubHeader A:active {
+	MARGIN-BOTTOM: 0em; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.SubHeader A:link {
+	MARGIN-BOTTOM: 0em; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.SubHeader A:visited {
+	MARGIN-BOTTOM: 0em; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.SecondaryText {
+	COLOR: #56862e
+}
+.FullWidth {
+	WIDTH: 100%
+}
+.HalfWidth {
+	WIDTH: 50%
+}
+.ThirdWidth {
+	WIDTH: 33%
+}
+INPUT.FullWidth {
+	WIDTH: 98%
+}
+TEXTAREA.FullWidth {
+	WIDTH: 98%
+}
+INPUT.HalfWidth {
+	WIDTH: 49%
+}
+TEXTAREA.HalfWidth {
+	WIDTH: 49%
+}
+INPUT.UrlTextBox {
+	WIDTH: 31%
+}
+.Centered {
+	TEXT-ALIGN: center; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.Justify {
+	TEXT-ALIGN: justify
+}
+.AlignLeft {
+	TEXT-ALIGN: left !important
+}
+.AlignRight {
+	TEXT-ALIGN: right
+}
+.AlignTop {
+	VERTICAL-ALIGN: top
+}
+.AlignMiddle {
+	VERTICAL-ALIGN: middle
+}
+.AlignBottom {
+	VERTICAL-ALIGN: bottom
+}
+.AlignCenter {
+	TEXT-ALIGN: center
+}
+.StandardBackground {
+	BACKGROUND-COLOR: #fff
+}
+.AlternateBackground {
+	BACKGROUND-COLOR: #f1fcee
+}
+.AlternateBackgroundDark {
+	BACKGROUND-COLOR: #cdf2b3
+}
+.ModalBackground {
+	BACKGROUND-COLOR: gray
+}
+.ModalBackgroundLight {
+	BACKGROUND-COLOR: #ccc
+}
+TABLE.Grid {
+	BORDER-BOTTOM: #cdcdcd 0.1em solid; BORDER-LEFT: #cdcdcd 0.1em solid; =
+WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: #cdcdcd 0.1em solid; =
+BORDER-RIGHT: #cdcdcd 0.1em solid
+}
+.Grid TABLE {
+	BORDER-BOTTOM: #cdcdcd 0.1em solid; BORDER-LEFT: #cdcdcd 0.1em solid; =
+WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: #cdcdcd 0.1em solid; =
+BORDER-RIGHT: #cdcdcd 0.1em solid
+}
+.Grid TD {
+	BORDER-BOTTOM: #cdcdcd 0.1em solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cdcdcd 0.1em; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; =
+PADDING-RIGHT: 0.7em; HEIGHT: 2.2em; VERTICAL-ALIGN: top; BORDER-TOP: =
+#cdcdcd 0.1em solid; BORDER-RIGHT: #cdcdcd 0.1em; PADDING-TOP: 0.2em
+}
+.Grid TH {
+	BORDER-BOTTOM: #cdcdcd 0.1em solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cdcdcd 0.1em; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; =
+PADDING-RIGHT: 0.7em; HEIGHT: 2.2em; VERTICAL-ALIGN: top; BORDER-TOP: =
+#cdcdcd 0.1em solid; BORDER-RIGHT: #cdcdcd 0.1em; PADDING-TOP: 0.2em
+}
+.Grid TH {
+	FONT-WEIGHT: bold
+}
+.Grid TR {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: =
+none; BORDER-LEFT-STYLE: none
+}
+#WikiVersions TH {
+	BACKGROUND-COLOR: #e2f6cc
+}
+.Grid .Header {
+	BACKGROUND-COLOR: #e2f6cc; MARGIN-BOTTOM: 0em
+}
+.ShowDetails .Details {
+	DISPLAY: block
+}
+.HideDetails .Summary {
+	DISPLAY: block
+}
+.HideDetails .Details {
+	DISPLAY: none
+}
+.ShowDetails .Summary {
+	DISPLAY: none
+}
+.PageTemplateSelectedLink {
+	MARGIN-LEFT: 0.4em; FONT-WEIGHT: bold
+}
+.IE7 .StandardMarginLeft {
+	ZOOM: 100%
+}
+.IE7 .PageTemplateSelectedLink {
+	ZOOM: 100%
+}
+.Selected {
+	FONT-WEIGHT: bold
+}
+.NoItemsMessage {
+	FONT-STYLE: italic
+}
+.SortArrow {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; =
+VERTICAL-ALIGN: middle; PADDING-TOP: 0.2em
+}
+.ArrowSmall {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/arrow_sm.gif); PADDING-LEFT: =
+1em; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 0.2em 0.5em
+}
+.TopAndBottomBorder {
+	BORDER-BOTTOM: #798072 1px solid; PADDING-BOTTOM: 0.35em; BORDER-TOP: =
+#798072 1px solid; PADDING-TOP: 0.35em
+}
+.MoreLink {
+	FONT-SIZE: 0.75em; FONT-WEIGHT: bold
+}
+.ContentColumn3 {
+	MIN-WIDTH: 200px; WIDTH: 31%
+}
+.CanvasMargin {
+	BACKGROUND-COLOR: #4d4d4d; WIDTH: 1.4em; HEIGHT: 100%
+}
+.CanvasBackground {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/banner_bg_grad.gif); =
+BACKGROUND-REPEAT: repeat-x; HEIGHT: 100%
+}
+.CanvasContent {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/banner_bg.jpg); =
+BACKGROUND-REPEAT: no-repeat
+}
+.IE .CanvasBackground {
+	HEIGHT: auto
+}
+.IE7 .CanvasContentDiv {
+	MIN-HEIGHT: 200px
+}
+.FullHeightNoIE7 {
+	HEIGHT: 100%
+}
+.IE7 .FullHeightNoIE7 {
+	HEIGHT: auto
+}
+.SiteHeader {
+	PADDING-RIGHT: 1.07em
+}
+.SiteHeaderLeft {
+	WIDTH: 230px; FLOAT: left; HEIGHT: 0.88em
+}
+.SiteHeaderRight {
+	MIN-WIDTH: 15.4em; TEXT-ALIGN: right; FLOAT: right
+}
+.SiteHeaderProjectRight {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/projectlogobg.png); TEXT-ALIGN: =
+right; BACKGROUND-REPEAT: repeat-x
+}
+.ProjectLogoLeft {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/logo_project_left.jpg); =
+MIN-HEIGHT: 90px; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-POSITION: right top
+}
+.IE6 .ProjectLogoLeft {
+	HEIGHT: 90px
+}
+.ProjectLogoRight {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/logo_project_right.jpg); WIDTH: =
+148px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%; =
+HEIGHT: 90px
+}
+.LogoLinkInner {
+	VISIBILITY: hidden
+}
+.LogoLinkOuter {
+	WIDTH: 134px; HEIGHT: 55px
+}
+.LogoLinkInner {
+	WIDTH: 134px; HEIGHT: 55px
+}
+.ProjectLogoRight .LogoLink {
+	WIDTH: 134px; HEIGHT: 55px
+}
+.LogoLinkOuter {
+	PADDING-LEFT: 13px; PADDING-TOP: 20px
+}
+.VerticalBarTop {
+	PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; DISPLAY: inline; COLOR: =
+#798072; FONT-SIZE: 1em; VERTICAL-ALIGN: text-top; OVERFLOW: hidden
+}
+.SiteHeaderRightShim {
+	WIDTH: 15.4em; HEIGHT: 1px
+}
+.SiteContent {
+	PADDING-TOP: 1.07em
+}
+.SiteFooter {
+	FONT-SIZE: 0.9em
+}
+.Safari .SiteFooter {
+	PADDING-BOTTOM: 0px
+}
+.SiteFooter A {
+	COLOR: #3e62a6
+}
+.SiteFooter A:active {
+	COLOR: #3e62a6
+}
+.SiteFooter A:link {
+	COLOR: #3e62a6
+}
+.SiteFooter A:visited {
+	COLOR: #3e62a6
+}
+.SiteFooter A:hover {
+	COLOR: #ce8b10
+}
+.NoImages .SiteFooter {
+	COLOR: #000
+}
+.SiteContentTable {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.SiteContentTopPadding {
+	PADDING-TOP: 2em
+}
+.SidebarContainer {
+	WIDTH: 22em
+}
+.IE6 .SidebarContainer {
+	MARGIN-TOP: 1.5em
+}
+.ProjectContent .SideBar {
+	MARGIN-TOP: 1.3em; DISPLAY: block; MARGIN-LEFT: 0.7em
+}
+.ProjectContent .SideBar .ContentPanel .TopBorder {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/sidebarheaderbg.gif); =
+BACKGROUND-REPEAT: repeat-x
+}
+.ProjectContent .SideBar .ContentPanel .RoundedContent {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/sidebarheaderbg.gif); =
+BACKGROUND-REPEAT: repeat-x
+}
+.SideBar {
+	MIN-WIDTH: 15.1em; WIDTH: 15.1em
+}
+.SideBarPadding {
+	WIDTH: 17px
+}
+.SideBarPadding DIV {
+	WIDTH: 17px
+}
+.RightSideBar {
+	PADDING-BOTTOM: 0.2em; MARGIN-TOP: 2em; PADDING-LEFT: 0px; WIDTH: =
+20.7em; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.OuterBox {
+	PADDING-BOTTOM: 0.2em; MARGIN: auto; PADDING-LEFT: 0px; WIDTH: 40em; =
+PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.OuterBoxNoWidth {
+	PADDING-BOTTOM: 0.2em; MARGIN: auto; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.GradientSideBar {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+BACKGROUND: url(http://i2.codeplex.com/Images/v16694/sidebox.png) =
+repeat-x; BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc 0.1em solid
+}
+.GradientBox {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+BACKGROUND: url(http://i2.codeplex.com/Images/v16694/sidebox.png) =
+repeat-x; BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc 0.1em solid
+}
+.SideBarControl {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+PADDING-BOTTOM: 0.8em; BACKGROUND-COLOR: #fff; MARGIN: 0.3em 0.3em =
+0.1em; PADDING-LEFT: 0.8em; PADDING-RIGHT: 0.8em; CLEAR: both; =
+BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc 0.1em solid; =
+PADDING-TOP: 0.8em
+}
+.InnerBox {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+PADDING-BOTTOM: 0.8em; BACKGROUND-COLOR: #fff; MARGIN: 0.3em 0.3em =
+0.1em; PADDING-LEFT: 0.8em; PADDING-RIGHT: 0.8em; CLEAR: both; =
+BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc 0.1em solid; =
+PADDING-TOP: 0.8em
+}
+.SideBarHeader {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+PADDING-BOTTOM: 0.8em; BACKGROUND-COLOR: #fff; MARGIN: 0.3em 0.3em =
+0.1em; PADDING-LEFT: 0.8em; PADDING-RIGHT: 0.8em; CLEAR: both; =
+BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc 0.1em solid; =
+PADDING-TOP: 0.8em
+}
+.SideBarHeader {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; BORDER-RIGHT-STYLE: =
+none; BACKGROUND-COLOR: transparent; PADDING-LEFT: 0.8em; PADDING-RIGHT: =
+0.8em; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px
+}
+.SideBarHeader H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; COLOR: #798072 !important; PADDING-TOP: 0px
+}
+.SideBarHeader H2 SPAN {
+	FONT-SIZE: 0.85em; FONT-WEIGHT: normal
+}
+.SideBarControl H2 {
+	COLOR: #000
+}
+.InnerBox H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; COLOR: #30332d; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.MainContent {
+	WIDTH: 35em
+}
+.MainContentMinWidthDiv {
+	WIDTH: 17.1em; HEIGHT: 1px; OVERFLOW: hidden
+}
+.MainContentMinWidthContent {
+	MARGIN-TOP: -1px
+}
+.FlashMessage {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #3e62a6; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; MARGIN-BOTTOM: 1em; COLOR: =
+white; FONT-WEIGHT: bold; PADDING-TOP: 0.5em; -khtml-border-radius: =
+.5em; -moz-border-radius: .5em; -o-border-radius: .5em; border-radius: =
+.5em
+}
+.SecondarySearchButton {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 21px; PADDING-RIGHT: =
+0px; HEIGHT: 21px; MARGIN-LEFT: -0.55em; VERTICAL-ALIGN: middle; =
+PADDING-TOP: 0px
+}
+SPAN.ActivityArrow {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.8em; =
+BACKGROUND: url(http://i2.codeplex.com/Images/v16694/flag.gif) #ccccc2 =
+no-repeat right 50%; COLOR: #30332d; FONT-WEIGHT: bold; PADDING-TOP: =
+0.1em
+}
+.IE6 IFRAME.FullPanel {
+	FILTER: alpha(opacity=3D0)
+}
+.FullPanel {
+	WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden
+}
+.IE6 .UpdateProgressPanel .FullPanel {
+	POSITION: absolute
+}
+.IE TABLE.FullPanel {
+	TABLE-LAYOUT: fixed
+}
+.ModalBackground {
+	FILTER: alpha(opacity=3D70); BACKGROUND-COLOR: gray; opacity: 0.7
+}
+.UpdateProgressPanel {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+.UpdateProgressPanel .ModalBackground {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+.UpdateProgressPanel #UpdateProgressTable {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+.UpdateProgress {
+	Z-INDEX: 1000000; BORDER-BOTTOM: black 0.1em solid; POSITION: absolute; =
+TEXT-ALIGN: center; BORDER-LEFT: black 0.1em solid; BACKGROUND-COLOR: =
+#daf1b2; WIDTH: 13.2em; HEIGHT: 4.1em; VISIBILITY: hidden; COLOR: =
+#008000; OVERFLOW: hidden; BORDER-TOP: black 0.1em solid; FONT-WEIGHT: =
+bold; BORDER-RIGHT: black 0.1em solid
+}
+.UpdateProgressText {
+	POSITION: relative; TOP: 1.44em
+}
+.ui-dialog {
+	BORDER-BOTTOM: #cfcfcf 1px solid; POSITION: absolute; BORDER-LEFT: =
+#cfcfcf 1px solid; BACKGROUND-COLOR: white; OVERFLOW: hidden; =
+BORDER-TOP: #cfcfcf 1px solid; BORDER-RIGHT: #cfcfcf 1px solid
+}
+.ui-dialog .ui-dialog-titlebar {
+	DISPLAY: none
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	DISPLAY: none
+}
+.ui-dialog-overlay {
+	BACKGROUND-COLOR: black
+}
+.ui-dialog .ui-dialog-content {
+	MARGIN: 1.2em
+}
+.ui-widget-overlay {
+	POSITION: absolute; FILTER: alpha(opacity=3D50); BACKGROUND: #000000; =
+TOP: 0px; LEFT: 0px; opacity: 0.5; -moz-opacity: 0.5
+}
+.ClosePanel {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; =
+PADDING-BOTTOM: 1em; BACKGROUND-COLOR: white; BORDER-TOP: #333 1px =
+solid; BORDER-RIGHT: #333 1px solid
+}
+.ChangePanel {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; =
+PADDING-BOTTOM: 1em; BACKGROUND-COLOR: white; BORDER-TOP: #333 1px =
+solid; BORDER-RIGHT: #333 1px solid
+}
+.LicensePanel {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; =
+PADDING-BOTTOM: 1em; BACKGROUND-COLOR: white; BORDER-TOP: #333 1px =
+solid; BORDER-RIGHT: #333 1px solid
+}
+.PullRequestPanel {
+	BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; =
+PADDING-BOTTOM: 1em; BACKGROUND-COLOR: white; BORDER-TOP: #333 1px =
+solid; BORDER-RIGHT: #333 1px solid
+}
+.ClosePanel .ui-dialog-titlebar {
+	BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0.25em; =
+BACKGROUND-COLOR: #e6e6e6; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+DISPLAY: block; FONT-WEIGHT: bold; PADDING-TOP: 0.25em
+}
+.ChangePanel .ui-dialog-titlebar {
+	BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0.25em; =
+BACKGROUND-COLOR: #e6e6e6; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+DISPLAY: block; FONT-WEIGHT: bold; PADDING-TOP: 0.25em
+}
+.LicensePanel .ui-dialog-titlebar {
+	BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0.25em; =
+BACKGROUND-COLOR: #e6e6e6; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+DISPLAY: block; FONT-WEIGHT: bold; PADDING-TOP: 0.25em
+}
+.PullRequestPanel .ui-dialog-titlebar {
+	BORDER-BOTTOM: #333 1px solid; PADDING-BOTTOM: 0.25em; =
+BACKGROUND-COLOR: #e6e6e6; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+DISPLAY: block; FONT-WEIGHT: bold; PADDING-TOP: 0.25em
+}
+.ClosePanel .Body {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.5em
+}
+.ChangePanel .Body {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.5em
+}
+.LicensePanel .Body {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.5em
+}
+.PullRequestPanel .Body {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+PADDING-TOP: 0.5em
+}
+.ClosePanel .Buttons {
+	TEXT-ALIGN: right; MARGIN-TOP: 0.25em; MARGIN-RIGHT: 0.5em
+}
+.ChangePanel .Buttons {
+	TEXT-ALIGN: right; MARGIN-TOP: 0.25em; MARGIN-RIGHT: 0.5em
+}
+.ChangePanel .Footer {
+	TEXT-ALIGN: right; MARGIN-TOP: 0.25em; MARGIN-RIGHT: 0.5em
+}
+.LicensePanel .Buttons {
+	TEXT-ALIGN: right; MARGIN-TOP: 0.25em; MARGIN-RIGHT: 0.5em
+}
+.PullRequestPanel .Buttons {
+	TEXT-ALIGN: right; MARGIN-TOP: 0.25em; MARGIN-RIGHT: 0.5em
+}
+.ClosePanel {
+	WIDTH: 30em
+}
+.ClosePanel .Body .CommentBox {
+	WIDTH: 98%
+}
+.ChangePanel {
+	WIDTH: 20em
+}
+.ChangePanel .Body .Content {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; WIDTH: =
+100%; HEIGHT: 10em; OVERFLOW: auto; BORDER-TOP: #aaa 1px solid; =
+BORDER-RIGHT: #aaa 1px solid
+}
+.IE6 .ChangePanel .Body .Content {
+	WIDTH: auto
+}
+.ChangePanel .Body .DynamicContent {
+=09
+}
+.ChangePanel .Footer {
+	TEXT-ALIGN: center
+}
+.ChangePanel .PanelErrorLabel {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; VISIBILITY: hidden; COLOR: red; PADDING-TOP: 0px
+}
+.LicensePanel {
+	WIDTH: 45em
+}
+.LicensePanel .Body .CommentBox {
+	WIDTH: 98%
+}
+UL.ContextMenu {
+	BORDER-BOTTOM: #888 1px solid; POSITION: absolute; BORDER-LEFT: #888 =
+1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #fff; LIST-STYLE-TYPE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #333; =
+BORDER-TOP: #888 1px solid; LIST-STYLE-IMAGE: none; BORDER-RIGHT: #888 =
+1px solid; PADDING-TOP: 0px
+}
+UL.ContextMenu LI {
+	PADDING-BOTTOM: 0.1em; MARGIN: 0.2em; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; CURSOR: pointer; PADDING-TOP: 0.1em
+}
+UL.ContextMenu LI:hover {
+	BACKGROUND-COLOR: #888; COLOR: #fff
+}
+UL.ContextMenu LI.GroupCaption {
+	MARGIN-TOP: 0.5em; COLOR: #333
+}
+UL.ContextMenu LI.GroupCaption:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #333
+}
+UL.ContextMenu LI.GroupMember {
+	PADDING-LEFT: 1em
+}
+UL.ContextMenu LI.Nested {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/nestedMenu.gif); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 0px
+}
+UL.ContextMenu LI.Nested:hover {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/nestedMenu.gif); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right -16px
+}
+DIV.EmailOptIn .AdditionalText {
+	COLOR: gray
+}
+.ui-datepicker-prev {
+	FONT-FAMILY: Tahmoa; COLOR: black; FONT-SIZE: 8.3pt; CURSOR: pointer; =
+TEXT-DECORATION: none
+}
+.ui-datepicker-prev A {
+	FONT-FAMILY: Tahmoa; COLOR: black; FONT-SIZE: 8.3pt; CURSOR: pointer; =
+TEXT-DECORATION: none
+}
+.ui-datepicker-next {
+	FONT-FAMILY: Tahmoa; COLOR: black; FONT-SIZE: 8.3pt; CURSOR: pointer; =
+TEXT-DECORATION: none
+}
+.ui-datepicker-next A {
+	FONT-FAMILY: Tahmoa; COLOR: black; FONT-SIZE: 8.3pt; CURSOR: pointer; =
+TEXT-DECORATION: none
+}
+.ui-datepicker-prev {
+	PADDING-LEFT: 0.25em; FLOAT: left; PADDING-TOP: 0.25em
+}
+.ui-datepicker-next {
+	FLOAT: right; MARGIN-RIGHT: 0.25em; PADDING-TOP: 0.25em
+}
+.ui-datepicker-header {
+	BORDER-BOTTOM: #646464 1px; TEXT-ALIGN: center; BORDER-LEFT: #646464 =
+1px solid; BACKGROUND-COLOR: white; FONT-FAMILY: Tahmoa; FONT-SIZE: =
+8.3pt; BORDER-TOP: #646464 1px solid; FONT-WEIGHT: 700; BORDER-RIGHT: =
+#646464 1px solid
+}
+.ui-datepicker {
+	BORDER-BOTTOM: #646464 1px solid; BORDER-LEFT: #646464 1px solid; =
+BACKGROUND-COLOR: white; WIDTH: 14em; FONT-FAMILY: Tahoma; COLOR: black; =
+FONT-SIZE: 8.3pt; BORDER-TOP: #646464 1px; BORDER-RIGHT: #646464 1px =
+solid
+}
+.Chrome .ui-datepicker {
+	BORDER-BOTTOM: #646464 1px solid; BORDER-LEFT: #646464 1px solid; =
+BACKGROUND-COLOR: white; WIDTH: 14em; FONT-FAMILY: Tahoma; COLOR: black; =
+MARGIN-LEFT: -0.75em !important; FONT-SIZE: 8.3pt; BORDER-TOP: #646464 =
+1px; BORDER-RIGHT: #646464 1px solid
+}
+.Safari .ui-datepicker {
+	BORDER-BOTTOM: #646464 1px solid; BORDER-LEFT: #646464 1px solid; =
+BACKGROUND-COLOR: white; WIDTH: 14em; FONT-FAMILY: Tahoma; COLOR: black; =
+MARGIN-LEFT: -0.75em !important; FONT-SIZE: 8.3pt; BORDER-TOP: #646464 =
+1px; BORDER-RIGHT: #646464 1px solid
+}
+.ui-datepicker A {
+	COLOR: black; TEXT-DECORATION: none
+}
+.ui-datepicker-title-row {
+	PADDING-BOTTOM: 0.35em; PADDING-LEFT: 0.35em; PADDING-RIGHT: 0.35em; =
+PADDING-TOP: 0.35em
+}
+.ui-datepicker-days-cell {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.35em; PADDING-LEFT: 0.35em; =
+PADDING-RIGHT: 0.35em; PADDING-TOP: 0.35em
+}
+.ui-datepicker-days-cell-over {
+	BACKGROUND-COLOR: #edf9ff; COLOR: #0066cc; CURSOR: pointer
+}
+.ui-datepicker-current-day {
+	BORDER-BOTTOM: #daf2fc 1px solid; BORDER-LEFT: #daf2fc 1px solid; =
+BACKGROUND-COLOR: #edf9ff; COLOR: #0066cc; BORDER-TOP: #daf2fc 1px =
+solid; BORDER-RIGHT: #daf2fc 1px solid
+}
+.ui-datepicker-control {
+	DISPLAY: none
+}
+.ui-datepicker-current {
+	DISPLAY: none
+}
+.ui-datepicker-trigger {
+	MARGIN-LEFT: 0.5em; CURSOR: pointer
+}
+.ui-datepicker-cover {
+	Z-INDEX: -1; POSITION: absolute; FILTER: mask(); WIDTH: 193px; DISPLAY: =
+block; HEIGHT: 200px; TOP: -4px; LEFT: -4px
+}
+.ui-helper-hidden {
+	DISPLAY: none
+}
+.ui-helper-hidden-accessible {
+	POSITION: absolute; LEFT: -1342177.28px
+}
+.ui-helper-clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: =
+"."
+}
+.ui-helper-clearfix {
+	DISPLAY: inline-block
+}
+* HTML .ui-helper-clearfix {
+	HEIGHT: 1%
+}
+.ui-helper-clearfix {
+	DISPLAY: block
+}
+.discussionListContent UL {
+	LIST-STYLE-TYPE: disc; LIST-STYLE-IMAGE: none
+}
+.discussionListContent UL LI UL {
+	LIST-STYLE-TYPE: circle
+}
+.discussionListContent UL LI UL LI UL {
+	LIST-STYLE-TYPE: square
+}
+.discussionListContent LI {
+	MARGIN-TOP: 0.3em; MARGIN-BOTTOM: 0.3em; VERTICAL-ALIGN: middle
+}
+.ModalDialogHeaderIcon {
+	FLOAT: left
+}
+.ModalDialogHeaderTitle {
+	FONT-WEIGHT: bold
+}
+.ModalDialogHeaderText {
+	TEXT-ALIGN: left; PADDING-TOP: 5px
+}
+.ModalDialogContent {
+	MARGIN-TOP: 1.5em; MARGIN-LEFT: 25px
+}
+.ModalDialogContentButtons {
+	MARGIN-TOP: 1.5em
+}
+.ModalDialogContentButtons A {
+	MARGIN-LEFT: 6px
+}
+.EmailSubscriptionText {
+	COLOR: gray
+}
+.EmailSubscriptionCheck {
+	PADDING-LEFT: 18px
+}
+.EmailSubscriptionRadioButtonAlignment {
+	MARGIN-LEFT: -0.5em
+}
+.tooltip {
+	BORDER-BOTTOM: #408cb3 4px solid; BORDER-LEFT: #408cb3 4px solid; =
+PADDING-BOTTOM: 1em; LINE-HEIGHT: 1.5em; BACKGROUND-COLOR: #ffffff; =
+FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+COLOR: #333333; FONT-SIZE: 11px; BORDER-TOP: #408cb3 4px solid; =
+BORDER-RIGHT: #408cb3 4px solid
+}
+.tooltip P {
+	MARGIN: 0px 0px 8px
+}
+.CodePlexPageHeader {
+	BACKGROUND-REPEAT: no-repeat; COLOR: #6d8d34; FONT-SIZE: 1.6em; =
+VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+#adzerk P {
+	PADDING-BOTTOM: 0.5em; MARGIN-LEFT: 130px
+}
+#adzerk A {
+	TEXT-DECORATION: none
+}
+#adzerk1 P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; FONT-SIZE: 0.95em
+}
+#adzerk_by {
+	MARGIN-BOTTOM: 0px
+}
+#adzerk_by A {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+FONT-WEIGHT: bold
+}
+.FileListItemDiv {
+	WIDTH: 100%; MARGIN-BOTTOM: 0.8em; CLEAR: left
+}
+.SigninMessage {
+	BORDER-BOTTOM: #ffc536 1px solid; BORDER-LEFT: #ffc536 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #fff0cc; PADDING-LEFT: 0.5em; =
+WIDTH: 95%; PADDING-RIGHT: 0.5em; MARGIN-BOTTOM: 1em; BORDER-TOP: =
+#ffc536 1px solid; BORDER-RIGHT: #ffc536 1px solid; PADDING-TOP: 0.5em
+}
+.SignInOption {
+	WIDTH: 99%; BORDER-TOP: #e6e6e6 1px solid; PADDING-TOP: 0.5em
+}
+.CurrentReleaseBackground {
+	BACKGROUND: url(http://i2.codeplex.com/Images/v16694/dl_back.jpg) #fff =
+no-repeat right top
+}
+.CurrentReleaseDetail {
+	FONT-SIZE: x-small
+}
+.YourProfileLink A {
+	COLOR: #3e62a6 !important; TEXT-DECORATION: underline !important
+}
+.YourProfileLink A:link {
+	COLOR: #3e62a6 !important; TEXT-DECORATION: underline !important
+}
+.YourProfileLink A:active {
+	COLOR: #3e62a6 !important; TEXT-DECORATION: underline !important
+}
+.YourProfileLink A:visited {
+	COLOR: #3e62a6 !important; TEXT-DECORATION: underline !important
+}
+.YourProfileLink A:hover {
+	COLOR: #ce8b10 !important; TEXT-DECORATION: underline !important
+}
+.EnhancedTextBoxTable {
+	POSITION: relative; TOP: -1em
+}
+.Safari .EnhancedTextBoxFix {
+	PADDING-LEFT: 1em
+}
+.Opera .EnhancedTextBoxFix {
+	PADDING-LEFT: 1em
+}
+.CharCounter {
+	TEXT-ALIGN: right; PADDING-RIGHT: 1em; COLOR: #666; FONT-SIZE: 0.9em
+}
+.CountdownControl {
+	BORDER-BOTTOM: #ccc 0.1em solid; BORDER-LEFT: #ccc 0.1em solid; =
+PADDING-BOTTOM: 0.3em; MARGIN: 0px 0px 0.7em; PADDING-LEFT: 0.3em; =
+PADDING-RIGHT: 0.3em; BORDER-TOP: #ccc 0.1em solid; BORDER-RIGHT: #ccc =
+0.1em solid; PADDING-TOP: 0.3em; xmax-width: 40em; xposition: relative
+}
+.IE6 .CountdownControl {
+	POSITION: relative
+}
+.ProjectSearchTextBox {
+	PADDING-LEFT: 0.3em; WIDTH: 12.3em; HEIGHT: 1.4em; COLOR: #000 =
+!important
+}
+.ProjectSearchButton {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+MARGIN-LEFT: -0.6em; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.Chrome .ProjectSearchButton {
+	MARGIN-TOP: 0.1em
+}
+.SiteHeaderProjectRight .ProjectSearchTextBox {
+	WIDTH: 15.5em
+}
+.IE6 .ProjectTitleControl {
+	POSITION: relative
+}
+.ProjectTitleControl {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.ProjectTitleControl A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.ProjectTitleControl A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.ProjectTitleControl A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.SearchWikiControl {
+	DISPLAY: inline
+}
+.WikiSearchTextBox {
+	WIDTH: 15.5em
+}
+.WikiSearchButton {
+	PADDING-LEFT: 0.3em
+}
+.PageIndexControl {
+	FONT-WEIGHT: normal
+}
+.PageIndexControl .Range {
+	FONT-WEIGHT: bold
+}
+.PageIndexControl .Count {
+	FONT-WEIGHT: bold
+}
+.PageIndexControl .Selected {
+	FONT-WEIGHT: bold
+}
+.PageIndexControl .Status {
+	MARGIN-RIGHT: 0.4em
+}
+.PageSizeControl {
+	FONT-WEIGHT: normal
+}
+.PageSizeControl .Selected {
+	FONT-WEIGHT: bold
+}
+.ContentPanel {
+	BORDER-RIGHT-WIDTH: 0.1em; BORDER-TOP-WIDTH: 0.1em; =
+BORDER-BOTTOM-WIDTH: 0.1em; BORDER-LEFT-WIDTH: 0.1em
+}
+.ContentPanel .Header {
+=09
+}
+.ContentPanel .RoundedContent .HeaderPanel {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0.2em; BACKGROUND-COLOR: =
+transparent; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; PADDING-TOP: =
+0.2em
+}
+.ContentPanel .RoundedContent .FooterPanel {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 0.2em; BACKGROUND-COLOR: =
+transparent; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; PADDING-TOP: =
+0.2em
+}
+.IE6 .ContentPanel .RoundedContent .HeaderPanel {
+	MARGIN-TOP: 0px !important; MARGIN-BOTTOM: 0px !important
+}
+.IE6 .ContentPanel .RoundedContent .FooterPanel {
+	MARGIN-TOP: 0px !important; MARGIN-BOTTOM: 0px !important
+}
+.ContentPanel .RoundedContent {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/contentpanel_gradientbg.gif); =
+BORDER-BOTTOM: #a0a0a0 0px solid; BORDER-LEFT: #a0a0a0 0px solid; =
+BACKGROUND-COLOR: #fff; MIN-HEIGHT: 20px; WIDTH: auto; =
+BACKGROUND-REPEAT: repeat-x; BORDER-TOP: #a0a0a0 0px solid; =
+BORDER-RIGHT: #a0a0a0 0px solid
+}
+.FF .ContentPanel .RoundedContent {
+	OVERFLOW: visible !important
+}
+.Safari .ContentPanel .RoundedContent {
+	OVERFLOW: visible !important
+}
+.Opera .ContentPanel .RoundedContent {
+	OVERFLOW: visible !important
+}
+.ContentPanel .RoundedCornerContainer {
+	WIDTH: auto
+}
+.ContentPanel .TopBorder {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/contentpanel_gradientbg.gif); =
+BACKGROUND-REPEAT: repeat-x
+}
+.ContentPanel .OuterBorder {
+	BORDER-BOTTOM: #a0a0a0 0px solid; BORDER-LEFT: #a0a0a0 0px solid; =
+MARGIN: 0px; OVERFLOW: hidden; BORDER-TOP: #a0a0a0 0px solid; =
+BORDER-RIGHT: #a0a0a0 0px solid
+}
+.ContentPanel .RoundedBorder {
+	BORDER-BOTTOM: #a0a0a0 0px solid; BORDER-LEFT: #a0a0a0 0px solid; =
+BACKGROUND-COLOR: #fff; MARGIN: 0em; WIDTH: auto; HEIGHT: 1px; OVERFLOW: =
+hidden; BORDER-TOP: #a0a0a0 0px solid; BORDER-RIGHT: #a0a0a0 0px solid
+}
+.ClearPanel .HeaderPanel {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: white
+}
+.ClearPanel .RoundedBorder {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: white
+}
+.ClearPanel .RoundedContent {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: white
+}
+.SignInPanel .RoundedContent {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #46ae28
+}
+.SignInPanel .RoundedBorder {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #46ae28
+}
+.FF .SignInPanel TD A {
+	LINE-HEIGHT: 1.6em
+}
+.AlternateBackgroundPanel {
+	BACKGROUND-IMAGE: none; BORDER-BOTTOM: black 1px solid; BORDER-LEFT: =
+black 1px solid; BACKGROUND-COLOR: #f1fcee; BORDER-TOP: black 1px solid; =
+BORDER-RIGHT: black 1px solid
+}
+.TabStripNew TABLE {
+	BORDER-BOTTOM: #317200 2px solid
+}
+.TabStripNew TABLE TD {
+	WHITE-SPACE: nowrap; VERTICAL-ALIGN: bottom
+}
+.InactiveTabNew {
+	BORDER-LEFT: #e7e7e3 1px solid; BORDER-RIGHT: #e7e7e3 1px solid
+}
+.InactiveTabNew {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/projecttab_bar.png); =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% top
+}
+.LastTabNew {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/projecttab_bar.png); =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% top
+}
+.ActiveTabNew {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/projecttab_live.png); =
+BACKGROUND-COLOR: #317200; BACKGROUND-REPEAT: repeat-x
+}
+.TabLinkNew {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; WIDTH: =
+100%; PADDING-RIGHT: 0px; DISPLAY: block; WHITE-SPACE: nowrap; HEIGHT: =
+100%; CURSOR: pointer; TEXT-DECORATION: none !important; PADDING-TOP: =
+6px
+}
+.InactiveTabNew {
+	COLOR: #30332d
+}
+.InactiveTabNew A {
+	COLOR: #30332d
+}
+.InactiveTabNew A:link {
+	COLOR: #30332d
+}
+.InactiveTabNew A:visited {
+	COLOR: #30332d
+}
+.ActiveTabNew {
+	COLOR: #fff; FONT-WEIGHT: bold
+}
+.ActiveTabNew A {
+	COLOR: #fff; FONT-WEIGHT: bold
+}
+.ActiveTabNew A:link {
+	COLOR: #fff; FONT-WEIGHT: bold
+}
+.ActiveTabNew A:visited {
+	COLOR: #fff; FONT-WEIGHT: bold
+}
+.TabPadding {
+	MARGIN-LEFT: 1.75em; MARGIN-RIGHT: 1.75em
+}
+.LastTabNew {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; =
+PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.Safari .EditPreviewPost .ContentPanel .RoundedContent {
+	OVERFLOW: hidden !important
+}
+.TagCloud-Lowest {
+	FONT-SIZE: 1.13em; FONT-WEIGHT: 100
+}
+.TagCloud-Low {
+	FONT-SIZE: 1.27em; FONT-WEIGHT: 300
+}
+.TagCloud-Medium {
+	FONT-SIZE: 1.42em; FONT-WEIGHT: 500
+}
+.TagCloud-High {
+	FONT-SIZE: 1.63em; FONT-WEIGHT: 700
+}
+.TagCloud-Highest {
+	FONT-SIZE: 2.12em; FONT-WEIGHT: 900
+}
+.AutoCompletePanel {
+	BORDER-BOTTOM: #999 0.1em solid; BORDER-LEFT: #999 0.1em solid; =
+PADDING-BOTTOM: 0.15em; BACKGROUND-COLOR: #f0f0f0; PADDING-LEFT: 0.15em; =
+PADDING-RIGHT: 0.15em; FONT-SIZE: 95%; BORDER-TOP: #999 0.1em solid; =
+BORDER-RIGHT: #999 0.1em solid; PADDING-TOP: 0.15em
+}
+.AutoCompletePanel DIV.Row {
+	PADDING-BOTTOM: 0.15em; BACKGROUND-COLOR: transparent; PADDING-LEFT: =
+0.25em; PADDING-RIGHT: 0.25em; COLOR: #000; CURSOR: pointer; =
+PADDING-TOP: 0.15em
+}
+.AutoCompletePanel DIV.Selected {
+	BACKGROUND-COLOR: #aaa; COLOR: #fff
+}
+.VoteBox {
+	WIDTH: 4.25em; FLOAT: left
+}
+DIV.votebox {
+	BORDER-BOTTOM: #bbb 0.1em solid; TEXT-ALIGN: center; BORDER-LEFT: #bbb =
+0.1em solid; WIDTH: 3.75em; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: =
+#bbb 0.1em solid
+}
+DIV.votebox .top {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/votebox_bkg.gif); =
+BACKGROUND-REPEAT: repeat-x; HEIGHT: 2.19em; COLOR: #333
+}
+DIV.votebox .topClosed {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/votebox_bkg.gif); =
+BACKGROUND-REPEAT: repeat-x; HEIGHT: 2.19em; COLOR: #333
+}
+DIV.votebox .topClosed {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/votebox_closed_bkg.gif)
+}
+DIV.votebox .count {
+	DISPLAY: block; MARGIN-BOTTOM: -0.4em; FONT-SIZE: 1em; FONT-WEIGHT: =
+bold
+}
+DIV.votebox .bottom {
+	PADDING-BOTTOM: 0.1em; BACKGROUND: #fff; COLOR: #bbb; BORDER-TOP: #bbb =
+0.1em solid
+}
+.VoteBox .SubLink {
+	FONT-SIZE: 0.8em
+}
+.InfoBox {
+	BORDER-BOTTOM: #bbb 0.1em solid; TEXT-ALIGN: center; BORDER-LEFT: #bbb =
+0.1em solid; WIDTH: 4.5em; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: =
+#bbb 0.1em solid
+}
+.InfoBox .Top {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/votebox_bkg.gif); =
+BACKGROUND-REPEAT: repeat-x; HEIGHT: 3.5em; COLOR: #333; VERTICAL-ALIGN: =
+top
+}
+.InfoBox .Top .Title {
+	FONT-SIZE: 0.7em
+}
+.InfoBox .Top .Date {
+	LINE-HEIGHT: 1.1em; MARGIN-TOP: -0.1em; FONT-SIZE: 1.2em; FONT-WEIGHT: =
+bolder
+}
+.InfoBox .Top .Count {
+	LINE-HEIGHT: 1.1em; MARGIN-TOP: -0.1em; FONT-SIZE: 1.2em; FONT-WEIGHT: =
+bolder
+}
+.InfoBox .Top .Time {
+	FONT-SIZE: 0.8em; PADDING-TOP: 0.4em
+}
+.InfoBox .Top .Caption {
+	FONT-SIZE: 0.8em; PADDING-TOP: 0.4em
+}
+.InfoBox .Bottom {
+	PADDING-BOTTOM: 0.1em; BACKGROUND-COLOR: #fff; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; HEIGHT: 1.5em; COLOR: #686868; FONT-SIZE: 0.8em; =
+BORDER-TOP: #bbb 0.1em solid; PADDING-TOP: 0.1em
+}
+#ProjectRelease .InfoBox .Top {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/votebox_closed_bkg.gif); =
+HEIGHT: 5em !important
+}
+.RemoveUserCell {
+	TEXT-ALIGN: center; WIDTH: 6.25em
+}
+.UserNameCell {
+	TEXT-ALIGN: left; WIDTH: 15.63em
+}
+.RequestAccessUserCell {
+	TEXT-ALIGN: left; WIDTH: 22.5em
+}
+.UserRoleCell {
+	TEXT-ALIGN: left; WIDTH: 20em
+}
+.EditPreviewPost {
+	MARGIN-BOTTOM: 0.25em
+}
+.EditPreviewPost .FormattingGuide {
+	PADDING-LEFT: 0.5em; WIDTH: 15em; FONT-SIZE: 0.8em; VERTICAL-ALIGN: top
+}
+.EditPreviewPost .EditInfo {
+	TEXT-ALIGN: right
+}
+.EditPreviewPost .EditCommands {
+	TEXT-ALIGN: left
+}
+.EditPreviewPost .PreviewArea {
+	MIN-HEIGHT: 22.3em
+}
+.FF .EditPreviewPost .PreviewArea TABLE {
+	MARGIN-TOP: 1px; MARGIN-LEFT: 1px
+}
+.EditPreviewPost .MarkupGuide {
+	TEXT-ALIGN: left; WIDTH: 14em; FLOAT: right
+}
+DIV#ConfigureView {
+	WIDTH: 19em; FLOAT: right; FONT-SIZE: 0.9em
+}
+DIV#ConfigureView .Content {
+	PADDING-BOTTOM: 0.75em; PADDING-LEFT: 0.75em; PADDING-RIGHT: 0.75em; =
+PADDING-TOP: 0.75em
+}
+DIV#ConfigureView .Left {
+	TEXT-ALIGN: left; MARGIN-RIGHT: 11em
+}
+DIV#ConfigureView .Right {
+	TEXT-ALIGN: left; WIDTH: 12em; FLOAT: right
+}
+DIV#ConfigureView .Clear {
+	MARGIN-BOTTOM: 1.5em; CLEAR: both
+}
+DIV#ConfigureView .Filter {
+	WIDTH: 100%; VERTICAL-ALIGN: middle
+}
+DIV#ConfigureView .Sort {
+	WIDTH: 100%; VERTICAL-ALIGN: middle
+}
+DIV#ConfigureView .Search {
+	WIDTH: 7em; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 0.75em
+}
+DIV#ConfigureView A.selected {
+	COLOR: black; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.RssFeedsPanel {
+	Z-INDEX: 999999; TEXT-ALIGN: left; PADDING-BOTTOM: 0px; =
+LIST-STYLE-TYPE: none; MARGIN-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px; WHITE-SPACE: normal; MARGIN-BOTTOM: 0px; CURSOR: =
+pointer; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+.IE6 UL.RssFeedsPanel LI {
+	WIDTH: 10em
+}
+ABBR.smartDate {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-LEFT-WIDTH: 0px
+}
+.CodePlexPageTemplate {
+	FONT: small arial,verdana
+}
+.CodePlexPageSizeTemplate {
+	FONT: small arial,verdana
+}
+.CodePlexPageSizeTemplate {
+	TEXT-ALIGN: right; FLOAT: right
+}
+.PageTemplateItemsInfoText {
+	MARGIN-LEFT: 0.32em
+}
+.PageTemplateSeperator {
+	MARGIN-LEFT: 0.32em
+}
+.PageTemplateSelectedLink {
+	MARGIN-LEFT: 0.32em; FONT-WEIGHT: bold
+}
+.WorkItemField {
+	WIDTH: 15%
+}
+.WorkItemType {
+	COLOR: red; FONT-WEIGHT: bold
+}
+.RatingStarContainer {
+	DISPLAY: inline
+}
+.RatingStar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 12px; PADDING-RIGHT: =
+9px; DISPLAY: inline; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+center 50%; HEIGHT: 12px; PADDING-TOP: 0px
+}
+.IE .RatingStar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 12px; =
+PADDING-TOP: 0px
+}
+.EditStarMode .RatingStar {
+	CURSOR: pointer
+}
+.FilledRatingStar {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_gold_full.png)
+}
+.FilledRatingStarUser {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_blue_full.png)
+}
+.FilledRatingStarMuted {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_gold2_full.png)
+}
+.EmptyRatingStar {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_empty.png)
+}
+.HalfRatingStar {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_gold_half.png)
+}
+.HalfRatingStarUser {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_blue_half.png)
+}
+.HalfRatingStarMuted {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/star_gold2_half.png)
+}
+.ProjectSignInControl A {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:link {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:visited {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:hover {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:active {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:hover {
+	COLOR: #ccc; FONT-SIZE: 0.9em
+}
+.ProjectSignInControl A:active {
+	COLOR: #fff; FONT-SIZE: 0.9em
+}
+.NoImages .ProjectSignInControl A {
+	COLOR: #3e62a6
+}
+.NoImages .ProjectSignInControl A:active {
+	COLOR: #3e62a6
+}
+.NoImages .ProjectSignInControl A:link {
+	COLOR: #3e62a6
+}
+.NoImages .ProjectSignInControl A:visited {
+	COLOR: #3e62a6
+}
+.NoImages .ProjectSignInControl A:hover {
+	COLOR: #ce8b10
+}
+.ProjectEditProjectDetails {
+	MARGIN-TOP: 0.9em
+}
+.popupWindow {
+	BORDER-BOTTOM: #444444 2px solid; BORDER-LEFT: #444444 2px solid; =
+BORDER-TOP: #444444 2px solid; BORDER-RIGHT: #444444 2px solid
+}
+.popupWindow .description {
+	MARGIN-TOP: 1em; BORDER-TOP: #cfcfcf 1px solid; PADDING-TOP: 1em
+}
+.popupWindow .ui-dialog-titlebar {
+	DISPLAY: block
+}
+.popupWindow .ui-dialog-titlebar-close {
+	DISPLAY: block
+}
+.popupWindow .ui-widget-header {
+	BACKGROUND-COLOR: #eaeae6; FONT-WEIGHT: bold
+}
+.popupWindow .ui-dialog-titlebar {
+	POSITION: relative; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.3em; =
+PADDING-RIGHT: 0.3em; PADDING-TOP: 0.2em
+}
+.popupWindow .ui-dialog-titlebar-close {
+	POSITION: absolute; PADDING-BOTTOM: 1px; MARGIN: -10px 0px 0px; =
+PADDING-LEFT: 1px; WIDTH: 19px; PADDING-RIGHT: 1px; HEIGHT: 18px; TOP: =
+50%; RIGHT: 0.3em; PADDING-TOP: 1px
+}
+.popupWindow .ui-widget-header .ui-icon {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/btn_close-off.png); =
+TEXT-INDENT: -99999px; WIDTH: 17px; DISPLAY: block; BACKGROUND-REPEAT: =
+no-repeat; HEIGHT: 17px; CURSOR: pointer
+}
+.popupWindow .ui-widget-header .ui-state-hover .ui-icon {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/btn_close-on.png)
+}
+#SearchFlyoutContainer LI {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+.PageStep {
+	PADDING-LEFT: 20px; DISPLAY: inline-block; BACKGROUND-REPEAT: =
+no-repeat; MARGIN-RIGHT: 0.5em
+}
+.Safari .PageStep {
+	MIN-HEIGHT: 2em; PADDING-TOP: 0.3em
+}
+.StepOneActive {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step1_active.gif); COLOR: =
+#27602e; FONT-WEIGHT: bold
+}
+.StepTwoActive {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step2_active.gif); COLOR: =
+#27602e; FONT-WEIGHT: bold
+}
+.StepTwoInactive {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step2_inactive.gif)
+}
+.StepThreeActive {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step3_active.gif); COLOR: =
+#27602e; FONT-WEIGHT: bold
+}
+.StepThreeInactive {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step3_inactive.gif)
+}
+.StepComplete {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/step_checked.gif)
+}
+#donateAdsContainer {
+	MARGIN-LEFT: 1.6em
+}
+#donateAdsSecondLine {
+	MARGIN-LEFT: 1.6em
+}
+.instrumentationInfo {
+	MARGIN-LEFT: 1.6em
+}
+.instrumentationInfo INPUT[type=3D'text'] {
+	WIDTH: 25em
+}
+#PrimaryLabel {
+	FONT-FAMILY: "Segoe UI","Microsoft Sans Serif",Arial,Geneva,Sans-Serif; =
+FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.SearchButton {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 1px 0px 0px -4px; WIDTH: 60px; =
+BACKGROUND: =
+url(http://i2.codeplex.com/Images/v16694/search-button-off.gif) =
+no-repeat 0px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+BORDER-LEFT-WIDTH: 0px; CURSOR: default
+}
+.FF .SearchButton {
+	PADDING-TOP: 2px
+}
+.FF .SearchButtonOn {
+	PADDING-TOP: 2px
+}
+.Chrome .SearchButton {
+	PADDING-TOP: 3px
+}
+.Chrome .SearchButtonOn {
+	PADDING-TOP: 3px
+}
+.Safari .SearchButton {
+	PADDING-TOP: 3px
+}
+.Safari .SearchButtonOn {
+	PADDING-TOP: 3px
+}
+.SearchButtonOn {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 1px 0px 0px -4px; WIDTH: 60px; =
+BACKGROUND: url(/images/v0/search-button-on.gif) no-repeat 0px 0px; =
+BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; =
+CURSOR: pointer
+}
+.Footnote {
+	COLOR: #529900; FONT-SIZE: 0.9em
+}
+.FootnoteMarker {
+	COLOR: #529900; VERTICAL-ALIGN: text-top
+}
+#SearchResults .PageLinks {
+	MARGIN-LEFT: 1em
+}
+#SearchResults .CurrentReleaseRating {
+	MARGIN-TOP: 0.5em
+}
+#tabnav {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/bkgd_tabnavbottom.gif); =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+BACKGROUND-REPEAT: repeat-x; PADDING-TOP: 0px
+}
+.NotPublishedHeader {
+	BACKGROUND-REPEAT: no-repeat; COLOR: #6d8d34; FONT-SIZE: 1.6em; =
+VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.NotPublishedWarning {
+	COLOR: #f00; FONT-SIZE: 1.8em; FONT-WEIGHT: bold
+}
+.ProjectPageContent {
+	BORDER-BOTTOM: #b8c1ca 0.1em solid; BORDER-LEFT: #b8c1ca 0.1em solid; =
+BORDER-TOP: #b8c1ca 0.1em; BORDER-RIGHT: #b8c1ca 0.1em solid
+}
+.editCell {
+	TEXT-ALIGN: right; WIDTH: 7.5em
+}
+.ProjectDirectory {
+	WIDTH: 100%
+}
+.ProjectDirectory TH {
+	TEXT-ALIGN: left; BORDER-LEFT: #bbb 0.1em solid; PADDING-BOTTOM: =
+0.25em; BACKGROUND-COLOR: #ddd; PADDING-LEFT: 0.25em; PADDING-RIGHT: =
+0.25em; FONT-WEIGHT: normal; BORDER-RIGHT: #bbb 0.1em solid; =
+PADDING-TOP: 0.25em
+}
+.ProjectDirectory TD {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; =
+PADDING-TOP: 0.25em
+}
+.ProjectDetailsDescription {
+	DISPLAY: block
+}
+.ProjectDetailsRecentActivity {
+	DISPLAY: block; TEXT-DECORATION: underline
+}
+.ProjectDetailsText {
+	DISPLAY: block
+}
+.ProjectSearch {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+MARGIN-BOTTOM: 0.63em; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb =
+0.1em solid
+}
+.ProjectSearchContent {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+PADDING-TOP: 0.2em
+}
+.ProjectSearchDropDown {
+	FLOAT: right; MARGIN-LEFT: 63em
+}
+.ProjectExpandedItem {
+	COLOR: #000; FONT-SIZE: 0.9em; FONT-WEIGHT: bold; PADDING-TOP: 0.4em
+}
+.ProjectDirectoryHeader {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/projectbox_bkg.gif); =
+PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+BACKGROUND-REPEAT: repeat-x; HEIGHT: 1.25em; COLOR: #000; FONT-SIZE: =
+0.9em; FONT-WEIGHT: bold; PADDING-TOP: 0.2em
+}
+.ProjectDirectoryHeaderControl {
+	HEIGHT: 1.8em; FONT-SIZE: 80%; FONT-WEIGHT: normal
+}
+.SearchResultText {
+	FONT-STYLE: italic; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.SimilarProjectTags {
+	COLOR: #777; FONT-SIZE: 1em
+}
+.SimilarProjectTagsBold {
+	COLOR: #444; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.ProjectDirectoryListItemSeparator {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 0px; BORDER-COLLAPSE: collapse; =
+MARGIN-BOTTOM: 0px; HEIGHT: 3px; PADDING-TOP: 0px
+}
+.ProjectDirectoryListItemSeparator TD {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN-TOP: 0px; =
+MARGIN-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+HEIGHT: 3px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+.ProjectDirectoryListItemSeparator HR {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-RIGHT-WIDTH: 0px; MARGIN-TOP: =
+0px; MARGIN-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; COLOR: #ccc; =
+BORDER-LEFT-WIDTH: 0px
+}
+.ProjectListSubLink A {
+	TEXT-DECORATION: none
+}
+.ProjectListSubLink A:link {
+	TEXT-DECORATION: none
+}
+.ProjectListSubLink A:visited {
+	TEXT-DECORATION: none
+}
+.ProjectListSubLink A:active {
+	TEXT-DECORATION: none
+}
+.ProjectListSubLink A:hover {
+	TEXT-DECORATION: underline
+}
+.SearchTextBox {
+	PADDING-LEFT: 0.3em; WIDTH: 34em; FONT-SIZE: 0.9em; VERTICAL-ALIGN: =
+bottom
+}
+.ResultListPanel .CurrentReleaseColumn {
+	WIDTH: 14em
+}
+.highlightterm {
+	BACKGROUND-COLOR: yellow
+}
+.SearchArea {
+	PADDING-LEFT: 5em; PADDING-RIGHT: 0.5em
+}
+.RefinementPane {
+	MARGIN-TOP: 1.2em; PADDING-LEFT: 1em; WIDTH: 14.5em
+}
+.RefinementPane UL {
+	MARGIN-TOP: 0px
+}
+.RefinementPane UL.Filter {
+	LIST-STYLE-TYPE: none; MARGIN-LEFT: -1.5em; LIST-STYLE-IMAGE: none
+}
+.RefinementPane A {
+	TEXT-DECORATION: none
+}
+.RefinementPane H2 {
+	PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #a1a69c; MARGIN: 0px; =
+PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; COLOR: #fff; PADDING-TOP: =
+0.3em
+}
+.RefinementPane H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px; PADDING-LEFT: 0.3em; =
+PADDING-RIGHT: 0px; COLOR: #000; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.FF .RefinmentAdvSearchPadding {
+	MARGIN-TOP: 2.75em
+}
+.Safari .RefinmentAdvSearchPadding {
+	MARGIN-TOP: 2.75em
+}
+.FF .ResultsAdvSearchPadding {
+	MARGIN-TOP: 3em
+}
+.Safari .ResultsAdvSearchPadding {
+	MARGIN-TOP: 3em
+}
+.SearchResults {
+	MARGIN-TOP: 1em; MARGIN-RIGHT: 1em
+}
+#advancedSearch {
+	MARGIN-TOP: 0.5em; WIDTH: 34.5em; PADDING-RIGHT: 3em; MARGIN-LEFT: 4em
+}
+.IE #advancedSearch {
+	WIDTH: 35em; PADDING-RIGHT: 0px
+}
+#licenseSelection UL {
+	LIST-STYLE-TYPE: none; MARGIN-LEFT: -1.5em; LIST-STYLE-IMAGE: none
+}
+.advancedLeftColumn {
+	TEXT-ALIGN: right; WIDTH: 16em; FLOAT: left
+}
+.advancedRightColumn {
+	PADDING-LEFT: 0.5em; WIDTH: 18em; FLOAT: left
+}
+#advancedDevelopmentStatus {
+	WIDTH: 18.25em
+}
+.FF #advancedDevelopmentStatus {
+	WIDTH: 18em
+}
+.AgreementPanel {
+	BORDER-BOTTOM: #888888 1px solid; BORDER-LEFT: #888888 1px solid; =
+WIDTH: 99%; HEIGHT: 12em; BORDER-TOP: #888888 1px solid; BORDER-RIGHT: =
+#888888 1px solid
+}
+.Opera .AgreementPanel {
+	OVERFLOW: auto
+}
+.ProjectCreationSubtext {
+	COLOR: #777; FONT-SIZE: 0.8em
+}
+.ProjectCreationPanelPadding {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; =
+PADDING-TOP: 0.2em
+}
+.ManageCoordinatorTag TD.TagOperations {
+	PADDING-RIGHT: 0.4em; WHITE-SPACE: nowrap; FONT-SIZE: 85%
+}
+.LicenseEditHeader {
+	PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #eee; PADDING-LEFT: 1em; =
+PADDING-RIGHT: 1em; FONT-SIZE: 85%; PADDING-TOP: 0.5em
+}
+.LicenseEditHeader TD {
+	PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.7em; PADDING-RIGHT: 0.7em; =
+PADDING-TOP: 0.2em
+}
+.LicenseEditHeader TD TD {
+	PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0.75em; =
+PADDING-TOP: 0.1em
+}
+.LicenseEditorBody {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; =
+PADDING-TOP: 1em
+}
+#LicenseHistorySideBar {
+	MARGIN: 1.3em auto auto 0.7em
+}
+#LicenseHistorySideBar .GradientBox {
+	WIDTH: 300px
+}
+.ReadOnlyLink {
+	COLOR: #dcdcdc
+}
+#internalRequest {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN-TOP: 1em; COLOR: red; BORDER-TOP: =
+#ccc 1px solid
+}
+.ProjectRolesTable {
+	BORDER-COLLAPSE: collapse
+}
+.Opera .ProjectRolesTable {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-RIGHT: #bbb 0.1em solid
+}
+.ProjectRolesTable TD {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+PADDING-BOTTOM: 0.15em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+WHITE-SPACE: nowrap; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb =
+0.1em solid; PADDING-TOP: 0.15em
+}
+.ProjectRolesTable TH {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+PADDING-BOTTOM: 0.15em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+WHITE-SPACE: nowrap; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb =
+0.1em solid; PADDING-TOP: 0.15em
+}
+.ProjectRolesTable TH {
+	BACKGROUND-COLOR: #eee
+}
+.ProjectRolesTable TR.ThickBorder TD {
+	BORDER-TOP: #999 0.13em solid
+}
+.ProjectRolesTable TR.ThickBorder TH {
+	BORDER-TOP: #999 0.13em solid
+}
+.ProjectRolesTable .Permission {
+	TEXT-ALIGN: center; COLOR: green; FONT-SIZE: 65%; FONT-WEIGHT: bold
+}
+#statsLink {
+	CURSOR: pointer
+}
+#statsLink:hover {
+	TEXT-DECORATION: none
+}
+#statsLink .Left {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/view_stats_arrow.png); WIDTH: =
+20px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 20px
+}
+#statsLink .Middle {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/view_stats_background.png); =
+TEXT-ALIGN: center; WIDTH: 195px; BACKGROUND-REPEAT: repeat-x; FLOAT: =
+left; HEIGHT: 20px; COLOR: white
+}
+.FF #statsLink .Middle {
+	WIDTH: 194px
+}
+#statsLink .Right {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/view_stats_right.png); WIDTH: =
+20px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; HEIGHT: 20px
+}
+#manageOpenings .Links {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 1em
+}
+#manageOpenings .Header {
+	MARGIN-BOTTOM: 1em
+}
+#manageOpenings .ExampleColumn {
+	BORDER-BOTTOM: #cecece 1px solid; BORDER-LEFT: #cecece 1px solid; =
+PADDING-BOTTOM: 0.5em; MARGIN-TOP: 0px; PADDING-LEFT: 0.5em; WIDTH: =
+20.7em; PADDING-RIGHT: 0.5em; FLOAT: right; BORDER-TOP: #cecece 1px =
+solid; BORDER-RIGHT: #cecece 1px solid; PADDING-TOP: 0.5em
+}
+#manageOpenings .ManageFormColumn {
+	WIDTH: 69%; FLOAT: left
+}
+#editProjectOpening {
+	MARGIN-TOP: 1em
+}
+#openingDescriptionContainer {
+	MARGIN-LEFT: 1.8em
+}
+#openingDescriptionContainer TEXTAREA {
+	WIDTH: 40em
+}
+#jobDescription .wikidoc {
+	WIDTH: 18.25em; OVERFLOW: hidden
+}
+#joinUsContainer {
+	MARGIN-TOP: 1em
+}
+#requestAccessContainer TEXTAREA {
+	WIDTH: 32.5em
+}
+#denyCommentContainer TEXTAREA {
+	WIDTH: 32.5em
+}
+.JoinUsMessage {
+	BORDER-BOTTOM: #ffc536 1px solid; BORDER-LEFT: #ffc536 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #fff0cc; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; MARGIN-BOTTOM: 1em; BORDER-TOP: #ffc536 1px solid; =
+BORDER-RIGHT: #ffc536 1px solid; PADDING-TOP: 0.5em
+}
+.JoinUsMessage .SuccessMessage {
+	BACKGROUND-COLOR: #fff0cc; COLOR: black
+}
+#DownloadInfo {
+	MARGIN-TOP: 1em
+}
+#DownloadInfo > DIV {
+	PADDING-TOP: 0.25em
+}
+#DownloadInfo .ActivityLabelCell {
+	PADDING-BOTTOM: 0.25em; WIDTH: 5em; VERTICAL-ALIGN: top
+}
+#DownloadInfo .ActivityLabel {
+	PADDING-BOTTOM: 0.1em; TEXT-TRANSFORM: uppercase; BACKGROUND-COLOR: =
+#ccccc2; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.8em; COLOR: white; =
+FONT-WEIGHT: normal; PADDING-TOP: 0.1em
+}
+#DownloadInfo .ActivityData {
+	PADDING-LEFT: 0.25em; VERTICAL-ALIGN: top
+}
+#DownloadInfo .HelpBubble {
+	VERTICAL-ALIGN: bottom
+}
+#CurrentReleaseInfo .DownloadButton {
+	MARGIN-LEFT: 1em
+}
+.RightSideBar .AlternateBackground {
+	BACKGROUND-COLOR: #e5e5e0
+}
+.DownloadButton {
+	WIDTH: 200px
+}
+.SmallDownloadButton {
+	WIDTH: 156px
+}
+.DownloadButton A {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; LINE-HEIGHT: 28px; =
+BORDER-RIGHT-STYLE: none; PADDING-LEFT: 16px; DISPLAY: block; =
+BORDER-TOP-STYLE: none; BACKGROUND: =
+url(http://i2.codeplex.com/Images/v16694/btn_download.png) no-repeat 0px =
+0px; LETTER-SPACING: 0px; HEIGHT: 32px; COLOR: #fff; FONT-SIZE: 1.3em; =
+BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.SmallDownloadButton A {
+	BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; LINE-HEIGHT: 22px; =
+BORDER-RIGHT-STYLE: none; PADDING-LEFT: 12px; DISPLAY: block; =
+BORDER-TOP-STYLE: none; BACKGROUND: =
+url(http://i2.codeplex.com/Images/v16694/btn_download_small.png) =
+no-repeat 0px 0px; LETTER-SPACING: 0px; HEIGHT: 25px; COLOR: #fff; =
+FONT-SIZE: 1.1em; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold; =
+TEXT-DECORATION: none
+}
+.DownloadButton A:hover {
+	BACKGROUND: url(http://i2.codeplex.com/Images/v16694/btn_download.png) =
+no-repeat 0px -32px; COLOR: #fff; TEXT-DECORATION: none
+}
+.DownloadButton A:active {
+	BACKGROUND: url(http://i2.codeplex.com/Images/v16694/btn_download.png) =
+no-repeat 0px -32px; COLOR: #fff; TEXT-DECORATION: none
+}
+.SmallDownloadButton A:hover {
+	BACKGROUND: =
+url(http://i2.codeplex.com/Images/v16694/btn_download_small.png) =
+no-repeat 0px -25px; COLOR: #fff; TEXT-DECORATION: none
+}
+.SmallDownloadButton A:active {
+	BACKGROUND: =
+url(http://i2.codeplex.com/Images/v16694/btn_download_small.png) =
+no-repeat 0px -25px; COLOR: #fff; TEXT-DECORATION: none
+}
+#ProjectActivity TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; =
+PADDING-TOP: 0px
+}
+H2 {
+	COLOR: black !important
+}
+#WikiVersions TD {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0px; PADDING-RIGHT: 2em; =
+PADDING-TOP: 0.25em
+}
+#WikiVersions TH {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 2em; =
+PADDING-TOP: 0px
+}
+.CommentsHeader {
+	PADDING-BOTTOM: 0.2em; BACKGROUND-COLOR: #ececec; PADDING-LEFT: 0.2em; =
+PADDING-RIGHT: 0.2em; FONT-WEIGHT: bolder; PADDING-TOP: 0.2em
+}
+.WikiMarkup {
+	FONT-FAMILY: Consolas,Courier New,Courier,monospace; COLOR: gray
+}
+#WikiPageTitle {
+	WIDTH: 500px
+}
+.commentTextBox {
+	BORDER-BOTTOM: #a5acb2 0.1em solid; BORDER-LEFT: #a5acb2 0.1em solid; =
+PADDING-BOTTOM: 0.13em; PADDING-LEFT: 0.13em; WIDTH: 400px; =
+PADDING-RIGHT: 0.13em; HEIGHT: 10em; COLOR: #333; VERTICAL-ALIGN: =
+bottom; BORDER-TOP: #a5acb2 0.1em solid; BORDER-RIGHT: #a5acb2 0.1em =
+solid; PADDING-TOP: 0.13em
+}
+.wikiTop TD {
+	PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #ececec; PADDING-LEFT: 0.3em; =
+PADDING-RIGHT: 0.3em; PADDING-TOP: 0.3em
+}
+.wikiSource {
+	PADDING-BOTTOM: 1em; WIDTH: 100%; PADDING-TOP: 1em
+}
+.WikiInfo {
+	CLEAR: both
+}
+.breadcrumbs {
+	TEXT-ALIGN: left; PADDING-LEFT: 0px; COLOR: rgb(127,127,127); =
+FONT-SIZE: 0.8em; PADDING-TOP: 0.13em
+}
+.breadcrumbs A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; =
+PADDING-TOP: 0px
+}
+TABLE.StandardPaddingRight TH {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #e2f6cc
+}
+.IE .WikiContent {
+	PADDING-BOTTOM: 1.5em
+}
+.FF .WikiContent TABLE {
+	MARGIN-TOP: 1px; MARGIN-LEFT: 1px
+}
+DIV.QuickWikiGuide {
+=09
+}
+DIV.QuickWikiGuide .Link {
+	MARGIN-TOP: 0.31em; FONT-SIZE: 0.8em
+}
+DIV.QuickWikiGuide .Markup {
+	MARGIN: 0.1em; COLOR: #777
+}
+DIV.wikidoc H1 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H2 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H3 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H4 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H5 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H6 {
+	MARGIN-BOTTOM: 0.13em
+}
+DIV.wikidoc H1 {
+	FONT-SIZE: 2em
+}
+DIV.wikidoc H2 {
+	FONT-SIZE: 1.6em
+}
+DIV.wikidoc H3 {
+	FONT-SIZE: 1.4em
+}
+DIV.wikidoc H4 {
+	FONT-SIZE: 1.2em
+}
+HTML.FF DIV.wikidoc .externalLink {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/icons_weblink_sm.gif); =
+PADDING-BOTTOM: 0.5em; PADDING-RIGHT: 1.5em; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right 0px
+}
+HTML.IE6 DIV.wikidoc .externalLink {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/icons_weblink_sm.gif); =
+PADDING-BOTTOM: 0.5em; PADDING-RIGHT: 1.5em; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right 0px
+}
+HTML.Opera DIV.wikidoc .externalLink {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/icons_weblink_sm.gif); =
+PADDING-BOTTOM: 0.5em; PADDING-RIGHT: 1.5em; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right 0px
+}
+HTML.Safari DIV.wikidoc .externalLink {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/icons_weblink_sm.gif); =
+PADDING-BOTTOM: 0.5em; PADDING-RIGHT: 1.5em; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right 0px
+}
+HTML.IE6 DIV.wikidoc .externalLink {
+	DISPLAY: inline-block; VERTICAL-ALIGN: bottom
+}
+HTML.IE7 DIV.wikidoc .externalLinkIcon {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/icons_weblink_sm.gif); =
+PADDING-LEFT: 0.5em; WIDTH: 0.81em; DISPLAY: inline-block; =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 0px; HEIGHT: =
+1em; MARGIN-LEFT: 0.13em; PADDING-TOP: 0.5em
+}
+DIV.wikidoc PRE {
+	BORDER-BOTTOM: #3e62a6 0.1em dashed; BORDER-LEFT: #3e62a6 0.1em dashed; =
+PADDING-BOTTOM: 1.5em; BACKGROUND-COLOR: #ececec; MARGIN-TOP: 0px; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; FONT-FAMILY: =
+Consolas,"Courier New",Courier,Monospace; HEIGHT: auto; FONT-SIZE: 1em; =
+OVERFLOW: auto; BORDER-TOP: #3e62a6 0.1em dashed; BORDER-RIGHT: #3e62a6 =
+0.1em dashed; PADDING-TOP: 0.5em
+}
+.IE6 .wikidoc PRE {
+	WIDTH: 96%
+}
+.Safari .wikidoc PRE {
+	FONT-SIZE: 1.25em
+}
+.Safari DIV.wikidoc SPAN.codeInline {
+	FONT-SIZE: 1.25em
+}
+DIV.wikidoc SPAN.codeInline {
+	FONT-FAMILY: Consolas,"Courier New",Courier,Monospace
+}
+DIV.wikidoc TABLE {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+BORDER-COLLAPSE: collapse; BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: =
+#bbb 0.1em solid
+}
+DIV.wikidoc TH {
+	FONT-WEIGHT: bold
+}
+DIV.wikidoc TD {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; =
+PADDING-TOP: 0.25em
+}
+DIV.wikidoc TH {
+	PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.25em; PADDING-RIGHT: 0.25em; =
+PADDING-TOP: 0.25em
+}
+DIV.wikidoc TD {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb 0.1em solid
+}
+DIV.wikidoc TH {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb 0.1em solid
+}
+DIV.wikidoc TR {
+	BORDER-BOTTOM: #bbb 0.1em solid; BORDER-LEFT: #bbb 0.1em solid; =
+BORDER-TOP: #bbb 0.1em solid; BORDER-RIGHT: #bbb 0.1em solid
+}
+DIV.wikidoc SPAN.unresolved {
+	FONT-STYLE: italic; COLOR: #f00; FONT-SIZE: 0.9em
+}
+DIV.wikidoc DIV.error {
+	FONT-STYLE: italic; COLOR: #f00; FONT-SIZE: 0.9em
+}
+DIV.wikidoc SPAN.error {
+	FONT-STYLE: italic; COLOR: #f00; FONT-SIZE: 0.9em
+}
+DIV.wikidoc DIV.error {
+	WHITE-SPACE: pre
+}
+DIV.wikidoc DIV.quote {
+	BORDER-BOTTOM: #aaa 0.1em dotted; BORDER-LEFT: #aaa 0.1em; =
+PADDING-BOTTOM: 0.2em; FONT-STYLE: italic; MARGIN: 1em 0em 2.5em 3em; =
+PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; BORDER-TOP: #aaa 0.1em =
+dotted; BORDER-RIGHT: #aaa 0.1em; PADDING-TOP: 0.2em
+}
+DIV.wikidoc DIV.rss {
+=09
+}
+DIV.wikidoc DIV.rss .date {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; COLOR: #777; FONT-SIZE: 0.8em; PADDING-TOP: 0px
+}
+DIV.wikidoc DIV.rss .entry {
+	MARGIN: 1.25em 0.63em
+}
+DIV.wikidoc DIV.rss .moreinfo {
+	COLOR: #777; FONT-SIZE: 0.8em
+}
+DIV.wikidoc DIV.rss .moreinfo A:active {
+	COLOR: #999
+}
+DIV.wikidoc DIV.rss .moreinfo A:link {
+	COLOR: #999
+}
+DIV.wikidoc DIV.rss .moreinfo A:visited {
+	COLOR: #999
+}
+DIV.wikidoc DIV.rss .moreinfo A:hover {
+	COLOR: #ce8b10
+}
+DIV.wikidoc DIV.rss P {
+	MARGIN: 0.38em 0px 0.13em
+}
+DIV.wikidoc DIV.rss .title {
+	MARGIN-BOTTOM: 0.1em; FONT-SIZE: 1.25em; FONT-WEIGHT: bold
+}
+DIV.wikidoc DIV.accentbar {
+	TEXT-ALIGN: center; LETTER-SPACING: 0.13em; COLOR: #777; FONT-SIZE: =
+0.75em
+}
+DIV.wikidoc DIV.accentbar .left {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/wiki-accentbar-left.png); =
+PADDING-LEFT: 12.5em; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: =
+left 50%; MARGIN-RIGHT: -0.25em
+}
+DIV.wikidoc DIV.accentbar .right {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/wiki-accentbar-right.png); =
+PADDING-RIGHT: 12.5em; BACKGROUND-REPEAT: no-repeat; =
+BACKGROUND-POSITION: right 50%; MARGIN-LEFT: -0.5em
+}
+DIV.wikidoc DIV.video SPAN.player {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/video-error.png); TEXT-ALIGN: =
+center; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; =
+VERTICAL-ALIGN: middle
+}
+DIV.wikidoc DIV.video .external {
+	FONT-SIZE: 0.8em
+}
+DIV.wikidoc UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/doublearrow.gif)
+}
+DIV.wikidoc LI {
+	MARGIN-TOP: 0.3em; MARGIN-BOTTOM: 0.3em; VERTICAL-ALIGN: middle
+}
+.NewCommentMarker {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: yellow; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; PADDING-TOP: 0px
+}
+.EmptySearchResultsNotice {
+	FONT-STYLE: italic
+}
+.TabStrip TABLE TD {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+PADDING-BOTTOM: 0.25em; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; =
+WHITE-SPACE: nowrap; BORDER-TOP: #a0a0a0 1px solid; BORDER-RIGHT: =
+#a0a0a0 1px solid; PADDING-TOP: 0.25em
+}
+.TabStrip TABLE TD.ActiveTab {
+	BORDER-BOTTOM-STYLE: none
+}
+.TabStrip TABLE TD.InactiveTab {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/button_gradient.gif); =
+BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left bottom
+}
+.TabStrip TABLE TD.ComposeInactiveTab {
+	BORDER-RIGHT-STYLE: none
+}
+.TabStrip TABLE TD.PreviewInactiveTab {
+	BORDER-LEFT-STYLE: none
+}
+.TabStrip TABLE TD.FullWidth {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-RIGHT-STYLE: none; WIDTH: =
+100%; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.TabStrip TABLE TD A.TabLink {
+	PADDING-BOTTOM: 5px; DISPLAY: block; WHITE-SPACE: nowrap; HEIGHT: 100%; =
+COLOR: #30332d; CURSOR: pointer; TEXT-DECORATION: none; PADDING-TOP: 1px
+}
+.TabContent {
+	BORDER-BOTTOM: #a0a0a0 1px solid; BORDER-LEFT: #a0a0a0 1px solid; =
+BORDER-TOP: #a0a0a0 1px; BORDER-RIGHT: #a0a0a0 1px solid
+}
+.StatsLogo {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: =
+block; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; PADDING-TOP: 0.5em
+}
+DIV.input {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+.DocumentationMissingMessage {
+	BORDER-BOTTOM: #ffc536 1px solid; BORDER-LEFT: #ffc536 1px solid; =
+PADDING-BOTTOM: 0.5em; BACKGROUND-COLOR: #fff0cc; PADDING-LEFT: 0.5em; =
+PADDING-RIGHT: 0.5em; BORDER-TOP: #ffc536 1px solid; BORDER-RIGHT: =
+#ffc536 1px solid; PADDING-TOP: 0.5em
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; =
+PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#CanvasTable {
+	WIDTH: 100%; HEIGHT: 100%
+}
+#Canvas {
+	POSITION: relative; MIN-HEIGHT: 100%; WIDTH: 100%; HEIGHT: auto; =
+voice-family: inherit
+}
+HTML > BODY #Canvas {
+	HEIGHT: auto
+}
+#CanvasContent {
+	PADDING-BOTTOM: 48px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: =
+block; PADDING-TOP: 0px
+}
+#CanvasFooter {
+	BACKGROUND-IMAGE: =
+url(http://i2.codeplex.com/Images/v16694/subnav-gradient.png); =
+TEXT-ALIGN: center; PADDING-BOTTOM: 0.75em; PADDING-LEFT: 0px; WIDTH: =
+100%; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: repeat-x; BORDER-TOP: =
+#529900 2px solid; PADDING-TOP: 0.5em
+}
+.OverflowHidden {
+	OVERFLOW: hidden
+}
+.PageIndexControl {
+	DISPLAY: inline
+}
+.PageIndexControl SPAN.Selected {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0px; WIDTH: =
+1.6em; PADDING-RIGHT: 0px; DISPLAY: inline-block; FONT-FAMILY: Segoe UI; =
+COLOR: #ffffff; FONT-SIZE: smaller; FONT-WEIGHT: bold; TEXT-DECORATION: =
+none; PADDING-TOP: 0.2em
+}
+.PageIndexControl SPAN.Unselected {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0px; WIDTH: =
+1.6em; PADDING-RIGHT: 0px; DISPLAY: inline-block; FONT-FAMILY: Segoe UI; =
+COLOR: #ffffff; FONT-SIZE: smaller; FONT-WEIGHT: bold; TEXT-DECORATION: =
+none; PADDING-TOP: 0.2em
+}
+.PageIndexControl A.Link {
+	COLOR: #529900; TEXT-DECORATION: none
+}
+.PageIndexControl SPAN.Unselected {
+	BACKGROUND-COLOR: #e5e5e0; CURSOR: pointer
+}
+.PageIndexControl SPAN.Selected {
+	BACKGROUND-COLOR: #529900
+}
+.PageIndexControl SPAN.PageActivity {
+	MARGIN-RIGHT: 0.25em
+}
+
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://mme.codeplex.com/WebResource.axd?d=az5BZ-9qYZGtlZ8uC5a1Pw2&t=634069423273825256
+Content-Location: file:///C:/MMEDeploying_files/WebResource.axd
 
 function WebForm_PostBackOptions(eventTarget, eventArgument, validation, =
 validationGroup, actionUrl, trackFocus, clientSubmit) {
@@ -2088,10 +5260,10 @@ function WebForm_SetElementY(element, y) {
     }
 }
 
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://mme.codeplex.com/ScriptResource.axd?d=xNw9FpiVpFVQ4jNrrYM4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QWX2YUnHWgHggm04qKBdGBTS3cVY0ZgzlecOnmEPtUuw1&t=16ab2387
+Content-Location: file:///C:/MMEDeploying_files/ScriptResource.axd
 
 =EF=BB=BF//----------------------------------------------------------
 // Copyright (C) Microsoft Corporation. All rights reserved.
@@ -3867,10 +7039,10 @@ timed out.","notImplemented":"The method or operation is not =
 implemented.","assertFailed":"Assertion Failed: =
 {0}","invalidOperation":"Operation is not valid due to the current state =
 of the object.","breakIntoDebugger":"{0}\r\n\r\nBreak into debugger?"};
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://mme.codeplex.com/ScriptResource.axd?d=xNw9FpiVpFVQ4jNrrYM4Raj_YCM0kmycnwo9yzFq_eVqDI2FckprIUvcsxWmwp0QgGaFo13npFNrDU20b7v-e_jX6HsUp5jBxRa6Wlbmf9g1&t=16ab2387
+Content-Location: file:///C:/MMEDeploying_files/ScriptResource(1).axd
 
 =EF=BB=BF//----------------------------------------------------------
 // Copyright (C) Microsoft Corporation. All rights reserved.
@@ -4532,10 +7704,10 @@ or server trace is enabled.\r\nDetails: {0}","PRM_TimeoutError":"The =
 server request timed out.","PRM_ParserErrorDetails":"Error parsing near =
 \u0027{0}\u0027.","PRM_CannotRegisterTwice":"The PageRequestManager =
 cannot be initialized more than once."};
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: application/xml
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://i1.codeplex.com/scripts/v16694/i33554415/ScriptLoader.ashx
+Content-Location: file:///C:/MMEDeploying_files/ScriptLoader.ashx
 
 var s_account=3D"msstocodeplex";
 var omniGuidPath =3D "://www.codeplex.com/site/analyticsid.aspx";
@@ -12004,10 +15176,10 @@ workItemId;
     });
 
 })(jQuery);
-------=_NextPart_000_0000_01CB0B06.D02472B0
+------=_NextPart_000_0021_01CB0B0E.AE309BE0
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: quoted-printable
-Content-Location: http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=ctl00_ctl00_MasterContent_ProjectSearchControl_SearchTextBox&btnId=ctl00_ctl00_MasterContent_ProjectSearchControl_SearchButton&watermark=Search%20all%20CodePlex%20projects&overrideWatermark=true&searchLocation=http%3a%2f%2fwww.codeplex.com%2fsite%2fsearch&allowEmptySearch=true
+Content-Location: file:///C:/MMEDeploying_files/SearchBox.jss
 
 
 if (typeof epx_core =3D=3D=3D 'undefined') {
@@ -12217,1005 +15389,4 @@ ww.codeplex.com\/site\/search","serviceUri":"http:\/\/services.social.mic=
 rosoft.com\/Search\/","sr":{"close":"Close","searchLabel":"Search all =
 CodePlex projects","suggestions":"Suggestions"}} ).init();});},=20
 function() {return epx_loaded});
-------=_NextPart_000_0000_01CB0B06.D02472B0
-Content-Type: application/octet-stream
-Content-Transfer-Encoding: quoted-printable
-Content-Location: http://mme.codeplex.com/site/library/svy/broker.js
-
-/*
-Copyright (c) 2010, comScore Inc. All rights reserved.
-version: 4.6.3
-*/
-if (typeof(COMSCORE) =3D=3D "undefined") {
-	var COMSCORE =3D {};
-}
-
-
-if (typeof COMSCORE.SiteRecruit =3D=3D "undefined") {
-	COMSCORE.SiteRecruit =3D {
-		version: "4.6.3",
-=09
-		configUrl: "broker-config.js",	// full url to broker config
-=09
-		builderUrl: "builder.js",		// full url to invitation builder
-	=09
-		allowScriptCaching: false,
-=09
-		CONSTANTS: {
-			COOKIE_TYPE: { ALREADY_ASKED: 1, DD_IN_PROGRESS: 2},
-			STATE_NAME: { IDLE: "IDLE", DDINPROGRESS: "DDINPROGRESS"}
-		}
-	=09
-	};
-
-	COMSCORE.SiteRecruit.Utils =3D ( function() {
-		//private
-		var _sr =3D COMSCORE.SiteRecruit;
-	=09
-		// public methods and properties
-		return {
-			location: document.location.toString(),
-			=09
-			loadScript: function(url, loadFresh) {
-				// append if load freshis called, do not append if scripcaching is =
-allowed
-				if (loadFresh && !_sr.allowScriptCaching) {
-					url =3D _sr.Utils.appendQueryParams(url, (new Date()).getTime());
-				}
-			=09
-				var s =3D document.createElement("script");
-				s.src =3D url;
-				document.body.appendChild(s);
-			},
-		=09
-			getBrowser: function() {
-				var b =3D {};
-			=09
-				b.name =3D navigator.appName;
-				b.version =3D parseInt(navigator.appVersion, 10);
-			=09
-				// Check for Internet Explorer based browsers.
-				if (b.name =3D=3D "Microsoft Internet Explorer") {
-					if (b.version > 3) {
-						var ua =3D navigator.userAgent.toLowerCase();
-						if (ua.indexOf("msie 5.0") =3D=3D -1) {
-							b.ie =3D true;
-						=09
-						}
-					=09
-						if (ua.indexOf("msie 7") !=3D -1) {
-							b.ie7 =3D true;
-						=09
-						}
-					}
-				}
-			=09
-				// Check for Mozilla based browsers.
-				if (b.name =3D=3D "Netscape" || b.name =3D=3D "Opera") {
-					if (b.version > 4) {
-						b.mozilla =3D true;
-					=09
-					}
-				}
-			=09
-				return b;
-			=09
-				/* compact version!!!, does it match sr4 behavior?
-				b.xpath =3D !!(document.evaluate);
-				if (window.ActiveXObject) {
-					b.ie =3D b[window.XMLHttpRequest ? "ie7" : "ie6"] =3D true;
-				=09
-					COMSCORE.log("browser is IE, " + b.ie7 ? "7" : "6");
-				}
-				else if (document.childNodes && !document.all && =
-!navigator.taintEnabled) {
-					b.webkit =3D b[b.xpath ? 'webkit420' : 'webkit419'] =3D true;=09
-				=09
-					COMSCORE.log("browser is safari");
-				}
-				else if (document.getBoxObjectFor !=3D null) {
-					b.gecko =3D true;	// mozilla/firefox
-				}
-				*/
-			},
-		=09
-			/**
-			 * Used for firing a web beacon, loads an image behind the scenes.
-			 * @param {Object} url Url of the image request
-			 */
-			 fireBeacon: function (url) {
-				setTimeout(function() {
-					if (url.indexOf('?') =3D=3D -1) {
-						url +=3D (/\?/.test(url) ? '&' : '?') + (new Date()).getTime();
-					}
-					else
-					{
-						url +=3D '&' + (new Date()).getTime();
-					}
-							=09
-			=09
-					var i =3D new Image();
-			=09
-				=09
-				=09
-					i.src =3D url;		=09
-				}, 1);
-			},
-		=09
-			appendQueryParams: function(url, params) {
-				if (url =3D=3D null || params =3D=3D null) {
-				=09
-				}
-				//params =3D encodeURIComponent(params);
-				if (!url) {
-					return params;
-				}
-				else {
-					url =3D url.replace('?', '') + "?";
-			=09
-					if (params) {
-						url +=3D params.toString().replace('?', '');
-					}=20
-				=09
-					return url;
-				}
-			},
-		=09
-			getRandom: function(num) {
-				// Custom random number generator.
-		        var n =3D 1000000000;
-		       =20
-		        function ugen(old, a, q, r, m) {
-		            var t =3D Math.floor(old / q);
-		            t =3D a * (old - (t * q)) - (t * r);
-		            return Math.round((t < 0) ? (t + m) : t);
-		        }
-		       =20
-		        var m1 =3D 2147483563, m2 =3D 2147483399, a1 =3D 40014, a2 =3D =
-40692, q1 =3D 53668, q2 =3D 52774, r1 =3D 12211, r2 =3D 3791, x =3D =
-67108862;
-		        var g2 =3D (Math.round(((new Date()).getTime() % 100000)) & =
-0x7FFFFFFF), g1 =3D g2;
-	 			var shuffle =3D [32], i =3D 0;
-		       =20
-		        for (; i < 19; i++) {
-		            g1 =3D ugen(g1, a1, q1, r1, m1);
-		        }
-		        for (i =3D 0; i < 32; i++) {
-		            g1 =3D ugen(g1, a1, q1, r1, m1);
-		            shuffle[31 - i] =3D g1;
-		        }
-		        g1 =3D ugen(g1, a1, q1, r1, m1);
-		        g2 =3D ugen(g2, a2, q2, r2, m2);
-		        var s =3D Math.round((shuffle[Math.floor(shuffle[0] / x)] + =
-g2) % m1);
-		   =20
-				var rand =3D Math.floor(s / (m1 / (n + 1))) / n;
-			=09
-				// if passed arg, return number between 0 and num, else return float
-				//switched these 2 does it make sense?
-				if (typeof(num) =3D=3D "undefined") {
-				=09
-					return rand;
-				}
-				else {
-				=09
-					return Math.floor(rand*(num+1));
-				}
-			},
-		=09
-			getExecutingPath: function(filename) {
-				var tags =3D document.getElementsByTagName("script");
-				for (var i =3D tags.length - 1; i >=3D 0; i--) {
-					var src =3D tags[i].src;
-			=09
-					this.scriptUrl =3D src;
-			=09
-					if (src.indexOf("/" + filename) !=3D -1)	{			=09
-						return src.replace(/(.*)(\/.*)$/, '$1/');
-					}
-				}
-			},
-		=09
-			JSONDeserialize: function(str){
-				try {
-					if (str =3D=3D=3D "") str =3D '""';=20
-					eval("var p=3D" + str + ";");=20
-					return p;=20
-				}
-				catch (e)
-				{
-					return null;
-				}
-			},
-		=09
-			JSONSerialize: function (obj) {=20
-				try {
-					var t =3D typeof (obj);=20
-					if (t !=3D "object" || obj =3D=3D=3D null) {=20
-				=20
-						if (t =3D=3D "string") obj =3D '"'+obj+'"';=20
-						return String(obj);=20
-				=20
-					}=20
-					else {=20
-				=20
-						var n, v, json =3D [], arr =3D (obj && obj.constructor =3D=3D =
-Array);=20
-				=20
-						for (n in obj) {=20
-							v =3D obj[n]; t =3D typeof(v);=20
-				=20
-				            if (t !=3D "function"){=20
-							    if (t =3D=3D "string") v =3D '"'+v+'"';=20
-							    else if (t =3D=3D "object" && v !=3D=3D null) v =3D =
-this.JSONSerialize(v);=20
-    				=20
-							    json.push((arr ? "" : '"' + n + '":') + String(v));=20
-							}
-						}=20
-				=20
-						return (arr ? "[" : "{") + String(json) + (arr ? "]" : "}");=20
-					}
-				}	=09
-				catch(e){
-					return "";
-				}
-			}=20
-		};
-	} )();
-=09
-	/*
- Basic Cookie Functionality
- */
- COMSCORE.SiteRecruit.Utils.UserPersistence =3D {
-	CONSTANTS: {
-			STATE_NAME: { IDLE: "IDLE", DDINPROGRESS: "DDINPROGRESS"}
-	},
-	getCookieName: function(){
-			//Get default cookie option from broker if found
-			var c;
-			if (COMSCORE.SiteRecruit.Broker && =
-COMSCORE.SiteRecruit.Broker.config){
-				c =3D COMSCORE.SiteRecruit.Broker.config.cookie;
-				if (c.name){
-					return c.name;=09
-				}
-			}
-			return "";
-	 },
-=09
-	getDefaultCookieOptions: function(){
-			var ret=3D { path: "/", domain: "" };
-			return ret;
-	 },
-	=20
-	 getVendorId: function(){
-			var ret=3D 1;
-			return ret;
-	 },
-=09
-	createCookie: function(key, value, options) {
-	=09
-	=09
-		value =3D escape(value);
-	=09
-		if (options.duration && options.duration< 0) {
-			var date =3D new Date();
-			date.setTime(date.getTime() + options.duration * 24 * 60 * 60 * =
-1000);
-			value +=3D "; expires=3D" + date.toGMTString();
-		}
-		else{
-			var date =3D new Date();
-			date.setTime(date.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
-			value +=3D "; expires=3D" + date.toGMTString();
-		}
-	=09
-		if (options.path) {
-			value +=3D "; path=3D" + options.path;
-		}			=09
-		else {
-		=09
-		}
-					=09
-		if (options.domain) {
-			value +=3D "; domain=3D" + options.domain;
-		}
-					=09
-		if (options.secure) {
-			value +=3D "; secure";
-		}
-					=09
-		document.cookie =3D key + "=3D" + value;
-					=09
-	=09
-		return true;
-	},
-
-	getCookieValue: function(key) {
-		var value =3D document.cookie.match("(?:^|;)\\s*" + key + =
-"=3D([^;]*)");
-		return value ? unescape(value[1]) : false;
-	},
-=09
-	removeCookie: function(name, options) {
-	=09
-	=09
-		options =3D options || {};
-		options.duration =3D -999;
-	=09
-		this.createCookie(name, "", options);
-	},
-=09
-	createUserObj: function(params){
-			/*
-			{
-				version:<Site Recruit version>,
-				state:{
-				            name:<State Name>,
-				            url: <url>,
-				            timestamp:<datetime>
-				            },
-				lastinvited: <datetime>,
-				userid: <date>+<random>,
-				vendorid: <assigned to comscore >,
-				surveys: ["pid","pid",....]
-			}
-
-			STATES:
-			not in progress/idle
-			dd in progress
-			edd
-			*/
-		=09
-			var date =3D new Date();
-			var inputpid=3D params.pid;
-			var inputurl =3D params.url;
-			var inputstate =3D this.CONSTANTS.STATE_NAME.IDLE;
-			if (params.statename){
-				 inputstate =3D params.statename;
-			}
-			var inputtimestamp =3D date.getTime();
-			if (params.timestamp){
-				 inputtimestamp =3D params.timestamp;
-			}
-			var inputcookiename =3D this.getCookieName();
-			if (params.cookiename){
-				 inputcookiename =3D params.cookiename;
-			}
-			if (!params.cookieoptions){
-				 params.cookieoptions =3D this.getDefaultCookieOptions();
-			}
-		=09
-			var userObj =3D {};
-			userObj.version =3D "4.6";
-			userObj.state=3D{};
-			userObj.state.name=3Dinputstate;
-			userObj.state.url=3Dinputurl;
-			userObj.state.timestamp=3D inputtimestamp;
-			userObj.lastinvited=3Dinputtimestamp;
-			userObj.userid=3Ddate.getTime().toString() + =
-Math.floor(Math.random()*9999999999999999).toString() ;
-			userObj.vendorid=3D this.getVendorId();
-			userObj.surveys=3Dnew Array();
-			userObj.surveys.push(inputpid);
-		=09
-			var cookieString =3D =
-COMSCORE.SiteRecruit.Utils.JSONSerialize(userObj);
-		=09
-			this.createCookie(inputcookiename,cookieString,params.cookieoptions)
-			return userObj;
-		=09
-	},
-=09
-	/* Start Public Functions*/
-	setUserObj: function(params){
-			/*
-				Public function to set values for the user object
-			*/
-		=09
-			var inputpid=3D params.pid;
-			var inputurl =3D params.url;
-			var date =3D new Date();
-			var inputstate =3D this.CONSTANTS.STATE_NAME.IDLE;
-			if (params.statename){
-				 inputstate =3D params.statename;
-			}
-			var inputtimestamp =3D date.getTime();
-			if (params.timestamp){
-				 inputtimestamp =3D params.timestamp;
-			}
-			var inputcookiename =3D this.getCookieName();
-			if (params.cookiename){
-				 inputcookiename =3D params.cookiename;
-			}
-			if (!params.cookieoptions){
-				 params.cookieoptions =3D this.getDefaultCookieOptions();
-			}
-		=09
-			var userObj =3D this.getUserObj(params);
-		=09
-			if (!userObj)
-			{
-				this.createUserObj(params);
-			}
-			else {
-				var date =3D new Date();
-				userObj.lastinvited=3Dinputtimestamp
-			=09
-				if (inputpid)
-				{
-					var doespidexist =3D false;
-					for (i=3D0; i < userObj.surveys.length; i++) {
-						if (userObj.surveys[i] && userObj.surveys[i].toLowerCase() =3D=3D =
-inputpid.toLowerCase()) {
-							doespidexist =3D true;
-						}
-					}
-					if (doespidexist=3D=3Dfalse){
-						userObj.surveys.push(inputpid);
-					}
-					//remove nulls
-					for (i=3D0; i < userObj.surveys.length; i++) {
-						if (userObj.surveys[i] =3D=3D null) {
-							userObj.surveys.splice(i,1);
-						}
-					}
-				}
-				if (inputstate)
-				{
-					userObj.state.name =3D inputstate;
-					userObj.state.url =3D inputurl;
-					userObj.state.timestamp =3D inputtimestamp;
-				}
-			=09
-				var cookieString =3D =
-COMSCORE.SiteRecruit.Utils.JSONSerialize(userObj);
-				//this.removeCookie(inputcookiename, { path: =
-params.cookieoptions.path, domain: params.cookieoptions.domain });
-				=
-this.createCookie(inputcookiename,cookieString,params.cookieoptions);
-			}
-		=09
-			return userObj;
-	},
-=09
-	getUserObj: function(params) {
-	=09
-		var inputcookiename =3D this.getCookieName();
-		if (params.cookiename){
-			 inputcookiename =3D params.cookiename;
-		}
-	=09
-		var uservalue=3Dthis.getCookieValue(inputcookiename);
-	=09
-		if (uservalue && uservalue!=3D""){
-			var userObj =3D =
-COMSCORE.SiteRecruit.Utils.JSONDeserialize(uservalue);
-			//SR4.5 cookies do not store user objects, use this to overwrite
-			//For future dev, we probably want to increment this version number =
-if we want
-			//to prevent scripts of different version from accessing certain =
-cookies
-			if (userObj && userObj.version && userObj.version =3D=3D "4.6")
-			{
-			    return userObj;
-			}
-		}
-	=09
-		return null;
-	}
-=09
-};
-=09
-	COMSCORE.SiteRecruit.DDKeepAlive =3D ( function() {
-		// private methods and properties
-		var _interval =3D 1000, _pageId =3D Math.random(), _timeoutId;
-=09
-		// shorthand
-		var _sr =3D COMSCORE.SiteRecruit;
-		var _utils =3D _sr.Utils;
-	=09
-		return {
-			start: function() {
-				var that =3D this;
-			=09
-				_timeoutId =3D setInterval(function() {
-					if (_sr.Broker.isDDInProgress()) {
-						that.setDDTrackerCookie();
-			        }
-					else {
-				=09
-						that.stop();
-					}
-				}, _interval);
-			},
-		=09
-			stop: function() {
-				clearInterval(_timeoutId);
-			=09
-			},
-		=09
-			setDDTrackerCookie: function() {
-				var c =3D _sr.Broker.config.cookie;
-				//var val =3D _sr.CONSTANTS.COOKIE_TYPE.DD_IN_PROGRESS + ":" +=20
-				//			escape(_utils.location) + ":" +=20
-				//			(new Date()).getTime();
-			=09
-				// set session cookie
-				//_utils.UserPersistence.set(c.name, val, { path: c.path, domain: =
-c.domain });=09
-			=09
-				//set enhanced cookie
-				var params=3D{};
-				params.cookieoptions =3D { path: c.path, domain: c.domain };
-				params.cookiename =3D c.name;
-				params.url =3D escape(_utils.location);
-				params.statename =3D _sr.CONSTANTS.STATE_NAME.DDINPROGRESS;
-				if (COMSCORE.SiteRecruit.Builder && =
-COMSCORE.SiteRecruit.Builder.invitation && =
-COMSCORE.SiteRecruit.Builder.invitation.config){
-				    //adding pid here so it gets passed to confirmit
-				    params.pid =3D =
-COMSCORE.SiteRecruit.Builder.invitation.config.projectId
-				}
-				_utils.UserPersistence.setUserObj(params);=09
-			}
-		};
-	} )();
-=09
-	COMSCORE.SiteRecruit.PagemapFinder =3D ( function() {
-		// private methods and properties
-		var _totalFreq;
-		// shorthand
-		var _sr =3D COMSCORE.SiteRecruit;
-		var _utils =3D _sr.Utils;
-	=09
-		return {
-			getTotalFreq: function() {
-				return _totalFreq;
-			},
-		=09
-			find: function(mappings) {
-				var currentPriority =3D 0, currentMatch;
-				var m =3D mappings;
-				//cjones 11/1/07
-				var matchList =3D [];
-				var halt =3D false;
-				_totalFreq =3D 0;
-				// Iterate over each URL.
-				for (var i =3D 0; m && i < m.length; i++) {
-					var matchPrereqs =3D false;
-						=09
-					var pm =3D m[i];
-					 if (pm) {
-						// Do the reg exp match.
-						var r =3D new RegExp(pm.m, 'i');		=09
-						if (_utils.location.search(r) !=3D -1) {	// does current url match =
-regex?
-							if (pm.halt) {
-							=09
-								halt =3D true;
-								break;
-							}
-							// Now check the prereqs.
-							var pr =3D m[i].prereqs;
-						=09
-							matchPrereqs =3D true;
-							if (pr) {=09
-							=09
-									=09
-								if (!this.isMatchContent(pr.content)) {
-								=09
-									matchPrereqs =3D false;
-								}
-								=09
-								if (!this.isMatchCookie(pr.cookie)) {
-								=09
-									matchPrereqs =3D false;
-								}
-							=09
-								if (!this.isMatchLanguage(pr.language)) {
-								=09
-									matchPrereqs =3D false;
-								}
-							=09
-							}
-						}	=09
-						//cjones push match onto array
-						if (matchPrereqs) {
-							matchList.push(pm);
-						=09
-							_totalFreq +=3D pm.f;
-						}			=09
-					}
-				}
-				if (halt =3D=3D true) {
-					matchList =3D null;
-					_totalFreq =3D 0;
-					return null;
-				}
-			=09
-			=09
-			=09
-				return this.choosePriority(matchList);
-			},
-		=09
-			//cjones new function to handle auto weight feature.
-			choose: function(matchList, totalFreq) {
-				var r =3D _utils.getRandom((totalFreq*100.0));  //get random between =
-1 nad total freq * 100?
-				var sum =3D 0;
-				for (var i =3D 0; i < matchList.length; i++) {
-					sum +=3D (matchList[i].f * 100.0);
-					if (r <=3D sum) {
-					=09
-						return matchList[i];
-					}
-				}
-			=09
-				return null;
-			},
-	=09
-			choosePriority: function(matchList) {
-				var prevMatch =3D null;
-				for (var i =3D 0; i < matchList.length; i++) {
-					if (prevMatch =3D=3D null) {
-						prevMatch =3D matchList[i];	=09
-					}
-					else {
-						if (prevMatch.p < matchList[i].p) {
-							prevMatch =3D matchList[i];
-						}
-					=09
-					}
-				}
-				return prevMatch;
-			},
-		=09
-			isMatchContent: function(content) {
-				var isMatch =3D true, i =3D 0;
-								=09
-				while (isMatch && i < content.length) {
-				=09
-					var matchContent =3D false;
-	                var matchAttribute =3D false;
-	                							=09
-					var c =3D content[i];
-				=09
-					if (c.element) {
-	                    var elements =3D =
-document.getElementsByTagName(c.element);
-	                   =20
-						for (var k =3D 0; k < elements.length; k++) {
-							var val =3D c.elementValue;
-	                       =20
-							if (val && val.length) {
-	                            if (elements[k].innerHTML.search(val) !=3D =
--1) {
-	                                matchContent =3D true;
-	                            }
-	                        }
-	                        else {
-	                            matchContent =3D true;
-	                        }
-	                       =20
-							if (c.attrib && c.attrib.length) {
-								var a =3D elements[k].attributes.getNamedItem(c.attrib);
-	                            if (a) {
-									if (c.attribValue && c.attribValue.length) {
-										if (a.value.search(c.attribValue) !=3D -1) {
-											matchAttribute =3D true;
-	                                    }
-	                                }
-									else {
-										matchAttribute =3D true;
-	                                }
-	                            }
-	                        }
-	                        else {
-								matchAttribute =3D true;
-							}
-						}
-					}
-	               =20
-	                if (!matchContent || !matchAttribute) {
-	                    isMatch =3D false;
-	                }
-			i++;
-				}
-			=09
-				return isMatch;	=09
-			},
-		=09
-			isMatchCookie: function(cookies) {
-				var isMatch =3D true, i =3D 0;
-			=09
-				while (isMatch && i < cookies.length) {
-				=09
-					// This matches on cookies specified in the console-> Page Mappings =
--> Edit prereqs
-				=09
-					var c =3D cookies[i], val =3D =
-_utils.UserPersistence.getCookieValue(c.name);
-						=09
-					if (val && val !=3D=3D null) {
-						isMatch =3D val.indexOf(c.value) !=3D -1 ? true : false;
-						i++;
-					}
-					else {
-						return false;
-					}
-				}
-			=09
-				return isMatch;
-			},
-		=09
-			isMatchLanguage: function(lang) {
-				var n =3D navigator.language || navigator.userLanguage;
-				n =3D n.toLowerCase();
-				if  (!lang) {
-					return true;
-				}
-				if (n.indexOf(lang) !=3D -1) {
-				=09
-	                return true;
-	            }
-			=09
-			=09
-				return false;
-			}
-		};
-	} )();
-=09
-	COMSCORE.SiteRecruit.Broker =3D ( function() {
-		// private method and properties
-	=09
-		// for short hand
-		var _sr =3D COMSCORE.SiteRecruit;
-		var _utils =3D _sr.Utils;
-	=09
-		// public methods and properties
-		return {
-			init: function() {
-			=09
-			=09
-				_sr.browser =3D _utils.getBrowser();
-				_sr.executingPath =3D _utils.getExecutingPath("broker.js");
-		=09
-				if (_sr.browser.ie || _sr.browser.mozilla) {
-					_utils.loadScript(_sr.executingPath + _sr.configUrl, true);
-				}
-				else {
-				=09
-					return;
-				}
-			},
-			=09
-			start: function() {
-					this.init();	=09
-			},
-		=09
-			run: function() {
-			=09
-			=09
-				//initialize IE user data persistence if and only if=20
-				//this option has been enabled and the browser is ie
-				if (this.config.objStoreElemName) {
-					if (_sr.browser.ie) {
-						COMSCORE.SiteRecruit.Utils.UserPersistence.initialize();
-					}
-					else {
-					=09
-						return;
-					}
-				}
-			=09
-				// verify versions match
-				if (_sr.version !=3D=3D this.config.version) {
-				=09
-					return;
-				}
-			=09
-				if (this.isDDInProgress()) {
-					this.processDDInProgress();
-				}
-					=09
-				if (!this.config.testMode || this.isDDInProgress()) {
-					// if any site recruit exists, stop executing
-					//if (_utils.UserPersistence.get(this.config.cookie.name) !=3D=3D =
-false) {
-					//=09
-					//	return;
-					//}
-				=09
-					// this is being changed to match the new logic
-					// OLD: if there is a cookie then stop
-					// NEW: if there is a cookie, check the timestamp ( make sure it is =
-more than 90 days), also make sure to exit if dd
-				=09
-					var params =3D {};
-					params.cookiename =3D this.config.cookie.name;
-					var userObj =3D _utils.UserPersistence.getUserObj(params);
-					var date =3D new Date();
-					var durationdays =3D this.config.cookie.duration;
-					var durationtimestamp =3D date.getTime() - ( durationdays * 24 * 60 =
-* 60 * 1000);
-				=09
-					if (userObj)
-					{
-						if (userObj.lastinvited > durationtimestamp) {
-						=09
-							return;
-						}
-					}
-				=09
-				}=09
-			=09
-				if (this.findPageMapping())
-				{
-				=09
-				=09
-					// roll the dice
-					var r =3D _utils.getRandom();
-					=09
-					if (r <=3D _sr.PagemapFinder.getTotalFreq()) {
-					=09
-						//cjones
-						if (this.pagemap) {
-							this.loadBuilder();
-						}=09
-					}
-					else {
-					=09
-						return;
-					}
-				}
-				else {
-				=09
-					return;
-				}
-			},	=09
-		=09
-			isDDInProgress: function() {
-				//var c =3D =
-_utils.UserPersistence.get(COMSCORE.SiteRecruit.Broker.config.cookie.name=
-);
-				//return (c && c.indexOf(_sr.CONSTANTS.COOKIE_TYPE.DD_IN_PROGRESS) =
-=3D=3D=3D 0);
-			=09
-				var ddinprogress=3D false;
-				var params =3D {};
-				params.cookiename =3D =
-COMSCORE.SiteRecruit.Broker.config.cookie.name;
-				var userObj =3D _utils.UserPersistence.getUserObj(params);
-			=09
-				if (userObj){
-					if (userObj.state.name =3D=3D =
-_sr.CONSTANTS.STATE_NAME.DDINPROGRESS){
-						ddinprogress =3D true
-					=09
-					}
-				}
-			=09
-				return ddinprogress;
-			},
-		=09
-			processDDInProgress: function() {
-				// launch dd keep alive
-			=09
-				_sr.DDKeepAlive.start();		=09
-			},
-		=09
-			findPageMapping: function() {
-				this.pagemap =3D _sr.PagemapFinder.find(this.config.mapping);=09
-				return this.pagemap;
-			},
-		=09
-			loadBuilder: function() {
-				// prefix pageconfig url if it's supplied
-				var url =3D _sr.executingPath + _sr.builderUrl;
-				/*
-				var p =3D this.config.prefixUrl;
-					=09
-				if (p) {
-					url =3D p + url;
-				}
-				*/
-				_utils.loadScript(url);
-			=09
-			}
-		};
-	} )();
-=09
-	COMSCORE.isDDInProgress =3D COMSCORE.SiteRecruit.Broker.isDDInProgress;
-=09
-	COMSCORE.SiteRecruit.OnReady =3D ( function() {
-		// for short hand
-		var _sr =3D COMSCORE.SiteRecruit;
-		var _utils =3D _sr.Utils;
-	=09
-		// public methods and properties
-		return {
-			onload : function() {
-				if (_sr.OnReady.done) { return; }
-				_sr.OnReady.done =3D true;
-				_sr.Broker.start(); //initialize the broker once the DOM is ready
-				//clean up
-				//safari
-				if(_sr.OnReady.timer){
-				=09
-					clearInterval(_sr.OnReady.timer);
-				}
-				//mozilla opera
-				 if(document.addEventListener) {
-					=20
-					document.removeEventListener("DOMContentLoaded", =
-_sr.OnReady.onload, false);
-				}
-				//ie
-				 if(window.ActiveXObject){
-					=20
-					/*
-					var defer =3D document.getElementById("sr__ie_onload");
-					if(defer){
-						defer.onreadystatechange =3D null;
-						defer.parentNode.removeChild(defer);
-					}
-					*/
-				}
-			},
-			listen : function() {
-				//safari
-				if (/WebKit|khtml/i.test(navigator.userAgent)) {
-					_sr.OnReady.timer =3D setInterval(function() {
-						if (/loaded|complete/.test(document.readyState)) {
-							clearInterval(_sr.OnReady.timer);
-							delete _sr.OnReady.timer;
-							_sr.OnReady.onload();
-						}}, 10);
-				}
-				//mozilla opera=20
-				else if (document.addEventListener) {
-					document.addEventListener('DOMContentLoaded', _sr.OnReady.onload, =
-false);
-				}
-				//ie
-				else if (window.ActiveXObject) {
-					//_sr.OnReady.iew32 =3D true;
-					//document.write('<script id=3D"sr__ie_onload" defer src=3D"' + =
-((location.protocol =3D=3D 'https:') ? '//0' : 'javascript:void(0)') + =
-'"><\/script>');
-					//document.getElementById('sr__ie_onload').onreadystatechange =3D =
-function(){if (this.readyState =3D=3D 'complete') { =
-_sr.OnReady.onload(); }};
-					COMSCORE.SiteRecruit.OnReady.waitForLoad =3D setInterval(function() =
-{
-				                try {
-				                    // throws errors until after ondocummentready
-				                    document.documentElement.doScroll('left');
-								} catch (ex) {
-									return;
-				                }
-				                COMSCORE.SiteRecruit.OnReady.waitForLoad =3D =
-clearInterval(COMSCORE.SiteRecruit.OnReady.waitForLoad);
-								COMSCORE.SiteRecruit.OnReady.onload();
-				            }, 1000);
-				}
-				//default ??
-				else  {
-					if(window.addEventListener) {
-						window.addEventListener('load', _sr.OnReady.onload, false);
-					} else if (window.attachEvent) {
-						return window.attachEvent('onload', _sr.OnReady.onload);
-					}
-				}
-			},
-			f:[],done:false,timer:null
-		};
-	})();
-=09
-	COMSCORE.SiteRecruit.OnReady.listen();
-}// namespace (if statement at the top)
-------=_NextPart_000_0000_01CB0B06.D02472B0--
+------=_NextPart_000_0021_01CB0B0E.AE309BE0--

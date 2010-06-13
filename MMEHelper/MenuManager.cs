@@ -67,11 +67,11 @@ namespace MMEHelper
             {
                 case MenuHowToImplement:
                     helpInfo.Url = "http://mme.codeplex.com/wikipage?title=implementing&referringTitle=Documentation";
-                    helpInfo.FileName = @"C:\tmp.mht";
+                    helpInfo.FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), @"MME\MMEImplementing.mht");
                     break;
                 case MenuHowToDeploy:
                     helpInfo.Url = "http://mme.codeplex.com/wikipage?title=deploying&referringTitle=Documentation";
-                    helpInfo.FileName = @"C:\tmp.mht";
+                    helpInfo.FileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), @"MME\MMEDeploying.mht");
                     break;
                 default:
                     helpInfo.Url = string.Empty;

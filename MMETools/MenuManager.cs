@@ -47,6 +47,11 @@ namespace MMETools
                 menus.Add(openInNotepadMenu);
             }
 
+            var openFileLocation = new MenuItem("Open file location");
+            openFileLocation.Click += OpenFileLocationClick;
+            openFileLocation.IsVisible = context => Directory.Exists(context.FilePath);
+            menus.Add(openFileLocation);
+
             return menus;
         }
 
@@ -58,6 +63,16 @@ namespace MMETools
         private void OpenInNotepad(IMenuContext context)
         {
             System.Diagnostics.Process.Start("Notepad.exe", context.FullFileName); 
+        }
+
+        private void OpenFileLocationClick(object sender, EventArgs<IMenuContext> e)
+        {
+            OpenFileLocation(e.Data);
+        }
+
+        private void OpenFileLocation(IMenuContext context)
+        {
+            System.Diagnostics.Process.Start(context.FilePath);
         }
 
         private void GacMenuClick(object sender, EventArgs<IMenuContext> e)

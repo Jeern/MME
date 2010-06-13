@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DA585AB8-7A74-4970-A8C3-D0808FB916BD}"
 	ProjectSection(SolutionItems) = preProject
 		Lib\GlobalAssemblyInfo.cs = Lib\GlobalAssemblyInfo.cs
+		Lib\license.txt = Lib\license.txt
 		Lib\Managed Menu Extension.zip = Lib\Managed Menu Extension.zip
 		Lib\MME.pptx = Lib\MME.pptx
 		Lib\MMEArchitecture.JPG = Lib\MMEArchitecture.JPG

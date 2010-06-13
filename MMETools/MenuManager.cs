@@ -20,19 +20,44 @@ namespace MMETools
 
         public IEnumerable<IMenuItem> GetMenus(ContextLevels menuForLevel)
         {
+            var menus = new List<MenuItem>();
+            
+            if (menuForLevel == ContextLevels.Project || menuForLevel == ContextLevels.Solution)
+            {
+                var seperator = new MenuItem("", true);
+                if (menuForLevel == ContextLevels.Project)
+                {
+                    seperator.IsVisible = BuildAndGacMenuVisible;
+                }
+                menus.Add(seperator);
+            }
+
             if (menuForLevel == ContextLevels.Project)
             {
-                var menus = new List<MenuItem>();
-                var seperator = new MenuItem("", true);
                 var buildAndGacMenu = new MenuItem("Copy GAC Command to Clipboard");
                 buildAndGacMenu.Click += GacMenuClick;
-                seperator.IsVisible = BuildAndGacMenuVisible;
                 buildAndGacMenu.IsVisible = BuildAndGacMenuVisible;
-                menus.Add(seperator);
                 menus.Add(buildAndGacMenu);
-                return menus;
             }
-            return null;
+
+            if (menuForLevel == ContextLevels.Project || menuForLevel == ContextLevels.Solution)
+            {
+                var openInNotepadMenu = new MenuItem("Open in Notepad");
+                openInNotepadMenu.Click += OpenInNotepadClick;
+                menus.Add(openInNotepadMenu);
+            }
+
+            return menus;
+        }
+
+        private void OpenInNotepadClick(object sender, EventArgs<IMenuContext> e)
+        {
+            OpenInNotepad(e.Data);
+        }
+
+        private void OpenInNotepad(IMenuContext context)
+        {
+            System.Diagnostics.Process.Start("Notepad.exe", context.FullFileName); 
         }
 
         private void GacMenuClick(object sender, EventArgs<IMenuContext> e)

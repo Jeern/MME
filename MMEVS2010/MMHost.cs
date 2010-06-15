@@ -36,11 +36,11 @@ namespace MMEVS2010
                 AddToDirectoryCatalog(directoryCatalogs, MMEProperties.PluginMainDirectory);
                 AddToDirectoryCatalog(directoryCatalogs, parentFolder);
                 AddToDirectoryCatalog(directoryCatalogs, solutionFolder);
-                var catalog = new AggregateCatalog(directoryCatalogs);
-                var container = new CompositionContainer(catalog, true);
-                container.ComposeParts(this);
-                catalog.Dispose();
-                container.Dispose();
+                using(var catalog = new AggregateCatalog(directoryCatalogs))
+                using (var container = new CompositionContainer(catalog, true))
+                {
+                    container.ComposeParts(this);
+                }
             }
             catch (Exception ex)
             {

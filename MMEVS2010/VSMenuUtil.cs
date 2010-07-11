@@ -70,6 +70,8 @@ namespace MMEVS2010
             BuildMenuTree(ContextLevels.References);
             BuildMenuTree(ContextLevels.Item);
             BuildMenuTree(ContextLevels.WebReferences);
+            BuildMenuTree(ContextLevels.MenuBar);
+            BuildMenuTree(ContextLevels.CodeWindow);
         }
 
         private void BuildMenuTree(ContextLevels level)
@@ -83,7 +85,7 @@ namespace MMEVS2010
             foreach (MenuTreeNode node in tree.RootNodes.Values)
             {
                 string mainMenuCommandName = GetMainMenuCommandName(level, node.MenuItem.Caption);
-                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), 1, node.MenuItem.Caption);
+                CommandBarPopup menu = AddVSMainMenuItem(VSContextUtil.ContextToVSContext(level), node.MenuItem.Caption, level);
                 SaveMainMenuInformation(mainMenuCommandName, menu, node);
                 AddMainMenuClickEventHandler(menu, level, mainMenuCommandName, node.MenuItem.Caption);
                 TraverseChildren(menu, node, level);
@@ -137,16 +139,36 @@ namespace MMEVS2010
         /// Adds a menu to the Visual Studio Solution explorer so that it is physically shown.
         /// </summary>
         /// <param name="commandBarName"></param>
-        /// <param name="menuIndex"></param>
         /// <param name="menuName"></param>
+        /// <param name="level"></param>
         /// <returns></returns>
-        public CommandBarPopup AddVSMainMenuItem(string commandBarName, int menuIndex, string menuName)
+        public CommandBarPopup AddVSMainMenuItem(string commandBarName, string menuName, ContextLevels level)
         {
-            var vsmainMenu = GetVSMainMenu(commandBarName, menuIndex).Controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value, 1, true) as CommandBarPopup;
+            var controls = GetVSMainMenu(commandBarName, 1).Controls;
+            var vsmainMenu = controls.Add(MsoControlType.msoControlPopup, Missing.Value, Missing.Value,
+                GetCommandbarIndex(controls, level), true) as CommandBarPopup;
             vsmainMenu.Caption = menuName;
             vsmainMenu.TooltipText = "";
             vsmainMenu.Tag = Guid.NewGuid().ToString();
             return vsmainMenu;
+        }
+
+        private int GetCommandbarIndex(CommandBarControls controls, ContextLevels level)
+        {
+            //Gets the Commandbar Index, Typically 1, but tries to place it right after the Tools menu, if the
+            //menu is to be placed in the Top menu (MenuBar)
+            switch (level)
+            {
+                case ContextLevels.MenuBar:
+                    for (int i = 1; i <= controls.Count; i++)
+                    {
+                        if (controls[i].accName == "Tools")
+                            return i + 1;
+                    }
+                    return controls.Count + 1;
+                default:
+                    return 1;
+            }
         }
 
         private CommandBarControl AddVSMenuItem(CommandBarPopup vsmainMenu, IMenuItem menuToAdd, int position, bool seperator, ContextLevels level)

@@ -33,6 +33,10 @@ namespace MMEVS2010
                     return VSContextConstants.WebReferences;
                 case ContextLevels.Folder:
                     return VSContextConstants.Folder;
+                case ContextLevels.MenuBar:
+                    return VSContextConstants.MenuBar;
+                case ContextLevels.CodeWindow:
+                    return VSContextConstants.CodeWindow;
                 default:
                     return VSContextConstants.OtherItem;
             }

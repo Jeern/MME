@@ -52,8 +52,50 @@ namespace MMETools
             openFileLocation.IsVisible = context => Directory.Exists(context.FilePath);
             menus.Add(openFileLocation);
 
+            if (menuForLevel == ContextLevels.CodeWindow)
+            {
+                var google = new MenuItem("Search Google");
+                google.IsVisible = context => !string.IsNullOrEmpty(context.Details.SelectedText);
+                google.Click += GoogleClick;
+                menus.Add(google);
+                var bing = new MenuItem("Search Bing");
+                bing.IsVisible = context => !string.IsNullOrEmpty(context.Details.SelectedText);
+                bing.Click += BingClick;
+                menus.Add(bing);
+            }
+
             return menus;
         }
+
+        private void GoogleClick(object sender, EventArgs<IMenuContext> e)
+        {
+            ShowUrl(e.Data.Details.VSStudio, BuildUrl("google", e.Data.Details.SelectedText));
+        }
+
+        private void BingClick(object sender, EventArgs<IMenuContext> e)
+        {
+            ShowUrl(e.Data.Details.VSStudio, BuildUrl("bing", e.Data.Details.SelectedText));
+        }
+
+        private string GetQueryStrings(string selectedText)
+        {
+            return selectedText.Replace("&", "").Replace("+", "").Replace("?", "").Replace(" ", "+");
+        }
+
+        private string BuildUrl(string searchEngine, string selectedText)
+        {
+            return string.Format("http://www.{0}.com/search?q={1}", searchEngine, GetQueryStrings(selectedText));
+        }
+
+        private void ShowUrl(DTE2 vsStudio, string url)
+        {
+            try
+            {
+                vsStudio.ExecuteCommand("View.URL", url);
+            }
+            catch {}
+        }
+
 
         private void OpenInNotepadClick(object sender, EventArgs<IMenuContext> e)
         {

@@ -16,15 +16,23 @@ namespace MMEContracts
         Solution m_Solution;
         Project m_Project;
         ProjectItem m_Item;
+        Window m_CodeWindow;
+        string m_SelectedText;
 
-        public DetailedContextInformation(DTE2 vsStudio, Solution solution, Project project, ProjectItem item)
+        public DetailedContextInformation(DTE2 vsStudio, Solution solution, Project project, 
+            ProjectItem item, Window codeWindow, string selectedText)
         {
             m_VSStudio = vsStudio;
             m_Solution = solution;
             m_Project = project;
             m_Item = item;
+            m_CodeWindow = codeWindow;
+            m_SelectedText = selectedText;
         }
 
+        /// <summary>
+        /// The Visual Studio object
+        /// </summary>
         public DTE2 VSStudio
         {
             get { return m_VSStudio; }
@@ -52,6 +60,22 @@ namespace MMEContracts
         public ProjectItem Item
         {
             get { return m_Item; }
+        }
+
+        /// <summary>
+        /// If the code window was clicked this contains it. Otherwise null
+        /// </summary>
+        public Window CodeWindow
+        {
+            get { return m_CodeWindow; }
+        }
+
+        /// <summary>
+        /// If the code window was clicked and some text is selected this contains it. Otherwise null
+        /// </summary>
+        public string SelectedText
+        {
+            get { return m_SelectedText; }
         }
 
         private const string SEP = "£$£";

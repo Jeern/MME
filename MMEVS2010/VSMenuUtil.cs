@@ -245,8 +245,6 @@ namespace MMEVS2010
 
                 m_Host.MenuClicked(m_VSMenuToMenuItem[id].Id,
                     GetCurrentMenuContext(id));
-                    //new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[id], 
-                    //    new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem)));
             }
             catch (Exception ex)
             {
@@ -258,8 +256,24 @@ namespace MMEVS2010
         {
             return
                 new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[vsMenuId], 
-                new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), SelectedItem.Object as ProjectItem));
+                new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), 
+                    SelectedItem.Object as ProjectItem, m_VSStudio.ActiveWindow, SelectedTextInActiveWindow));
         }
+
+        private string SelectedTextInActiveWindow
+        {
+            get
+            {
+                if (m_VSStudio.ActiveWindow == null)
+                    return null;
+
+                var selected = m_VSStudio.ActiveWindow.Selection as TextSelection;
+
+                return selected.Text;
+            }
+        }
+
+        
 
         private UIHierarchyItem SelectedItem
         {

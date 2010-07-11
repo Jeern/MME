@@ -1,0 +1,63 @@
+MenuBar
+Standard
+Build
+Class View Multi-select Project references Items
+Class View Multi-select Project references members
+Context Menus
+Sort By
+Show Columns
+Project
+Error List
+Docked Window
+Menu Designer
+Properties Window
+Toolbox
+Code Window
+Task List
+Results List
+Stub Project
+Solution
+Solution Folder
+Cross Project Solution Project
+Cross Project Solution Item
+Cross Project Project Item
+Cross Project Multi Project
+Cross Project Multi Item
+No Commands Available
+Misc Files Project
+Cross Project Multi Solution Folder
+Cross Project Multi Project/Folder
+Command Window
+AutoHidden Windows
+Expansion Manager
+Find Regular Expression Builder
+Replace Regular Expression Builder
+Wild Card Expression Builder
+Wild Card Expression Builder
+External Tools Arguments
+External Tools Directories
+Easy MDI Tool Window
+Easy MDI Document Window
+Easy MDI Dragging
+Open Drop Down
+Item
+Folder
+Class View Project
+Class View Item
+Class View Folder
+Class View Grouping Folder
+Class View Multi-select
+Class View Multi-select members
+Class View Member
+Class View Grouping Members
+Class View Project References Folder
+Class View Project Reference
+Class View Project Reference Item
+Class View Project Reference Member
+Object Browser Objects Pane
+Object Browser Members Pane
+Object Browser Description Pane
+Find Symbol
+Reference Root
+Reference Item
+Web Reference Folder

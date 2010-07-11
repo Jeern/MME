@@ -79,7 +79,8 @@ namespace MMETools
 
         private string GetQueryStrings(string selectedText)
         {
-            return selectedText.Replace("&", "").Replace("+", "").Replace("?", "").Replace(" ", "+");
+            return selectedText.Replace("=", "").Replace(")", "").Replace("(", "").Replace("&", "").
+                Replace("+", "").Replace("?", "").Replace(" ", "+");
         }
 
         private string BuildUrl(string searchEngine, string selectedText)

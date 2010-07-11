@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEContracts", "MMEContract
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DA585AB8-7A74-4970-A8C3-D0808FB916BD}"
 	ProjectSection(SolutionItems) = preProject
+		Lib\Commandbars.txt = Lib\Commandbars.txt
 		Lib\GlobalAssemblyInfo.cs = Lib\GlobalAssemblyInfo.cs
 		Lib\license.txt = Lib\license.txt
 		Lib\Managed Menu Extension.zip = Lib\Managed Menu Extension.zip

@@ -17,6 +17,8 @@ namespace MMEContracts
         WebReferences = 64,
         AssemblyInfo = 128,
         Item = 256,
-        OtherItem = 512
+        MenuBar = 512,
+        CodeWindow = 1024,
+        OtherItem = 536870912
     }
 }

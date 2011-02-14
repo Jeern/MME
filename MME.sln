@@ -36,6 +36,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMETools", "MMETools\MMEToo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEMenuManagerSetup", "MMEMenuManagerSetup\MMEMenuManagerSetup.csproj", "{88209E42-BCB1-4F71-BD14-DB86B690F82A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MMECommunityTools", "MMECommunityTools", "{A3069617-5FCA-4913-AC5A-962088CE1E77}"
+	ProjectSection(SolutionItems) = preProject
+		MMECommunityTools\readme.txt = MMECommunityTools\readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMEWebDeploymentHelpers", "MMECommunityTools\MMEWebDeploymentHelpers\MMEWebDeploymentHelpers.csproj", "{9AA6BE62-C615-4A1C-9757-D200EF463185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,9 +74,16 @@ Global
 		{88209E42-BCB1-4F71-BD14-DB86B690F82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88209E42-BCB1-4F71-BD14-DB86B690F82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88209E42-BCB1-4F71-BD14-DB86B690F82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA6BE62-C615-4A1C-9757-D200EF463185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA6BE62-C615-4A1C-9757-D200EF463185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA6BE62-C615-4A1C-9757-D200EF463185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA6BE62-C615-4A1C-9757-D200EF463185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AA6BE62-C615-4A1C-9757-D200EF463185} = {A3069617-5FCA-4913-AC5A-962088CE1E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .

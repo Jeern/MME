@@ -255,21 +255,45 @@ namespace MMEVS2010
         private MenuContext GetCurrentMenuContext(string vsMenuId)
         {
             return
-                new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[vsMenuId], 
-                new DetailedContextInformation(m_VSStudio, SelectedItem.Object as Solution, GetProject(SelectedItem.Object), 
-                    SelectedItem.Object as ProjectItem, m_VSStudio.ActiveWindow, SelectedTextInActiveWindow));
+                new MenuContext(SelectedItemName, SelectedItemFullPath, m_ContextsFromMenus[vsMenuId],
+                new DetailedContextInformation(m_VSStudio, SelectedItemObj as Solution, GetProject(SelectedItemObj),
+                    SelectedItemObj as ProjectItem, ActiveWindow, SelectedTextInActiveWindow));
+        }
+
+        private object SelectedItemObj
+        {
+            get
+            {
+                if (SelectedItem == null)
+                    return null;
+
+                return SelectedItem.Object;
+            }
+        }
+
+        private EnvDTE.Window ActiveWindow
+        {
+            get
+            {
+                if (m_VSStudio == null)
+                    return null;
+
+                return m_VSStudio.ActiveWindow;
+            }
         }
 
         private string SelectedTextInActiveWindow
         {
             get
             {
-                if (m_VSStudio.ActiveWindow == null)
+                if (ActiveWindow == null)
                     return null;
 
-                var selected = m_VSStudio.ActiveWindow.Selection as TextSelection;
-
-                return selected.Text;
+                var selected = ActiveWindow.Selection as TextSelection;
+                if (selected != null)
+                    return selected.Text;
+                else
+                    return null;
             }
         }
 
@@ -306,18 +330,18 @@ namespace MMEVS2010
         {
             get
             {
-                var solution = SelectedItem.Object as Solution;
+                var solution = SelectedItemObj as Solution;
                 if (solution != null)
                     return GetPath(solution.FullName);
 
-                if (IsSolutionFolder(SelectedItem.Object))
+                if (IsSolutionFolder(SelectedItemObj))
                     return GetSolutionFolderPath(); //Currently just path of Solution (problem is what is really the path of Solution Folder ? Since Solution Folder is virtual it doesn't really have one.
 
-                Project project = GetProject(SelectedItem.Object);
+                Project project = GetProject(SelectedItemObj);
                 if (project != null)
                     return GetPath(GetProjectFullName(project));
 
-                var item = SelectedItem.Object as ProjectItem;
+                var item = SelectedItemObj as ProjectItem;
                 if (item != null)
                     return GetPath(item.get_FileNames(1));
 
@@ -340,18 +364,18 @@ namespace MMEVS2010
             get
             {
 
-                var solution = SelectedItem.Object as Solution;
+                var solution = SelectedItemObj as Solution;
                 if (solution != null)
                     return solution.FullName;
 
-                if (IsSolutionFolder(SelectedItem.Object))
+                if (IsSolutionFolder(SelectedItemObj))
                     return string.Empty;
 
-                Project project = GetProject(SelectedItem.Object);
+                Project project = GetProject(SelectedItemObj);
                 if (project != null)
                     return GetProjectFullName(project);
 
-                var item = SelectedItem.Object as ProjectItem;
+                var item = SelectedItemObj as ProjectItem;
                 if (item != null)
                     return item.get_FileNames(1);
 
@@ -363,18 +387,18 @@ namespace MMEVS2010
         {
             get
             {
-                var solution = SelectedItem.Object as Solution;
+                var solution = SelectedItemObj as Solution;
                 if (solution != null)
                     return GetFileName(solution.FullName);
 
-                if (IsSolutionFolder(SelectedItem.Object))
+                if (IsSolutionFolder(SelectedItemObj))
                     return string.Empty;
 
-                Project project = GetProject(SelectedItem.Object);
+                Project project = GetProject(SelectedItemObj);
                 if (project != null)
                     return GetFileName(GetProjectFullName(project));
 
-                var item = SelectedItem.Object as ProjectItem;
+                var item = SelectedItemObj as ProjectItem;
                 if (item != null)
                     return GetFileName(item.get_FileNames(1));
 

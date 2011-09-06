@@ -1957,7 +1957,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MME"
         "ProductCode" = "8:{5D4FB7D0-48C1-4C1F-BA9E-D6AD154C0E67}"
-        "PackageCode" = "8:{5D09E2C1-7214-4EBF-8F05-BE5F9F4996EB}"
+        "PackageCode" = "8:{58458689-11C8-45CF-8C9E-9668FF997307}"
         "UpgradeCode" = "8:{4EFDE2F6-A7BC-4FEA-A688-C699D97D4E98}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

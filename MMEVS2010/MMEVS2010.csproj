@@ -139,6 +139,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MMEVS2012.AddIn" />
     <Content Include="MMEVS2010.AddIn" />
   </ItemGroup>
   <ItemGroup>

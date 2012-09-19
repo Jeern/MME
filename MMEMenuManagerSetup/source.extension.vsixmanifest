@@ -3,7 +3,7 @@
   <Identifier Id="MMEMenuManagerSetup.Jern.9c02bb0b-02e2-44dd-9665-0af031d9f4a5">
     <Name>MME MenuManager Template</Name>
     <Author>Jesper Niedermann</Author>
-    <Version>1.1</Version>
+    <Version>1.2</Version>
     <Description xml:space="preserve">A project template for creating Managed Menu Extensions. I.e. Right click menus for the Visual Studio Solution explorer. Creates a project with a class that implements IMenuManager from the MMEContracts assembly of MME. MME is a requirement and can be found on mme.codeplex.com</Description>
     <Locale>1033</Locale>
     <MoreInfoUrl>http://mme.codeplex.com</MoreInfoUrl>
